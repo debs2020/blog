@@ -4,7 +4,7 @@ paragraph: >
   Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics
 
 number:
-  enable : true
+  enable : false
 numbers:
   - icon: ion-ios-chatboxes-outline
     counter: 2000
@@ -20,29 +20,35 @@ numbers:
     text: Cups of Coffee
 
 peoples:
-  enable : true
+  enable : false
 people:
   - text: >
-      This Company created an e-commerce site with the tools to make our business a success, with innovative ideas we feel that our site has unique elements that make us stand out from the crowd.
-    quoteImg: img/cotation.png    
-    image: img/item-img1.jpg
-    name: Rose Ray
-    role: CEO-Themefisher
-  - text: >
-      This Company created an e-commerce site with the tools to make our business a success, with innovative ideas we feel that our site has unique elements that make us stand out from the crowd.
+      Write Something Here1
     quoteImg: img/cotation.png
     image: img/item-img1.jpg
-    name: Rose Ray
-    role: CEO-Themefisher
+    name: Person 1
+    role: Professor
   - text: >
-      This Company created an e-commerce site with the tools to make our business a success, with innovative ideas we feel that our site has unique elements that make us stand out from the crowd.
+      Write Something Here2
     quoteImg: img/cotation.png
     image: img/item-img1.jpg
-    name: Rose Ray
-    role: CEO-Themefisher
+    name: Person 2
+    role: CEO
   - text: >
-      This Company created an e-commerce site with the tools to make our business a success, with innovative ideas we feel that our site has unique elements that make us stand out from the crowd.
+      Write Something Here3
     quoteImg: img/cotation.png
     image: img/item-img1.jpg
-    name: Rose Ray
-    role: CEO-Themefisher
+    name: Person 3
+    role: Web designer
+  - text: >
+      Write Something Here4
+    quoteImg: img/cotation.png
+    image: img/item-img1.jpg
+    name: Person 4
+    role: Manager
+  - text: >
+      Write Something Here5
+    quoteImg: img/cotation.png
+    image: img/item-img1.jpg
+    name: Person 5
+    role: Programmer

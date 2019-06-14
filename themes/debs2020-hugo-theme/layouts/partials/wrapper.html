@@ -1,0 +1,29 @@
+<!-- Wrapper Start -->
+<section id="intro">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-9 col-sm-12">
+        <div class="block">
+          <div class="section-title">
+            <h2>{{ .Site.Params.wrapper.title }}</h2>
+            <p>{{ .Site.Params.wrapper.italic }}</p>
+            <h2>{{ .Site.Params.blog1.title }}</h2>
+            <p>{{ .Site.Params.blog1.italic }}</p>
+            <h2>{{ .Site.Params.blog2.title }}</h2>
+            <p>{{ .Site.Params.blog2.italic }}</p>
+            <p>{{ .Site.Params.blog2.text1 }}</p>
+            <p>{{ .Site.Params.blog2.text1 }}</p>
+            <h2>{{ .Site.Params.venue.title }}</h2>
+            <p>{{ .Site.Params.venue.italic }}</p>
+            <h2>{{ .Site.Params.organizers.title }}</h2>
+            <p>{{ .Site.Params.organizers.text1 }}</p>
+            <p>{{ .Site.Params.organizers.text2 }}</p>
+            <p>{{ .Site.Params.organizers.text3 }}</p>
+          </div>
+          <p>{{ .Site.Params.wrapper.paragraph | markdownify }}</p>
+        </div>
+      </div><!-- .col-md-7 close -->
+      {{ partial "sidebar.html" . }}
+    </div>
+  </div>
+</section>

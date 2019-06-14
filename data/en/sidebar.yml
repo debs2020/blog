@@ -1,19 +1,19 @@
 events:
   enable : true
-  title : Important events
+  title : Important Dates
 
   eventsList:
     - event : new event
-      date : 05/03/2019
-      
+      date : 06/12/2019
+
     - event : new event
-      date : 05/03/2019
-      
+      date : 06/12/2019
+
     - event : new event
-      date : 05/03/2019
-      
+      date : 06/12/2019
+
     - event : new event
-      date : 05/03/2019
+      date : 06/12/2019
 
 twitterFeed:
   enable : true
