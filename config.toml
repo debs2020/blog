@@ -8,7 +8,7 @@ theme = "debs2020-hugo-theme"
 
   # Google Analitycs
   googleAnalitycsID = "Your ID"
-  description = "DEBS2020 Hugo theme"
+  description = "DEBS2020"
   author = "Sardar"
 
   # follow us link
