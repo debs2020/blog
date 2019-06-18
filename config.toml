@@ -14,15 +14,15 @@ theme = "debs2020-hugo-theme"
   # follow us link
   [[params.follow]]
     icon = "fa-twitter"
-    URL = "https://twitter.com/themefisher"
+    URL = "https://twitter.com/ACM_DEBS"
 
   [[params.follow]]
     icon = "fa-facebook"
-    URL = "https://facebook.com/themefisher"
+    URL = "https://www.facebook.com/ACM.DEBS"
 
   [[params.follow]]
     icon = "fa-linkedin"
-    URL = "https://linkedin.com/themefisher"
+    URL = "https://www.linkedin.com/groups/4747505/"
 
 
   # If you want to remove the copyright text you need a Themefisher license.
@@ -93,7 +93,7 @@ theme = "debs2020-hugo-theme"
       weight = 2
       name = "Venue Information"
       parent = "CONFERENCE INFO"
-      url = ""
+      url = "/venueinformation"
 
     [[Languages.en.menu.header]]
     weight = 5
@@ -154,33 +154,33 @@ theme = "debs2020-hugo-theme"
     enable = true
     title = "DEBS 2020"
     subtitle = "14TH ACM INTERNATIONAL CONFERENCE ON DISTRIBUTED AND EVENT-BASED SYSTEMS"
-    bgImage = "img/ETS-logo.png"
-    bgImageAlt = "img/ETS-logo.png"
-    btnText = "Discover Our Projects"
-    url = "#"
+    bgImage = "img/Montreal.jpg"
+    bgImageAlt = "img/Montreal.jpg"
+    btnText = "Conference Information"
+    url = "#scope"
 
   [Languages.en.params.wrapper]
     enable = true
     image = "img/wrapper-img.png"
     title = "About DEBS"
-    italic = "Over the past decade, the ACM International Conference on Distributed and Event‐based Systems (DEBS) has become the premier venue for academia and industry to discuss cutting-edge research of event-based computing related to Big Data, AI/ML, IoT and Distributed Systems. The objectives of the ACM International Conference on Distributed and Event‐Based Systems (DEBS) are to provide a forum dedicated to the dissemination of original research, the discussion of practical insights, and the reporting of experiences relevant to distributed systems and event‐based computing. The conference aims at providing a forum for academia and industry to exchange ideas."
+    text1 = "Over the past decade, the ACM International Conference on Distributed and Event‐based Systems (DEBS) has become the premier venue for academia and industry to discuss cutting-edge research of event-based computing related to Big Data, AI/ML, IoT and Distributed Systems. The objectives of the ACM International Conference on Distributed and Event‐Based Systems (DEBS) are to provide a forum dedicated to the dissemination of original research, the discussion of practical insights, and the reporting of experiences relevant to distributed systems and event‐based computing. The conference aims at providing a forum for academia and industry to exchange ideas."
 
   [Languages.en.params.blog1]
     enable = true
     title = "Scope"
-    italic = "The DEBS conference covers topics in distributed and event-based computing. The scope of the conference includes systems dealing with collecting, detecting, processing and responding to events through distributed middleware and applications. Examples of application domains covered by the conference include the Internet of Things, sensor networks, social networking, finance, healthcare and logistics, computer and network security. Technologies discussed include real-time analytics, complex-event detection, reliability and resilience, energy management and green computing, data stream processing, big/fast data analysis, event processing for AI/ML, AI/ML for event processing, security and encryption in stream processing, embedded systems, and cloud, peer-to-peer, ubiquitous and mobile computing. Topics relevant to enterprise-level computing include enterprise application integration, real-time enterprises, Web services and support for enterprises to respond in timely fashion to changing situations."
+    text1 = "The DEBS conference covers topics in distributed and event-based computing. The scope of the conference includes systems dealing with collecting, detecting, processing and responding to events through distributed middleware and applications. Examples of application domains covered by the conference include the Internet of Things, sensor networks, social networking, finance, healthcare and logistics, computer and network security. Technologies discussed include real-time analytics, complex-event detection, reliability and resilience, energy management and green computing, data stream processing, big/fast data analysis, event processing for AI/ML, AI/ML for event processing, security and encryption in stream processing, embedded systems, and cloud, peer-to-peer, ubiquitous and mobile computing. Topics relevant to enterprise-level computing include enterprise application integration, real-time enterprises, Web services and support for enterprises to respond in timely fashion to changing situations."
 
   [Languages.en.params.blog2]
     enable = true
     title = "Topics covered include, but are not limited to"
-    italic = "Models, architectures and paradigms: Event-driven architectures, real-time analytics, complex event processing, event processing for AI/ML, event processing in big and fast data, data stream processing, security and encryption in stream processing, rule-based systems, in-network processing, logic-based event recognition, event correlation and pattern languages."
-    text1 = "Systems and software: Distributed data processing, distributed programming, federated event-based systems, AI/ML for event processing, information-centric networking, software-defined networking, security, reliability and resilience, programmable hardware, energy management and green computing as well as cloud, fog, ubiquitous and mobile computing."
-    text2 = "Applications: Use cases, requirements and applications of distributed and event-based systems in various domains including Internet-of-Things, cyber-physical systems, sensor networks, social networking, multimedia analytics, finance, healthcare and logistics, computer and network security, smart contracts and blockchains. Also, relevant topics span enterprise-level computing, including enterprise application integration, real-time enterprises, event-based business process management, and support for enterprises to respond in timely fashion to changing situations."
+    text1 = "Models, architectures and paradigms: Event-driven architectures, real-time analytics, complex event processing, event processing for AI/ML, event processing in big and fast data, data stream processing, security and encryption in stream processing, rule-based systems, in-network processing, logic-based event recognition, event correlation and pattern languages."
+    text2 = "Systems and software: Distributed data processing, distributed programming, federated event-based systems, AI/ML for event processing, information-centric networking, software-defined networking, security, reliability and resilience, programmable hardware, energy management and green computing as well as cloud, fog, ubiquitous and mobile computing."
+    text3 = "Applications: Use cases, requirements and applications of distributed and event-based systems in various domains including Internet-of-Things, cyber-physical systems, sensor networks, social networking, multimedia analytics, finance, healthcare and logistics, computer and network security, smart contracts and blockchains. Also, relevant topics span enterprise-level computing, including enterprise application integration, real-time enterprises, event-based business process management, and support for enterprises to respond in timely fashion to changing situations."
 
   [Languages.en.params.venue]
     enable = true
     title = "venue"
-    italic = "DEBS 2020 will be hosted by École de technologie supérieure in Montreal, QC, Canada."
+    italic = "DEBS 2020 will be hosted at pavilon E, École de technologie supérieure in Montreal, QC, Canada."
 
   [Languages.en.params.organizers]
     enable = true
@@ -189,44 +189,21 @@ theme = "debs2020-hugo-theme"
     text2 = "Khuzaima Daudjee, University of Waterloo"
     text3 = "Bettina Kemme, McGill University"
 
-  [Languages.en.params.blog]
-    enable = true
-    title = "Get The Latest On What We're doing"
-    subtitle = "Catch up with us, anytime and anywhere"
-
   [Languages.en.params.feature]
     enable = true
-    title = "We believe in great ideas"
-    bgImage = "img/feature-bg.webp"
-    bgImageAlt = "img/feature-bg.jpg"
-    content = "Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus."
+    title = "École de technologie supérieure"
+    bgImage = "img/campus.png"
+    bgImageAlt = "img/campus.png"
+    content = "The conference venue will be the École de technologie supérieure (ÉTS). Specializing in education and applied research in engineering and technology transfer to companies, ÉTS trains engineers and researchers who stand apart because of their practical and innovative approach. We offer approximately 100 different study programs for undergraduate, graduate and doctoral students in five departments."
     [Languages.en.params.feature.button]
-      caption = "View Works"
-      url = "#"
+      caption = "Venue Information"
+      url = "/venueinformation"
 
   [Languages.en.params.call]
-    enable = true
-    bgImage = "img/call-to-action-bg.jpg"
-    title = "We design delightful digital experiences."
-    paragraph = "Read more about what we do and our philosophy of design. Judge for yourself The work and results we’ve achieved for other clients, and meet our highly experienced Team who just love to design."
-    [Languages.en.params.call.button]
-      url = "#"
-      text = "tell us your story"
-
-  [Languages.en.params.contact]
-    enable = true
-    title = "Drop us a note"
-    subtitle = "Don’t just take our word for it. Check out some of our latest work."
-    [Languages.en.params.contact.form]
-      name = "Your name"
-      email = "Your email"
-      subject = "Your subject"
-      message = "Your message"
-      button = "Send message"
-    [Languages.en.params.contact.box]
-      title = "Stop by for a visit"
-      address = "North Main Street, Brooklyn Australia"
-      email = "Email: contact@mail.com"
-      phone = "Phone: +88 01672 506 744"
-    [Languages.en.params.contact.gmaps]
-      title = "We Also Count in Google Maps"
+    enable = false
+    #bgImage = "img/call-to-action-bg.jpg"
+    #title = "We design delightful digital experiences."
+    #paragraph = "Read more about what we do and our philosophy of design. Judge for yourself The work and results we’ve achieved for other clients, and meet our highly experienced Team who just love to design."
+    #[Languages.en.params.call.button]
+      #url = "#"
+      #text = "tell us your story"

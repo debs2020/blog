@@ -3,18 +3,18 @@ events:
   title : Important Dates
 
   eventsList:
-    - event : new event
-      date : 06/12/2019
+    - event : TBD
+      date : TBD
 
-    - event : new event
-      date : 06/12/2019
+    #- event : new event
+      #date : 06/12/2019
 
-    - event : new event
-      date : 06/12/2019
+    #- event : new event
+      #date : 06/12/2019
 
-    - event : new event
-      date : 06/12/2019
+    #- event : new event
+      #date : 06/12/2019
 
 twitterFeed:
   enable : true
-  userID : themefisher
+  userID : ACM_DEBS

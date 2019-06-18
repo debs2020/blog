@@ -1,0 +1,28 @@
+enable: true
+title: Location
+paragraph: >
+    The ÉTS campus is located in the center of Montréal's Quartier de l'innovation (QI), and only minutes from downtown.
+    The QI is an innovation echosystem in the heart of the city, whose activities incorporate the four essential components of a
+    creative society: industrial, educational/research, urbun and sociocultural. The convergence of these four axes of development
+    results in a modern ecosystem that reflects the new realities and the new challenges involved in innovation at the international level.
+
+address:
+  enable : false
+addresses:
+  - title : "With bus"
+    subtitle : "14TH ACM INTERNATIONAL CONFERENCE ON DISTRIBUTED AND EVENT-BASED SYSTEMS"
+    image : "/img/Montreal.jpg"
+    text : "Discover Our Projects"
+    url : "#scope"
+
+  - title : "With car"
+    subtitle : "14TH ACM INTERNATIONAL CONFERENCE ON DISTRIBUTED AND EVENT-BASED SYSTEMS"
+    image : "/img/Montreal.jpg"
+    text : "Discover Our Projects"
+    url : "#scope"
+
+  - title : "DEBS 2020"
+    subtitle : "14TH ACM INTERNATIONAL CONFERENCE ON DISTRIBUTED AND EVENT-BASED SYSTEMS"
+    image : "/img/Montreal.jpg"
+    text : "Discover Our Projects"
+    url : "#scope"

@@ -1,7 +1,5 @@
 
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
-@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700);
-@import url(http://fonts.googleapis.com/css?family=Volkhov:400italic);
+
 /*
  * This css file includes styles added in the jekyll port of this theme.
  * To find the original style.css that ships with Airspace, read airspace.css
@@ -76,7 +74,7 @@ h3 {
 
 p {
   font-size: 15px;
-  line-height: 30px;
+  line-height: 28px;
 }
 
 ul {
@@ -106,14 +104,14 @@ a:active {
 
 .section-title h2 {
   text-transform: uppercase;
-  font-size: 25px;
-  font-weight: 500;
+  font-size: 28px;
+  font-weight: 600;
 }
 
 .section-title p {
-  /*font-family: 'Volkhov', serif;*/
-  /*font-style: italic;*/
-  color: #333;
+  /*font-family: 'Volkhov', serif;
+  font-style: italic;*/
+  color: #666;
 }
 
 .btn-main,
@@ -217,7 +215,7 @@ font header .navbar-default .navbar-nav li a:hover {
 
 #slider .block h1 {
   font-family: 'Roboto', sans-serif;
-  /*font-weight: 100;*/
+  font-weight: 100;
   font-size: 45px;
   line-height: 60px;
   letter-spacing: 10px;
@@ -373,7 +371,7 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 
 #feature p {
-  color: #8d8f92;
+  color: #333;
   margin-bottom: 20px;
 }
 
@@ -477,12 +475,12 @@ font header .navbar-default .navbar-nav li a:hover {
 	features Start
 --*/
 #clients-logo-section {
-  padding-top: 30px;
-  padding-bottom: 75px;
+  padding-top: 320px;
+  padding-bottom: 120px;
 }
 
 #clients-logo-section .clients-logo-img {
-  padding: 0px 50px;
+  padding:0px 60px;
 }
 
 /*---------------------------------------------

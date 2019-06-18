@@ -1,5 +1,5 @@
 $(document).ready(function () {
-	
+
 	$("#portfolio-contant-active").mixItUp();
 
 
@@ -11,7 +11,7 @@ $(document).ready(function () {
 
 	$("#clients-logo").owlCarousel({
 		autoPlay: 3000,
-		items: 5,
+		items: 4,
 		itemsDesktop: [1199, 5],
 		itemsDesktopSmall: [979, 5],
 	});
