@@ -1,5 +1,5 @@
 title = "DEBS2020"
-baseURL = "https://debs2020.org/"
+baseURL = "https://2020.debs.org/"
 languageCode = "en-us"
 theme = "debs2020-hugo-theme"
 
