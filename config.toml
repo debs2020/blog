@@ -163,24 +163,22 @@ theme = "debs2020-hugo-theme"
     enable = true
     image = "img/wrapper-img.png"
     title = "About DEBS"
-    text1 = "Over the past decade, the ACM International Conference on Distributed and Event‐based Systems (DEBS) has become the premier venue for academia and industry to discuss cutting-edge research of event-based computing related to Big Data, AI/ML, IoT and Distributed Systems. The objectives of the ACM International Conference on Distributed and Event‐Based Systems (DEBS) are to provide a forum dedicated to the dissemination of original research, the discussion of practical insights, and the reporting of experiences relevant to distributed systems and event‐based computing. The conference aims at providing a forum for academia and industry to exchange ideas."
+    text1 = "Over the past decade, the ACM International Conference on Distributed and Event‐based Systems (DEBS) has become the premier venue for cutting-edge research in the field of event processing and distributed computing, and the integration of distributed and event-based systems in relevant domains such as Big Data, AI/ML, IoT, and blockchains. The objectives of the ACM International Conference on Distributed and Event‐Based Systems (DEBS) are to provide a forum dedicated to the dissemination of original research, the discussion of practical insights, and the reporting of experiences relevant to distributed systems and event‐based computing. The conference aims at providing a forum for academia and industry to exchange ideas through its tutorials, research articles, and the Grand Challenge."
 
   [Languages.en.params.blog1]
     enable = true
-    title = "Scope"
-    text1 = "The DEBS conference covers topics in distributed and event-based computing. The scope of the conference includes systems dealing with collecting, detecting, processing and responding to events through distributed middleware and applications. Examples of application domains covered by the conference include the Internet of Things, sensor networks, social networking, finance, healthcare and logistics, computer and network security. Technologies discussed include real-time analytics, complex-event detection, reliability and resilience, energy management and green computing, data stream processing, big/fast data analysis, event processing for AI/ML, AI/ML for event processing, security and encryption in stream processing, embedded systems, and cloud, peer-to-peer, ubiquitous and mobile computing. Topics relevant to enterprise-level computing include enterprise application integration, real-time enterprises, Web services and support for enterprises to respond in timely fashion to changing situations."
-
-  [Languages.en.params.blog2]
-    enable = true
-    title = "Topics covered include, but are not limited to"
-    text1 = "Models, architectures and paradigms: Event-driven architectures, real-time analytics, complex event processing, event processing for AI/ML, event processing in big and fast data, data stream processing, security and encryption in stream processing, rule-based systems, in-network processing, logic-based event recognition, event correlation and pattern languages."
-    text2 = "Systems and software: Distributed data processing, distributed programming, federated event-based systems, AI/ML for event processing, information-centric networking, software-defined networking, security, reliability and resilience, programmable hardware, energy management and green computing as well as cloud, fog, ubiquitous and mobile computing."
-    text3 = "Applications: Use cases, requirements and applications of distributed and event-based systems in various domains including Internet-of-Things, cyber-physical systems, sensor networks, social networking, multimedia analytics, finance, healthcare and logistics, computer and network security, smart contracts and blockchains. Also, relevant topics span enterprise-level computing, including enterprise application integration, real-time enterprises, event-based business process management, and support for enterprises to respond in timely fashion to changing situations."
+    text1Title = "Models, architectures and paradigms:"
+    text2Title = "Systems and software:"
+    text3Title = "Applications:"
+    title = "PRIMARY TOPICS OF INTEREST"
+    text1 = " Event-driven architectures, real-time analytics, complex event processing, event processing for AI/ML, event processing in big and fast data, publish/subscribe, data stream processing, security and encryption in stream processing, rule-based systems, maintenance of materialized views, dynamic graph processing, in-network processing, logic-based event recognition, event correlation and pattern languages."
+    text2 = " Distributed data processing, distributed programming, federated event-based systems, smart contracts, blockchain and distributed ledger technologies, message queues, middleware, AI/ML for event processing, information-centric networking, software-defined networking, security, reliability and resilience, programmable hardware, energy management and green computing as well as cloud, fog, ubiquitous and mobile computing."
+    text3 = " Use cases, requirements and applications of distributed and event-based systems in various domains including Internet-of-Things, cyber-physical systems, sensor networks, social networking, multimedia analytics, finance, healthcare and logistics, computer and network security. Also, relevant topics span enterprise-level computing, including enterprise application integration, real-time enterprises, event-based business process management, and support for enterprises to respond in timely fashion to changing situations."
 
   [Languages.en.params.venue]
     enable = true
     title = "venue"
-    italic = "DEBS 2020 will be hosted at pavilon E, École de technologie supérieure in Montreal, QC, Canada."
+    italic = "DEBS 2020 will be hosted at pavilion E, École de technologie supérieure in Montreal, QC, Canada."
 
   [Languages.en.params.organizers]
     enable = true
