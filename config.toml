@@ -159,6 +159,12 @@ theme = "debs2020-hugo-theme"
       parent = "REGISTRATION"
       url = ""
 
+      [[Languages.en.menu.header]]
+      weight = 3
+      name = "Travel Grants"
+      parent = "REGISTRATION"
+      url = ""
+
     #[[Languages.en.menu.footer]]
       #weight = 1
       #name = "About us"
