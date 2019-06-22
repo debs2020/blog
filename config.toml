@@ -51,13 +51,25 @@ theme = "debs2020-hugo-theme"
 
       [[Languages.en.menu.header]]
       weight = 1
-      name = "Call for research paper"
+      name = "Call for Research Papers"
       parent = "CALLS"
       url = ""
 
       [[Languages.en.menu.header]]
       weight = 2
-      name = "Call for industry paper"
+      name = "Call for Industry Papers"
+      parent = "CALLS"
+      url = ""
+
+      [[Languages.en.menu.header]]
+      weight = 3
+      name = "Call for Posters and Demos"
+      parent = "CALLS"
+      url = ""
+
+      [[Languages.en.menu.header]]
+      weight = 4
+      name = "Call for Doctoral Symposium"
       parent = "CALLS"
       url = ""
 
@@ -68,7 +80,7 @@ theme = "debs2020-hugo-theme"
 
         [[Languages.en.menu.header]]
         weight = 1
-        name = "Organization Committee"
+        name = "Organizing Committee"
         parent = "COMMITTEE"
         url = ""
 
@@ -94,6 +106,24 @@ theme = "debs2020-hugo-theme"
       name = "Venue Information"
       parent = "CONFERENCE INFO"
       url = "/venueinformation"
+
+      [[Languages.en.menu.header]]
+      weight = 3
+      name = "Past DEBS Events"
+      parent = "CONFERENCE INFO"
+      url = "/pastdebsevents"
+
+      [[Languages.en.menu.header]]
+      weight = 4
+      name = "Accommodation"
+      parent = "CONFERENCE INFO"
+      url = ""
+
+      [[Languages.en.menu.header]]
+      weight = 5
+      name = "Visa Information"
+      parent = "CONFERENCE INFO"
+      url = ""
 
     [[Languages.en.menu.header]]
     weight = 5
@@ -125,7 +155,7 @@ theme = "debs2020-hugo-theme"
 
       [[Languages.en.menu.header]]
       weight = 2
-      name = "Camera Ready Instructions"
+      name = "Camera-Ready Instructions"
       parent = "REGISTRATION"
       url = ""
 
@@ -154,6 +184,8 @@ theme = "debs2020-hugo-theme"
     enable = true
     title = "DEBS 2020"
     subtitle = "14TH ACM INTERNATIONAL CONFERENCE ON DISTRIBUTED AND EVENT-BASED SYSTEMS"
+    date = "13th - 17th July 2020"
+    place = "Montreal, Quebec, Canada"
     bgImage = "img/Montreal.jpg"
     bgImageAlt = "img/Montreal.jpg"
     btnText = "Conference Information"
@@ -170,7 +202,7 @@ theme = "debs2020-hugo-theme"
     text1Title = "Models, architectures and paradigms:"
     text2Title = "Systems and software:"
     text3Title = "Applications:"
-    title = "PRIMARY TOPICS OF INTEREST"
+    title = "TOPICS OF INTEREST"
     text1 = " Event-driven architectures, real-time analytics, complex event processing, event processing for AI/ML, event processing in big and fast data, publish/subscribe, data stream processing, security and encryption in stream processing, rule-based systems, maintenance of materialized views, dynamic graph processing, in-network processing, logic-based event recognition, event correlation and pattern languages."
     text2 = " Distributed data processing, distributed programming, federated event-based systems, smart contracts, blockchain and distributed ledger technologies, message queues, middleware, AI/ML for event processing, information-centric networking, software-defined networking, security, reliability and resilience, programmable hardware, energy management and green computing as well as cloud, fog, ubiquitous and mobile computing."
     text3 = " Use cases, requirements and applications of distributed and event-based systems in various domains including Internet-of-Things, cyber-physical systems, sensor networks, social networking, multimedia analytics, finance, healthcare and logistics, computer and network security. Also, relevant topics span enterprise-level computing, including enterprise application integration, real-time enterprises, event-based business process management, and support for enterprises to respond in timely fashion to changing situations."
@@ -182,7 +214,7 @@ theme = "debs2020-hugo-theme"
 
   [Languages.en.params.organizers]
     enable = true
-    title = "Organizers"
+    title = "General Co-Chairs"
     text1 = "Kaiwen Zhang, ÉTS Montréal"
     text2 = "Khuzaima Daudjee, University of Waterloo"
     text3 = "Bettina Kemme, McGill University"

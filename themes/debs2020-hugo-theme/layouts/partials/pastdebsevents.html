@@ -1,0 +1,16 @@
+{{ partial "global-header.html" . }}
+
+{{ $data := index .Site.Data .Site.Language.Lang }}
+<section id = "venueinformation">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-9 col-sm-6">
+        <div class="block">
+          <h1>{{ $data.pastdebsevents.title }}</h1>
+            <h4><a href="{{ $data.pastdebsevents.url }}">{{ $data.pastdebsevents.text }}</a></h4>
+        </div>
+      </div>
+      {{ partial "sidebar.html" . }}
+    </div>
+  </div>
+</section>
