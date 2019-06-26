@@ -4,13 +4,13 @@ events:
 
   eventsList:
     - event : Conference
-      date : 13th - 17th July 2020
+      date : July 13th - 17th, 2020
 
-    #- event : new event
-      #date : 06/12/2019
+    - event : Abstract Registration for Research Track
+      date : February 18th, 2020
 
-    #- event : new event
-      #date : 06/12/2019
+    - event : Paper Submission for Research Track
+      date : February 25th, 2020
 
     #- event : new event
       #date : 06/12/2019
