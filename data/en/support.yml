@@ -1,0 +1,29 @@
+enable: true
+title: Support DEBS 2020
+paragraph: We would like to invite you to sponsor the 14th edition of the ACM International Conference on Distributed Event-Based Systems (DEBS)!
+text: Some options are limited and will be offered to the earliest respondents. We are delighted to receive offers for prizes to be donated for the DEBS awards (best paper award, Grand Challenges award) and gadgets/giveaways for the conference bags.
+contactText: If you are interested in any of the above opportunities for supporting the DEBS 2020 conference, please contact
+person: Kaiwen Zhang
+email: kaiwen.zhang@etsmtl.ca
+texts:
+  - text: DEBS is an annual technical conference with the objectives of providing a forum dedicated to the dissemination of original research, the discussion of practical insights, and the reporting of experiences relevant to event-based computing. It is sponsored by ACM, the world leading organization for ICT professionals. Sponsorship by ACM is a token of quality of the conference. Less than 5% of larger international conferences on informatics receive ACM sponsorship.
+  - text: Distributed event-based systems serve as an enabling technology for many important application areas such as big data processing, stream processing and CEP, social networking, green computing and enterprise application integration, as well as societal challenges including Smart Urban Transport, Smart Energy Networks, eHealth systems, AI/ML, IoT, Blockchain, etc. In particular the pre-conference tutorial day and Industrial and Experience Report track of the conference should be of high relevance for industry and public agencies.
+  - text: By becoming a DEBS contributor, you will have the great opportunity to display your company and products at a major forum dedicated to event-based computing. DEBS is an established forum to bridge academia with industry. At DEBS, you will get in touch with the best international students in the field who might become your future customers or staff.
+  - text: With your sponsorship, you will help us in keeping registration fees low while providing an excellent program, hence convincing even more attendees to join DEBS. Moreover, sponsorship entitles you to promote your company at the conference through logo placements and info material in various conference handouts, depending on sponsorship level (see below).
+
+events:
+  enable : true
+  title : Important Dates
+
+  eventsList:
+    - type : Bronze ($1000)
+      info : <li>Small logo on our web site and handouts</li>
+
+    - type : Silver ($2000)
+      info : <li>Medium logo on our web site and handouts</li>
+             <li>One free registration</li>
+
+    - type : Gold ($3000)
+      info : <li>Large logo on our web site and handouts</li>
+             <li>Two free registrations</li>
+             <li>Possibility to have a booth at the conference venue</li>
