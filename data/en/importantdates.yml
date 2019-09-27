@@ -1,0 +1,28 @@
+enable: true
+title: Important Dates
+
+events:
+  enable : true
+  title : Important Dates
+
+  eventsList:
+    - event : Conference
+      date : July 13th - 17th, 2020
+
+    - event : Abstract Registration for Research Track
+      date : February 18th, 2020
+
+    - event : Paper Submission for Research Track
+      date : February 25th, 2020
+
+    - event : --
+      date : --
+
+    - event : --
+      date : --
+
+    - event : --
+      date : --
+
+    - event : --
+      date : --
