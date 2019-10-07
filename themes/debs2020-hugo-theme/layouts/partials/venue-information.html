@@ -6,11 +6,38 @@
     <div class="row">
       <div class="col-md-9 col-sm-6">
         <div class="block">
-          <h1>{{ $data.venueinformation.title }}</h1>
-            <div class="google-map">
+          <h1>{{ $data.venueinformation.title1 }}</h1>
+            <div class="google-map" style="margin-bottom: 10px">
               <iframe width="100%" height="450" src="https://maps.google.com/maps?q=ecole%20de%20technologie%20superieure%20pavilion%20e&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" allowfullscreen></iframe>
             </div>
-            <p align = "justify"> {{ $data.venueinformation.paragraph }}
+            <div style="margin-bottom: 30px">
+              <p align = "justify"> {{ $data.venueinformation.paragraph }}</p>
+            </div>
+            <div>
+              <img src="{{ $data.venueinformation.image1 }}" width="49.5%" height="300px">
+              <img src="{{ $data.venueinformation.image2 }}" width="49.5%" height="300px">
+              <div align="justify" style="margin-top: 15px">
+              <p>{{ $data.venueinformation.text1 }}</p>
+              </div>
+            </div>
+            <div>
+              <h1>{{ $data.venueinformation.title2 }}</h1>
+            </div>
+            <div>
+              {{ if $data.venueinformation.address.enable }}
+              {{ range $data.venueinformation.addresses}}
+              <div align="justify" style="margin-bottom: 30px">
+                <h3>{{ .title }}</h3>
+                <p>{{ .text }} <a href="{{ .link }}">{{ .textLink }}</a></p>
+              </div>
+              {{ end }}
+              {{ end }}
+            </div>
+            <div class="google-map" style="margin-bottom: 10px">
+              <div class="google-map" style="margin-bottom: 100px">
+                <iframe width="100%" height="450" src="https://www.google.com/maps/d/embed?mid=1Tjg-J8j5Qrk2l2FjCX5smYxzI8t-Ocg9" frameborder="0" scrolling="no" allowfullscreen></iframe>
+              </div>
+            </div>
         </div>
       </div>
       {{ partial "sidebar.html" . }}
