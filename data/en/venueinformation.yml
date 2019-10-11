@@ -11,16 +11,16 @@ text1: "We will be using Pavilion E, which also called Maison des étudiants. Th
 
 punlic transform:
   enable: true
-title2: Public transform form Montréal International Airport
+title2: Public transport from Montréal International Airport
 
 address:
   enable : true
 addresses:
   - title : "747 Express bus"
     image : "/img/747bus.jpg"
-    text : "Take the 747 Express bus from the YUL airport to Lionel-Groulx metro station (There are two 747 line, take the one to Lionel Groulx). From Lionel Groulx metro station take the orange line to Bonaventure metro station. Take exit Station Bonaventure - Édicule De la Cathédrale.
+    text : "Take the 747 Express bus from the YUL airport to Lionel-Groulx metro station (There are two 747 lines, take the one to Lionel Groulx). From Lionel Groulx metro station take the orange line to Bonaventure metro station. Take exit Station Bonaventure - Édicule De la Cathédrale.
     Head southeast on Rue de la Cathédrale toward Rue Saint-Antoine O. Turn right onto Rue Notre-Dame Ouest.
-    The ticket cost 10 CAD (7.50 USD and 6.84 Euro) for 24 hours with unlimited use. For more information about the bus schedule and fare price visit: "
+    The ticket costs 10 CAD (7.50 USD and 6.84 Euro) for 24 hours with unlimited use. For more information about the bus schedule and fare price visit: "
     link : "http://www.stm.info/en/info/networks/bus/shuttle/747-yul-montreal-trudeau-airport-downtown-shuttle"
     textLink: "THE 747 SHUTTLE SERVICE."
 
