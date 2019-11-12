@@ -1,0 +1,54 @@
+people:
+  enable: true
+
+title1: General Chair
+people1:
+  - person1: Kaiwen Zhang, ÉTS
+  - person1: Khuzaima Daudjee, University of Waterloo
+  - person1: Bettina Kemme, McGill University
+
+title2: Program Chair
+people2:
+  - person2: Mohammad Sadoghi, UC Davis
+  - person2: Lukasz Golab, University of Waterloo
+
+title3: Proceedings Chair
+people3:
+  - person3: Julien Gascon-Samson, ÉTS
+
+title4: Industry Chair
+people4:
+  - person4: Vinod Muthusamy, IBM
+  - person4: Jan Rellermeyer, TU Delft
+
+title5: Grand Challenge Chair
+people5:
+  - person5: Vincenzo Gulisano, Chalmers University
+  - person5: Ruben Mayer, TU Munich
+  - person5: Daniel Jorde, TU Munich
+  - person5: Dimitris Palyvos-Giannas, Chalmers University
+  - person5: Hannaneh Najdataei, Chalmers University
+
+title6: Tutorials/Workshop Chair
+people6:
+  - person6: Tilmann Rabl, Hasso Plattner Institute
+  - person6: Leonardo Querzoni, Sapienza University of Rome
+
+title7: Doctoral Symposium Chair
+people7:
+  - person7: Roman Vitenberg, University of Oslo
+  - person7: David Eyers, University of Otago
+
+title8: Demos & Posters Chair
+people8:
+  - person8: Vinay Setty, University of Stavanger
+  - person8: Aris Leivadeas, ÉTS
+
+title9: Web Chair
+people9:
+  - person9: Sardar Basiri, ÉTS
+
+title10: Publicity Chair
+people10:
+  - person10: Sukanya Bhowmik, University of Stuttgart
+  - person10: Christoph Doblander, TU Munich
