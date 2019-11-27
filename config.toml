@@ -62,6 +62,12 @@ theme = "debs2020-hugo-theme"
       url = ""
 
       [[Languages.en.menu.header]]
+      weight = 2
+      name = "Call for Tutorials"
+      parent = "CALLS"
+      url = "/callfortutorials"
+
+      [[Languages.en.menu.header]]
       weight = 3
       name = "Call for Posters and Demos"
       parent = "CALLS"

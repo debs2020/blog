@@ -1,0 +1,38 @@
+enable: true
+Objective: Objective
+texts:
+  - text: Over the past decade, the ACM International Conference on Distributed and Event‐based Systems (DEBS) has become the premier venue for academia and industry to discuss cutting-edge research of event-based computing related to Big Data, AI/ML, IoT and Distributed Systems. The objectives of the ACM International Conference on Distributed and Event‐Based Systems (DEBS) are to provide a forum dedicated to the dissemination of original research, the discussion of practical insights, and the reporting of experiences relevant to distributed systems and event‐based computing. The conference aims at providing a forum for academia and industry to exchange ideas.
+  - text: DEBS 2020 will host a one-day, multi-track tutorial program to provide independent instruction on topics related to distributed and event-based computing, both fitting for the research audience and to an industrial audience. We solicit both long (2 sessions) and short (1 session) tutorials. A tutorial may cover a wide scope of topics ranging from practical techniques and guidelines over relevant standards through to theoretical work. Please note that no marketing or product-specific tutorials will be accepted. Tutorial levels may be introductory, intermediate, or advanced. Topics of broad interest are preferred.
+include: A tutorial proposal of 1–3 pages should include
+
+infos:
+  enable : true
+
+  infosList:
+    - info : <li>The proposed title</li>
+    - info : <li>A structured description of the contents</li>
+    - info : <li>A brief discussion about why the tutorial topic is relevant to the DEBS community</li>
+    - info : <li>A description of the expected outcomes for attendees</li>
+    - info : <li>The assumed background of attendees</li>
+    - info : <li>The name, affiliation, email and brief biography of the speaker(s)</li>
+    - info : <li>Any prior experience for the speaker(s) giving this or related tutorial</li>
+
+Proposals: Accepted Proposals
+text: Proposers of accepted tutorials are given the opportunity to submit a tutorial paper. The content of a tutorial paper must be on the material covered by the tutorial and must not exceed 4 pages. Submitted tutorial papers will be reviewed prior to publication, and may be rejected for publication if either the technical quality of the paper is insufficient or the content of the paper does not match the content of the tutorial. Note that the rejection of a tutorial paper, does not imply a rejection of the tutorial itself. Tutorial papers will be published in the conference proceedings as part of the ACM International Proceedings Series and will be disseminated through the ACM Digital Library.
+
+ImportantDates: Important Dates
+dates:
+  enable : true
+
+  list:
+    - info : <li>Tutorial Proposal submission <b>March 3rd, 2020</b></li>
+    - info : <li>Author notification for Tutorials <b>March 17th, 2020</b></li>
+    - info : <li>Camera ready deadline <b>May 18th, 2020</b></li>
+    - info : <li>Conference <b>July 13-17th, 2020</b></li>
+
+Submissions: Submissions
+lines:
+  - line : <p align = "justify">Submissions must be in the ACM format for conference proceedings. Only PDF documents will be accepted.</p>
+  - line : <p align = "justify">Authors should make use of the <a href="https://www.acm.org/special-interest-groups">ACM SIGS Proceedings templates</a>.</p>
+  - line : <p align = "justify">Please email your submissions to the Tutorial Co-Chairs at <b>tilmann.rabl@hpi.de</b> and <b>querzoni@dis.uniroma1.it</b> with the subject heading <b>“DEBS 2020 Tutorial Submission”</b>.</p>
+  - line : <p align = "justify">Proposers of accepted tutorials will later be contacted with a link to submit their tutorial papers.</p>

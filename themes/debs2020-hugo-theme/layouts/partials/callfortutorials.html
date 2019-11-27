@@ -1,0 +1,44 @@
+{{ partial "global-header.html" . }}
+
+{{ $data := index .Site.Data .Site.Language.Lang }}
+<section id = "callfortutorials">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-9 col-sm-6">
+        <div class="block">
+          <div>
+            <h1>{{ $data.callfortutorials.Objective }}</h1>
+            {{ range $data.callfortutorials.texts }}
+            <p align = "justify">{{.text}}</P>
+            {{ end }}
+          </div>
+          <div>
+            <p align = "justify">{{$data.callfortutorials.include}}:</P>
+                {{ range $data.callfortutorials.infos.infosList }}
+                {{.info | markdownify}}
+                {{ end }}
+          </div>
+          <div>
+            <h1>{{ $data.callfortutorials.Proposals }}</h1>
+            <p align = "justify">{{ $data.callfortutorials.text }}</P>
+              <div>
+                <h1>{{ $data.callfortutorials.ImportantDates }}</h1>
+                {{ range $data.callfortutorials.dates.list }}
+                {{.info | markdownify}}
+                {{ end }}
+              </div>
+          </div>
+          <div>
+            <h1>{{ $data.callfortutorials.Submissions }}</h1>
+              <div style="margin-bottom: 100px;">
+                {{ range $data.callfortutorials.lines }}
+                {{.line | markdownify}}
+                {{ end }}
+              </div>
+          </div>
+        </div>
+      </div>
+      {{ partial "sidebar.html" . }}
+    </div>
+  </div>
+</section>
