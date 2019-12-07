@@ -129,7 +129,7 @@ theme = "debs2020-hugo-theme"
       weight = 5
       name = "Visa Information"
       parent = "CONFERENCE INFO"
-      url = ""
+      url = "/visainformation"
 
     [[Languages.en.menu.header]]
     weight = 5
