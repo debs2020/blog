@@ -1,0 +1,105 @@
+{{ partial "global-header.html" . }}
+
+{{ $data := index .Site.Data .Site.Language.Lang }}
+<section id = "callforgrandchallengesolutions">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-9 col-sm-6">
+        <div class="block">
+          <div>
+            <h1>{{ $data.callforgrandchallengesolutions.title1 }}</h1>
+            <p align = "justify">{{ $data.callforgrandchallengesolutions.text1 }}</p>
+          </div>
+          <div>
+            <h1>{{ $data.callforgrandchallengesolutions.title2 }}</h1>
+            <p align = "justify">{{ $data.callforgrandchallengesolutions.text21 }}</p>
+          </div>
+          <div style="margin-bottom: 10px; font-size: 15px">
+              {{ range $data.callforgrandchallengesolutions.infos.infosList }}
+              {{.info | markdownify}}
+              {{ end }}
+          </div>
+          <div>
+            <p align = "justify">{{ $data.callforgrandchallengesolutions.text22 }}</p>
+          </div>
+          <div>
+            <h1>{{ $data.callforgrandchallengesolutions.title3 }}</h1>
+            <p align = "justify">{{ $data.callforgrandchallengesolutions.text3 | markdownify }}</p>
+          </div>
+          <div>
+            <h1>{{ $data.callforgrandchallengesolutions.title4 }}</h1>
+            <p align = "justify">{{ $data.callforgrandchallengesolutions.text41  | markdownify}}</p>
+            <ol align = "justify" style="font-size:15px">
+              {{ range $data.callforgrandchallengesolutions.firstCat }}
+              {{.info | markdownify}}
+              {{ end }}
+              <ol type="a">
+                {{ range $data.callforgrandchallengesolutions.secondCat1 }}
+                {{.info | markdownify}}
+                {{ end }}
+                <ol type="i">
+                  {{ range $data.callforgrandchallengesolutions.thirdCat1 }}
+                  {{.info | markdownify}}
+                  {{ end }}
+                  <ol type="1">
+                    {{ range $data.callforgrandchallengesolutions.fourthtCat1 }}
+                    {{.info | markdownify}}
+                    {{ end }}
+                  </ol>
+                  {{ range $data.callforgrandchallengesolutions.thirdCat2 }}
+                  {{.info | markdownify}}
+                  {{ end }}
+                  <ol>
+                    {{ range $data.callforgrandchallengesolutions.fourthtCat2 }}
+                    {{.info | markdownify}}
+                    {{ end }}
+                  </ol>
+                </ol>
+                {{ range $data.callforgrandchallengesolutions.secondCat2 }}
+                {{.info | markdownify}}
+                {{ end }}
+              </ol>
+            </ol>
+            <p align = "justify">{{ $data.callforgrandchallengesolutions.text42  | markdownify}}</p>
+          </div>
+          <div>
+            <h1>{{ $data.callforgrandchallengesolutions.title5 }}</h1>
+            <p align = "justify">{{ $data.callforgrandchallengesolutions.text5 | markdownify }}</p>
+          </div>
+          <div>
+            <h1>{{ $data.callforgrandchallengesolutions.title6 }}</h1>
+            <p align = "justify">{{ $data.callforgrandchallengesolutions.text6 | markdownify }}</p>
+          </div>
+          <div>
+            <h1>{{ $data.callforgrandchallengesolutions.title7 }}</h1>
+            <p align = "justify">{{ $data.callforgrandchallengesolutions.text71 | markdownify }}</p>
+          </div>
+          <div style="margin-bottom: 10px; font-size: 15px; align: justify" align = "justify">
+                {{ range $data.callforgrandchallengesolutions.query2infos.query2infosList }}
+                {{.info | markdownify}}
+                {{ end }}
+          </div>
+          <div>
+            <h1>{{ $data.callforgrandchallengesolutions.title8 }}</h1>
+            <p align = "justify">{{ $data.callforgrandchallengesolutions.text8 | markdownify }}</p>
+          </div>
+          <div>
+            <h1>{{ $data.callforgrandchallengesolutions.title9 }}</h1>
+            <p align = "justify">{{ $data.callforgrandchallengesolutions.text9 | markdownify }}</p>
+          </div>
+          <div>
+            <h1>{{ $data.callforgrandchallengesolutions.title10 }}</h1>
+            <p align = "justify">{{ $data.callforgrandchallengesolutions.text10 | markdownify }}</p>
+          </div>
+          <div style="margin-bottom: 100px;" align = "justify">
+            <h1>{{ $data.callforgrandchallengesolutions.ImportantDates }}</h1>
+            {{ range $data.callforgrandchallengesolutions.dates.list }}
+            {{.info | markdownify}}
+            {{ end }}
+          </div>
+        </div>
+      </div>
+      {{ partial "sidebar.html" . }}
+    </div>
+  </div>
+</section>
