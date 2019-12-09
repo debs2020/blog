@@ -1,7 +1,7 @@
 +++
 title = "Contact"
 id = "contact"
-description = "This is meta description for contact page"
+description = ""
 bgImage = "img/Montreal.jpg"
 bgImageAlt = "img/Montreal.jpg"
 +++

@@ -1,7 +1,7 @@
 +++
 title = "ORGANIZING COMMITTEE"
 id = "organizingcommittee"
-description = "This is meta description for portfolio page"
+description = "Organizing committee"
 bgImage = "img/Montreal.jpg"
 bgImageAlt = "img/Montreal.jpg"
 +++

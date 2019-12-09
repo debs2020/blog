@@ -1,7 +1,7 @@
 +++
 title = "IMPORTANT DATES"
 id = "importantdates"
-description = "This is meta description for portfolio page"
+description = "Important dates"
 bgImage = "img/Montreal.jpg"
 bgImageAlt = "img/Montreal.jpg"
 +++

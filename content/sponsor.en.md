@@ -1,7 +1,7 @@
 +++
 title = "Sponsor"
 id = "sponsor"
-description = "This is meta description for portfolio page"
+description = "Sponsor"
 bgImage = "img/Montreal.jpg"
 bgImageAlt = "img/Montreal.jpg"
 +++

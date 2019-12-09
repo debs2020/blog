@@ -1,7 +1,7 @@
 +++
 title = "PAST DEBS EVENTS"
 id = "pastdebsevents"
-description = "This is meta description for portfolio page"
+description = "Past DEBS events"
 bgImage = "img/Montreal.jpg"
 bgImageAlt = "img/Montreal.jpg"
 +++

@@ -1,7 +1,7 @@
 enable: true
 title1: Electronic Travel Authorization (eTA)
 visaInformationText: The eTA is a document that allows you to travel in Canada by plane and to travel freely inside the country. It is an entry requirement for visa-exempt foreign nationals travelling to or transiting through Canada by air. Applying for an eTA is a simple online process. You should apply for an eTA before you book your flight. For more information about the process, see the <a href="https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/eta/about.html">Electronic travel authorization (eTA)</a>.
-VisaRequirementsText: To check the entry requirements by country/territory see the following <a href="https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/entry-requirements-country.html">link</a>.
+VisaRequirementsText: To check the entry requirements by country/territory, see the following <a href="https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/entry-requirements-country.html">link</a>.
 
 title2: Visa Support Letter Request
 texts:
