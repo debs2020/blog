@@ -6,23 +6,26 @@ events:
   title : Important Dates
 
   eventsList:
-    - event : Conference
-      date : July 13th - 17th, 2020
-
-    - event : Abstract Registration for Research Track
-      date : February 18th, 2020
-
-    - event : Paper Submission for Research Track
-      date : February 25th, 2020
-
     - event : Tutorial Proposal Submission
       date : March 3rd, 2020
+
+    - event : Abstract Submission for Research Track
+      date : March 13th, 2020
+
+    - event : Research and Industry Paper Submission
+      date : March 20th, 2020
 
     - event : Grand Challenge Solution Submission
       date : April 7th, 2020
 
-    - event : --
-      date : --
+    - event : Author Notification Research and Industry Track
+      date : May 3rd, 2020
 
-    - event : --
-      date : --
+    - event : Poster, Demo & Doctoral Symposium Submission
+      date : May 10th, 2020
+
+    - event : Camera Ready for All Tracks
+      date : May 28th, 2020
+
+    - event : Conference
+      date : July 13th - 17th, 2020
