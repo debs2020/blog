@@ -59,7 +59,7 @@ theme = "debs2020-hugo-theme"
       weight = 2
       name = "Call for Industry Papers"
       parent = "CALLS"
-      url = ""
+      url = "/callforindustrypapers"
 
       [[Languages.en.menu.header]]
       weight = 3

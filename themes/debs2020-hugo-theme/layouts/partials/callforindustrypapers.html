@@ -1,0 +1,41 @@
+{{ partial "global-header.html" . }}
+
+{{ $data := index .Site.Data .Site.Language.Lang }}
+<section id = "callforindustrypapers">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-9 col-sm-6">
+        <div class="block">
+          <div>
+            <h1>{{ $data.callforindustrypapers.Objective }}</h1>
+            {{ range $data.callforindustrypapers.texts }}
+            <p align = "justify">{{.text}}</P>
+            {{ end }}
+          </div>
+          <div>
+                {{ range $data.callforindustrypapers.infos.infosList }}
+                {{.info | markdownify}}
+                {{ end }}
+          </div>
+          <div>
+              <div>
+                <h1>{{ $data.callforindustrypapers.ImportantDates }}</h1>
+                {{ range $data.callforindustrypapers.dates.list }}
+                {{.info | markdownify}}
+                {{ end }}
+              </div>
+          </div>
+          <div>
+            <h1>{{ $data.callforindustrypapers.Submissions }}</h1>
+              <div style="margin-bottom: 100px;">
+                {{ range $data.callforindustrypapers.lines }}
+                {{.line | markdownify}}
+                {{ end }}
+              </div>
+          </div>
+        </div>
+      </div>
+      {{ partial "sidebar.html" . }}
+    </div>
+  </div>
+</section>

@@ -1,0 +1,43 @@
+enable: true
+Objective: Objective
+texts:
+  - text: The DEBS 2020 Industry and Experience Reports Track invites submissions on innovative design, development, or deployments of event‐based systems. Contributions will be reviewed by researchers and industry practitioners working in distributed and event‐based computing.
+  - text: An important goal of DEBS is to enrich and cultivate cooperation and exchange between researchers and practitioners who work on distributed or event-based systems. Such interactions help practitioners become aware of leading edge research that can address issues and problems in commercial systems, while also allowing researchers to learn more about details and concerns with event-based or distributed applications and systems that arise in commercial implementations and deployments.
+  - text: 'We welcome submissions in the form of either a full Industry Track paper or an Industry Experience report. Submissions should present novel work and experiences with relevant topics including, but not limited to, the following:'
+
+infos:
+  enable : true
+
+  infosList:
+    - info : <li>Use cases and applications of event-based or distributed approaches</li>
+    - info : <li>Models, architectures and paradigms of event-driven or distributed systems</li>
+    - info : <li>Hardware acceleration (e.g., GPUs, FPGAs) for event-based or distributed systems</li>
+    - info : <li>Cloud-based infrastructure (VMs or containers) for event-based or distributed systems</li>
+    - info : <li>Distributed systems trade-offs for event-based applications</li>
+    - info : <li>Event-based or distributed systems reliability and fault tolerance</li>
+    - info : <li>Event-based or distributed systems transactional support</li>
+    - info : <li>Event-based or distributed systems security considerations</li>
+    - info : <li>Programming languages and DSLs for event-based or distributed systems</li>
+    - info : <li>Deploying and operating event-based or distributed systems</li>
+    - info : <li>Event-based or distributed systems in emerging domains (e.g., personalized health, machine learning)</li>
+    - info : <li>Testing and benchmarking of real-world, event-based or distributed systems</li>
+    - info : <li>Event processing for training machine learning models</li>
+    - info : <li>Inferencing of machine learning models from event streams</li>
+
+
+ImportantDates: Important Dates
+dates:
+  enable : true
+
+  list:
+    - info : <li>Industry paper submission <b>March 20, 2020</b></li>
+    - info : <li>Industry paper notification <b>May 3, 2020</b></li>
+    - info : <li>Camera ready deadline <b>May 28, 2020</b></li>
+    - info : <li>Conference <b>July 13-17th, 2020</b></li>
+
+Submissions: Submissions
+lines:
+  - line : <p align = "justify">Submissions to the Industry Track should clearly indicate whether they are an Industry Track Paper or an Industry Experience Report. Industry Track papers should cover some novel use or development of event-based applications or distributed systems, with an industry theme, and must be no longer than 12 pages. Industry Experience Reports can be specific to a single project or system, or to an industry domain, and should cover some valuable, new or alternative view of event processing or distributed systems in an end-user application area. Industry Experience reports are in the form of extended abstracts, do not need to be full papers, and must be no longer than 6 pages.</p>
+  - line : <p align = "justify">An Industry Program Committee will review all submissions to the Industry Track using a single-blind process, unlike the double-blind reviews in the Research Track, so information about the authors and their affiliations should be present in all submissions.</p>
+  - line : <p align = "justify">Only PDF documents will be accepted and should be submitted via HotCRP at <a href="https://debs20industry.hotcrp.com">https://debs20industry.hotcrp.com</a>.</p>
+  - line : <p align = "justify">Submitted papers are required to adhere to the two column “sigconf” ACM conference proceeding style. Templates and examples in <a href="https://www.acm.org/binaries/content/assets/publications/consolidated-tex-template/acmart-master.zip">LaTeX</a> and various versions of Microsoft Word are available for download from <a href="http://www.acm.org/publications/proceedings-template">the 2017 ACM Master Article Template page</a>. These submission instructions will be updated further closer to the deadline.</p>
