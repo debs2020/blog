@@ -53,7 +53,7 @@ theme = "debs2020-hugo-theme"
       weight = 1
       name = "Call for Research Papers"
       parent = "CALLS"
-      url = ""
+      url = "/callforresearchpapers"
 
       [[Languages.en.menu.header]]
       weight = 2

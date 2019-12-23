@@ -10,7 +10,7 @@
             <h1>{{ $data.support.title }}</h1><br>
             <h4>{{ $data.support.paragraph }}</h4>
             {{ range $data.support.texts }}
-            <p align = "justify">{{.text}}</P>
+            <p>{{.text}}</P>
             {{ end }}<br>
           </div>
           <div class="table-responsive">
@@ -26,8 +26,8 @@
             </table>
           </div>
           <div>
-            <p align = "justify">{{ $data.support.text }}</P>
-            <p align = "justify">{{ $data.support.contactText }} <a href="mailto:{{ $data.support.email }}">{{ $data.support.person }}</a>.</P>
+            <p>{{ $data.support.text }}</P>
+            <p>{{ $data.support.contactText }} <a href="mailto:{{ $data.support.email }}">{{ $data.support.person }}</a>.</P>
           </div>
         </div>
       </div>

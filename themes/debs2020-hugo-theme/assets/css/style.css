@@ -82,6 +82,8 @@ h3 {
 p {
   font-size: 15px;
   line-height: 28px;
+  text-align: justify;
+  word-spacing:-1px;
 }
 
 ul {

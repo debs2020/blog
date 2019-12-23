@@ -1,0 +1,29 @@
+enable: true
+Objective: Objective
+texts:
+  - text: Over the past decade, the ACM International Conference on Distributed and Event‐based Systems (DEBS) has become the premier venue for academia and industry to discuss cutting-edge research of event-based computing related to Big Data, AI/ML, IoT and Distributed Systems. The objectives of the ACM International Conference on Distributed and Event‐Based Systems (DEBS) are to provide a forum dedicated to the dissemination of original research, the discussion of practical insights, and the reporting of experiences relevant to distributed systems and event‐based computing. The conference aims at providing a forum for academia and industry to exchange ideas.
+Scope: Scope
+scopes:
+  - scope: 'The DEBS conference covers topics in distributed and event-based computing. The scope of the conference includes systems dealing with collecting, detecting, processing and responding to events through distributed middleware and applications. Examples of application domains covered by the conference include the Internet of Things, sensor networks, social networking, finance, healthcare and logistics, computer and network security. Technologies discussed include real-time analytics, complex-event detection, reliability and resilience, distributed ledger and blockchains, energy management and green computing, data stream processing, big/fast data analysis, event processing for AI/ML, AI/ML for event processing, security and encryption in stream processing, embedded systems, and cloud, peer-to-peer, ubiquitous and mobile computing. Topics relevant to enterprise-level computing include enterprise application integration, real-time enterprises, Web services and support for enterprises to respond in a timely fashion to changing situations. Topics covered include, but are not limited to:'
+  - scope: '<b>Models, architectures and paradigms:</b> Event-driven architectures, real-time analytics, complex event processing, event processing for AI/ML, event processing in big and fast data, data stream processing, security and encryption in stream processing, rule-based systems, in-network processing, logic-based event recognition, event correlation, and pattern languages.'
+  - scope: '<b>Systems and software:</b> Distributed data processing, distributed programming, federated event-based systems, AI/ML for event processing, information-centric networking, software-defined networking, security, reliability and resilience, distributed ledger and blockchains, programmable hardware, energy management and green computing as well as cloud, fog, ubiquitous and mobile computing.'
+  - scope: '<b>Applications:</b> Use cases, requirements and applications of distributed and event-based systems in various domains including Internet-of-Things, cyber-physical systems, sensor networks, social networking, multimedia analytics, finance, healthcare and logistics, computer and network security, smart contracts and blockchains. Also, relevant topics span enterprise-level computing, including enterprise application integration, real-time enterprises, event-based business process management, and support for enterprises to respond in a timely fashion to changing situations.'
+
+ImportantDates: Important Dates
+dates:
+  enable : true
+
+  list:
+    - info : <li>Abstract submission for research track <b>March 13, 2020</b></li>
+    - info : <li>Research paper submission <b>March 20, 2020</b></li>
+    - info : <li>Research paper notification <b>May 3, 2020</b></li>
+    - info : <li>Camera ready deadline <b>May 28, 2020</b></li>
+    - info : <li>Conference <b>July 13-17th, 2020</b></li>
+
+Submissions: Submissions
+lines:
+  - line : <p >All submissions must be original and unpublished. Accepted papers will be published by ACM and disseminated through the ACM Digital Library.</p>
+  - line : <p ><b>Authors Take Note:</b> A new policy by ACM will allow DEBS 2020 to make the proceedings available ahead of the conference via the ACM Digital Library. Thus, the official publication date is the date the proceedings appear in the ACM Digital Library. This date may be up to two weeks prior to the first day of the conference. The official publication date affects the deadline for any patent filings related to published work.</p>
+  - line : <p >The conference adopts a double-blind review process for the research track, where neither authors nor reviewers know each other’s identities. This means that papers must not list or otherwise identify the authors. References to previous work should be done in the third person as to not reveal the identities of the authors. Research track submissions that are not anonymous may be rejected without review.</p>
+  - line : <p >Research Track papers must be no longer than 12 pages. The authors of accepted papers will be given a choice between different copyright agreements, in accordance with the recent changes in the ACM policy. The options will include new opportunities for open access as well as the traditional ACM copyright agreement. Papers can be submitted via HotCRP (PDF files only). Submissions to the research track will be evaluated by a Research Program Committee. <a href="https://debs2020.hotcrp.com/">https://https://debs2020.hotcrp.com</a>.</p>
+  - line : <p >Submitted papers are required to adhere to the two column “sigconf” ACM conference proceeding style. Templates and examples in <a href="https://www.acm.org/binaries/content/assets/publications/consolidated-tex-template/acmart-master.zip">LaTeX</a> and various versions of Microsoft Word are available for download from <a href="http://www.acm.org/publications/proceedings-template">the 2017 ACM Master Article Template page</a>. These submission instructions will be updated further closer to the deadline.</p>

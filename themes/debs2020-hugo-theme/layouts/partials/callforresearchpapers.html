@@ -7,28 +7,29 @@
       <div class="col-md-9 col-sm-6">
         <div class="block">
           <div>
-            <h1>{{ $data.callforindustrypapers.Objective }}</h1>
-            {{ range $data.callforindustrypapers.texts }}
+            <h1>{{ $data.callforresearchpapers.Objective }}</h1>
+            {{ range $data.callforresearchpapers.texts }}
             <p>{{.text}}</P>
             {{ end }}
           </div>
           <div>
-                {{ range $data.callforindustrypapers.infos.infosList }}
-                {{.info | markdownify}}
-                {{ end }}
+            <h1>{{ $data.callforresearchpapers.Scope }}</h1>
+            {{ range $data.callforresearchpapers.scopes }}
+            <p>{{.scope | markdownify}}</P>
+            {{ end }}
           </div>
           <div>
               <div>
-                <h1>{{ $data.callforindustrypapers.ImportantDates }}</h1>
-                {{ range $data.callforindustrypapers.dates.list }}
+                <h1>{{ $data.callforresearchpapers.ImportantDates }}</h1>
+                {{ range $data.callforresearchpapers.dates.list }}
                 {{.info | markdownify}}
                 {{ end }}
               </div>
           </div>
           <div>
-            <h1>{{ $data.callforindustrypapers.Submissions }}</h1>
+            <h1>{{ $data.callforresearchpapers.Submissions }}</h1>
               <div style="margin-bottom: 100px;">
-                {{ range $data.callforindustrypapers.lines }}
+                {{ range $data.callforresearchpapers.lines }}
                 {{.line | markdownify}}
                 {{ end }}
               </div>
