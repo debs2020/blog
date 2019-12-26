@@ -1,0 +1,42 @@
+{{ partial "global-header.html" . }}
+
+{{ $data := index .Site.Data .Site.Language.Lang }}
+<section id = "callforpostersanddemos">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-9 col-sm-6">
+        <div class="block">
+          <div>
+            <h1>{{ $data.callforpostersanddemos.Objective }}</h1>
+            {{ range $data.callforpostersanddemos.texts }}
+            <p align = "justify">{{.text}}</P>
+            {{ end }}
+          </div>
+          <div>
+            <h1>{{ $data.callforpostersanddemos.Demos }}</h1>
+            {{ range $data.callforpostersanddemos.demosTexts }}
+            <p align = "justify">{{.text | markdownify}}</P>
+            {{ end }}
+          </div>
+              <div>
+                <h1>{{ $data.callforpostersanddemos.Posters }}</h1>
+                {{ range $data.callforpostersanddemos.postersTexts }}
+                <p align = "justify">{{.text | markdownify}}</P>
+                {{ end }}
+              </div>
+              <div div style="margin-bottom: 50px;">
+                <h1>{{ $data.callforpostersanddemos.ImportantDates }}</h1>
+                <p>{{ $data.callforpostersanddemos.importatntDatesText}}</p>
+                {{ range $data.callforpostersanddemos.dates.list }}
+                {{.info | markdownify}}
+                {{ end }}
+              </div>
+              <div style="margin-bottom: 100px;">
+                <p>{{ $data.callforpostersanddemos.submissionText | markdownify}}</p>
+              </div>
+        </div>
+      </div>
+      {{ partial "sidebar.html" . }}
+    </div>
+  </div>
+</section>

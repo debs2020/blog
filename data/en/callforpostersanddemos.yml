@@ -1,0 +1,29 @@
+enable: true
+Objective: Objective
+texts:
+  - text: 'Over the past decade, the ACM International Conference on Distributed and Event‐based Systems (DEBS) has become the premier venue for academia and industry to discuss cutting-edge research of event-based computing related to Big Data, AI/ML, IoT and Distributed Systems. The objectives of the ACM International Conference on Distributed and Event‐Based Systems (DEBS) are to provide a forum dedicated to the dissemination of original research, the discussion of practical insights, and the reporting of experiences relevant to distributed systems and event‐based computing. The conference aims at providing a forum for academia and industry to exchange ideas.'
+
+Demos: Demos
+demosTexts:
+  - text: 'Demonstrations present first-hand experience with research prototypes or operational systems. Demonstrations also provide opportunities to exchange ideas gained from implementing event-based systems and to obtain feedback from expert users. Demonstration submissions are welcomed in any of the areas identified in the scope of the conference (see <a href="https://2020.debs.org">https://2020.debs.org</a> for the detailed scope of the conference). The authors are expected to prepare a poster and perform live software demonstration.'
+  - text: 'Demonstration submissions describe in 4 pages, following the ACM format for the conference proceedings, the objectives and findings addressed by the demonstration. The demonstration submission are single-blind. All demo submissions should have a prefix “Demo:” in their title. All submissions should provide a URL to a live online version of their demo or, alternatively, provide a URL (e.g, Youtube) to a video showcasing the main features of their demo. Demonstrations that make their source code freely available are especially encouraged. In addition, authors should describe in a clearly marked appendix, the setup of the demonstration and the requirements. Accepted contributions will be published (excluding the appendix) by ACM and disseminated through the ACM Digital Library.'
+
+Posters: Posters
+postersTexts:
+  - text: 'Poster presentations offer researchers an excellent forum to present and discuss preliminary research findings as well as novel and original ideas related to DEBS. Submissions describe ideas, approaches,
+ and possibly preliminary findings, following the ACM format for the conference proceedings using up to 2 pages. Poster submissions are also single-blind. All poster submissions should have a prefix “Poster:” Accepted contributions will be published by ACM and disseminated through the ACM Digital Library.'
+
+ImportantDates: Important Dates
+
+importatntDatesText: All deadlines are AoE (Anywhere on Earth) timezone
+
+dates:
+  enable : true
+
+  list:
+    - info : <li>Poster and demo paper submissions <b>May 10th, 2020</b></li>
+    - info : <li>Author notification <b>May 17th, 2020</b></li>
+    - info : <li>Camera ready deadline <b>May 28, 2020</b></li>
+    - info : <li>Conference <b>July 13-17th, 2020</b></li>
+
+submissionText: 'For submissions please use the following link: <a href="https://debs2020demos-posters.hotcrp.com/">https://debs2020demos-posters.hotcrp.com/</a>.'
