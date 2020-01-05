@@ -9,13 +9,13 @@
           <div>
             <h1>{{ $data.callforresearchpapers.Objective }}</h1>
             {{ range $data.callforresearchpapers.texts }}
-            <p>{{.text}}</P>
+            <p align="justify">{{.text}}</P>
             {{ end }}
           </div>
           <div>
             <h1>{{ $data.callforresearchpapers.Scope }}</h1>
             {{ range $data.callforresearchpapers.scopes }}
-            <p>{{.scope | markdownify}}</P>
+            <p align="justify">{{.scope | markdownify}}</P>
             {{ end }}
           </div>
           <div>

@@ -82,7 +82,6 @@ h3 {
 p {
   font-size: 15px;
   line-height: 28px;
-  text-align: justify;
   word-spacing:-1px;
 }
 
@@ -505,7 +504,7 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 
 #clients-logo-section .clients-logo-img {
-  padding:0px 60px;
+  padding:0px 110px;
 }
 
 /*---------------------------------------------

@@ -17,7 +17,7 @@
               <img src="{{ $data.venueinformation.image1 }}" width="51.25%" height="100%">
               <img src="{{ $data.venueinformation.image2 }}" width="47.25%" height="100%">
               <div align="justify" style="margin-top: 15px">
-              <p>{{ $data.venueinformation.text1 }}</p>
+              <p align="justify">{{ $data.venueinformation.text1 }}</p>
               </div>
             </div>
             <div>
@@ -28,7 +28,7 @@
               {{ range $data.venueinformation.addresses}}
               <div align="justify" style="margin-bottom: 30px">
                 <h3>{{ .title }}</h3>
-                <p>{{ .text }} <a href="{{ .link }}">{{ .textLink }}</a></p>
+                <p align="justify">{{ .text }} <a href="{{ .link }}">{{ .textLink }}</a></p>
               </div>
               {{ end }}
               {{ end }}

@@ -6,21 +6,21 @@
         <div class="block">
           <div class="section-title">
             <h2>{{ .Site.Params.wrapper.title }}</h2>
-            <p>{{ .Site.Params.wrapper.text1 }}</p>
+            <p align="justify">{{ .Site.Params.wrapper.text1 }}</p>
             <p id="scope"></p>
             <p></p>
             <h2>{{ .Site.Params.blog1.title }}</h2>
-            <p><b>{{ .Site.Params.blog1.text1Title }}</b>{{ .Site.Params.blog1.text1 }}</p>
-            <p><b>{{ .Site.Params.blog1.text2Title }}</b>{{ .Site.Params.blog1.text2 }}</p>
-            <p><b>{{ .Site.Params.blog1.text3Title }}</b>{{ .Site.Params.blog1.text3 }}</p>
+            <p align="justify"><b>{{ .Site.Params.blog1.text1Title }}</b>{{ .Site.Params.blog1.text1 }}</p>
+            <p align="justify"><b>{{ .Site.Params.blog1.text2Title }}</b>{{ .Site.Params.blog1.text2 }}</p>
+            <p align="justify"><b>{{ .Site.Params.blog1.text3Title }}</b>{{ .Site.Params.blog1.text3 }}</p>
             <h2>{{ .Site.Params.venue.title }}</h2>
-            <p>{{ .Site.Params.venue.italic }}</p>
+            <p align="justify">{{ .Site.Params.venue.italic }}</p>
             <h2>{{ .Site.Params.organizers.title }}</h2>
-            <p><li>{{ .Site.Params.organizers.text1 }}</li>
+            <p align="justify"><li>{{ .Site.Params.organizers.text1 }}</li>
             <li align = "justify">{{ .Site.Params.organizers.text2 }}</li>
             <li align = "justify">{{ .Site.Params.organizers.text3 }}</li></p>
           </div>
-          <p>{{ .Site.Params.wrapper.paragraph | markdownify }}</p>
+          <p align="justify">{{ .Site.Params.wrapper.paragraph | markdownify }}</p>
         </div>
       </div><!-- .col-md-7 close -->
       {{ partial "sidebar.html" . }}
