@@ -1,0 +1,91 @@
+{{ partial "global-header.html" . }}
+
+{{ $data := index .Site.Data .Site.Language.Lang }}
+<section id = "accommodation">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-9 col-sm-6">
+        <div class="block">
+          <div>
+            <h1>{{ $data.accommodation.title }}</h1>
+            <div class="google-map" style="margin-bottom: 10px">
+              {{ $data.accommodation.googleMap | markdownify}}
+            </div>
+          </div>
+          {{ if $data.accommodation.address.enable }}
+          {{ range $data.accommodation.AltHotelInformation }}
+          <div>
+            <h3>{{ .title }}</h3>
+            <div id="banner" style="overflow: hidden;justify-content:space-around;margin-bottom: 30px">
+              <div class="" style="max-width:100%;max-height: 20%;display: inline-block;">{{ .googleMap | markdownify }}</div>
+              <div class="" style="max-width: 100%;max-height: 20%;display: inline-block;margin-left: 15px;">
+              <li>{{ .numberOfStars }}</li>
+              <li><a href="{{ .link }}">{{ .textLink }}</a></li>
+              <li>{{ .walkingDistance }}</li>
+              <li>{{ .cost }}</li>
+              <li>{{ .telephone }}</li>
+              <li><a href="mailto:{{ .email }}">{{ .email }}</a></li></div>
+            </div>
+            {{ end }}
+            {{ end }}
+          </div>
+          {{ if $data.accommodation.address.enable }}
+          {{ range $data.accommodation.BonaventureHotelInformation }}
+          <div>
+            <h3>{{ .title }}</h3>
+            <div id="banner" style="overflow: hidden;justify-content:space-around;margin-bottom: 30px">
+              <div class="" style="max-width:100%;max-height: 20%;display: inline-block;">{{ .googleMap | markdownify }}</div>
+              <div class="" style="max-width: 100%;max-height: 20%;display: inline-block;margin-left: 15px;">
+              <li>{{ .numberOfStars }}</li>
+              <li><a href="{{ .link }}">{{ .textLink }}</a></li>
+              <li>{{ .walkingDistance }}</li>
+              <li>{{ .cost }}</li>
+              <li>{{ .telephone }}</li>
+              <li><a href="mailto:{{ .email }}">{{ .email }}</a></li></div>
+            </div>
+            {{ end }}
+            {{ end }}
+
+          </div>
+          {{ if $data.accommodation.address.enable }}
+          {{ range $data.accommodation.MarriottHotelInformation }}
+          <div>
+            <h3>{{ .title }}</h3>
+            <div id="banner" style="overflow: hidden;justify-content:space-around;margin-bottom: 30px">
+              <div class="" style="max-width:100%;max-height: 20%;display: inline-block;">{{ .googleMap | markdownify }}</div>
+              <div class="" style="max-width: 100%;max-height: 20%;display: inline-block;margin-left: 15px;">
+              <li>{{ .numberOfStars }}</li>
+              <li><a href="{{ .link }}">{{ .textLink }}</a></li>
+              <li>{{ .walkingDistance }}</li>
+              <li>{{ .cost }}</li>
+              <li>{{ .telephone }}</li>
+            </div>
+            </div>
+            {{ end }}
+            {{ end }}
+
+          </div>
+          {{ if $data.accommodation.address.enable }}
+          {{ range $data.accommodation.FairmountHotelInformation }}
+          <div style="margin-bottom: 90px">
+            <h3>{{ .title }}</h3>
+            <div id="banner" style="overflow: hidden;justify-content:space-around;margin-bottom: 30px">
+              <div class="" style="max-width:100%;max-height: 20%;display: inline-block;">{{ .googleMap | markdownify }}</div>
+              <div class="" style="max-width: 100%;max-height: 20%;display: inline-block;margin-left: 15px;">
+              <li>{{ .numberOfStars }}</li>
+              <li><a href="{{ .link }}">{{ .textLink }}</a></li>
+              <li>{{ .walkingDistance }}</li>
+              <li>{{ .cost }}</li>
+              <li>{{ .telephone }}</li>
+              <li><a href="mailto:{{ .email }}">{{ .email }}</a></li></div>
+            </div>
+            {{ end }}
+            {{ end }}
+
+          </div>
+        </div>
+      </div>
+      {{ partial "sidebar.html" . }}
+    </div>
+  </div>
+</section>

@@ -16,7 +16,7 @@ title2: Public transport from Montréal International Airport
 address:
   enable : true
 addresses:
-  - title : "747 Express bus"
+  - title : "747 Express Bus"
     image : "/img/747bus.jpg"
     text : "Take the 747 Express bus from the YUL airport to Lionel-Groulx metro station (There are two 747 lines, take the one to Lionel Groulx). From Lionel Groulx metro station take the orange line to Bonaventure metro station. Take exit Station Bonaventure - Édicule De la Cathédrale.
     Head southeast on Rue de la Cathédrale toward Rue Saint-Antoine O. Turn right onto Rue Notre-Dame Ouest.
