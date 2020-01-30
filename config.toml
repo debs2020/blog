@@ -100,7 +100,7 @@ theme = "debs2020-hugo-theme"
         weight = 2
         name = "Program Committee"
         parent = "COMMITTEE"
-        url = ""
+        url = "/programcommittee"
 
     [[Languages.en.menu.header]]
     weight = 4
