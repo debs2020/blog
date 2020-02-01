@@ -10,7 +10,7 @@ AltHotelInformation:
     textLink: "Alt hotels official website"
     googleMap: '<iframe width="100%" height="200px" src="https://maps.google.com/maps?q=Alt%20hotel%20montreal&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>'
     walkingDistance: "In walking distance (550m) to the venue."
-    cost: "Around 170 CAD (129.99 USD) per night."
+    cost: "Around 189 CAD (142 USD) per night."
     telephone: "+1 855 823 8120"
     email: "reservations.montreal@althotels.ca"
     numberOfStars: 3-star hotel
@@ -21,7 +21,7 @@ BonaventureHotelInformation:
     textLink: "Bonaventure hotel official website"
     googleMap: '<iframe width="100%" height="200px" src="https://maps.google.com/maps?q=hotel%20bonaventure&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>'
     walkingDistance: "In walking distance (750m) to the venue."
-    cost: "Around 140 CAD (106.99 USD) per night."
+    cost: "Around 300 CAD (227 USD) per night."
     telephone: "+1 800 267 2575"
     email: "reservations@hotelbonaventure.com"
     numberOfStars: 4-star hotel
@@ -32,7 +32,7 @@ MarriottHotelInformation:
     textLink: "Marriott Chateau Champlain official website"
     googleMap: '<iframe width="100%" height="200px" src="https://maps.google.com/maps?q=marriot%20chateau&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>'
     walkingDistance: "In walking distance (650m) to the venue."
-    cost: "Around 175 CAD (133 USD) per night."
+    cost: "Around 270 CAD (204 USD) per night."
     telephone: "+1 888 236 2427"
     email: ""
     numberOfStars: 4-star hotel
@@ -43,7 +43,7 @@ FairmountHotelInformation:
     textLink: "Fairmont official website"
     googleMap: '<iframe width="100%" height="200px" src="https://maps.google.com/maps?q=fairmount%20the%20queen%20elizabeth&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>'
     walkingDistance: "In walking distance (1100m) to the venue."
-    cost: "Around 230 CAD (175 USD) per night."
+    cost: "Around 380 CAD (287 USD) per night."
     telephone: "+1 800 257 7544"
     email: "reservations@fairmont.com"
     numberOfStars: 4-star hotel
