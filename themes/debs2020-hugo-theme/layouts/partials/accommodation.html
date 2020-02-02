@@ -10,7 +10,7 @@
           {{ range $data.accommodation.AltHotelInformation }}
           <div>
             <h1>{{ $data.accommodation.mainHotelTitle }}</h1>
-            <p>{{ $data.accommodation.text | markdownify }}</p>
+            <p align = "justify">{{ $data.accommodation.text | markdownify }}</p>
             <h3>{{ .title }}</h3>
             <div id="banner" style="overflow: hidden;justify-content:space-around;margin-bottom: 30px">
               <div class="" style="max-width:100%;max-height: 20%;display: inline-block;">{{ .googleMap | markdownify }}</div>
