@@ -1,0 +1,51 @@
+objective:
+  title: Objective
+  texts:
+    - text: The goal of the Doctoral Symposium is to provide a supportive setting in which Ph.D. students can present and receive feedback on their work. Students at different stages in their research will be able to present and discuss their problem statement, goals, methods and results. The forum aims to provide students with useful guidance on various aspects of their research from established researchers and other Ph.D. students working in research areas related to distributed event-based systems. Additionally, the forum aims to enable Ph.D. students to interact with other participants in order to stimulate an exchange of ideas, suggestions and experiences.
+    - text: The symposium welcomes submissions by Ph.D. candidates working on the topics of DEBS 2020. Accepted submissions will lead to a presentation during the doctoral symposium, and may additionally provide an opportunity to present a poster at the main conference.
+    - text: Short papers will be published in a Doctoral Symposium section of the DEBS proceedings. The choice of short paper is to ensure that future publication of the work in conferences/journals is not precluded, while still providing an opportunity to receive citations. Accepted submissions will be made available electronically to all participants.
+
+importantDates: Important Dates
+dates:
+  enable : true
+
+  list:
+    - info : <li>Doctoral symposium paper submission <b>May 10th, 2020</b></li>
+    - info : <li>Notification of acceptance <b>May 20th, 2020</b></li>
+    - info : <li>Camera ready deadline <b>May 28th, 2020</b></li>
+    - info : <li>Conference <b>July 13 &ndash; 17th, 2020</b></li>
+
+eligibility:
+  - title: Eligibility
+    text: The forum is open to all Ph.D. students. Ph.D. students at the beginning of their research journey are particularly welcome when they have a well-defined problem statement and some ideas about the solution that they want to discuss. Ph.D. students in a more advanced stage of their research should still have a sufficient time remaining before completing their dissertation so as to be able to benefit from feedback provided from participation in the DEBS Doctoral Symposium.
+
+submissionGuidelines:
+  - title: Submission Guidelines
+    text1: "Submissions should be written based on the following structure, which focuses on the key methodological components required for a sound research synthesis:"
+    text2: 'Submissions must be no longer than 4 pages and must adhere to the two column ACM conference proceeding style. Templates and examples in LaTeX and various versions of Microsoft Word are available for download from the ACM Master Article Template web pages at <a href="https://www.acm.org/publications/proceedings-template">https://www.acm.org/publications/proceedings-template</a>. Papers must be in PDF (Adobe’s Portable Document Format) format and must be submitted electronically.'
+    text3: 'Submissions must be single-author, on the topic of the doctoral work. The name of the supervisor must be clearly marked ("supervised by …") on the paper, under the author’s name.'
+
+events:
+  enable : true
+
+  eventsList:
+    - type : Problem
+      info : Describe the core problem of the Ph.D. and motivate its relevance.
+
+    - type : State of the art
+      info : Describe relevant related work.
+
+    - type : Proposed approach
+      info : Present the approach taken and motivate how this is novel with respect to existing works; sketch the methodology.
+
+    - type : Preliminary results
+      info : Describe the current status of the work and any results that have been reached so far.
+
+    - type : Conclusions and future work
+      info : Conclude and specify the major items of future work.
+
+submission:
+  title: Submission
+  texts:
+    - text: 'Please submit proposals via HotCRP at <a href="https://debs2020-doctoral-symposium.hotcrp.com/">https://debs2020-doctoral-symposium.hotcrp.com/</a>.'
+    - text: 'Inquiries can be sent to <a href="mailto:debs2020-doctoral-symposium@cs.otago.ac.nz">debs2020-doctoral-symposium@cs.otago.ac.nz</a>.'

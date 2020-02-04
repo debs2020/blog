@@ -53,7 +53,7 @@ theme = "debs2020-hugo-theme"
       weight = 1
       name = "Call for Research Papers"
       parent = "CALLS"
-      url = "/callforresearchpapers"
+      url = "/call-for-research-papers"
 
       [[Languages.en.menu.header]]
       weight = 2
@@ -83,7 +83,7 @@ theme = "debs2020-hugo-theme"
       weight = 6
       name = "Call for Doctoral Symposium"
       parent = "CALLS"
-      url = ""
+      url = "/call-for-doctoral-symposium"
 
     [[Languages.en.menu.header]]
     weight = 3
@@ -208,7 +208,7 @@ theme = "debs2020-hugo-theme"
     enable = true
     title = "DEBS 2020"
     subtitle = "14TH ACM INTERNATIONAL CONFERENCE ON DISTRIBUTED AND EVENT-BASED SYSTEMS"
-    date = "13th - 17th July 2020"
+    date = "13th &ndash; 17th July 2020"
     place = "Montreal, Quebec, Canada"
     bgImage = "img/Montreal.jpg"
     bgImageAlt = "img/Montreal.jpg"
