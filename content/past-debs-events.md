@@ -1,6 +1,6 @@
 +++
 title = "PAST DEBS EVENTS"
-id = "pastdebsevents"
+id = "past-debs-events"
 description = "Past DEBS events"
 bgImage = "img/Montreal.jpg"
 bgImageAlt = "img/Montreal.jpg"

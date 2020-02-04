@@ -59,25 +59,25 @@ theme = "debs2020-hugo-theme"
       weight = 2
       name = "Call for Industry Papers"
       parent = "CALLS"
-      url = "/callforindustrypapers"
+      url = "/call-for-industry-papers"
 
       [[Languages.en.menu.header]]
       weight = 3
       name = "Call for Tutorials"
       parent = "CALLS"
-      url = "/callfortutorials"
+      url = "/call-for-tutorials"
 
       [[Languages.en.menu.header]]
       weight = 4
       name = "Call for Grand Challenge Solutions"
       parent = "CALLS"
-      url = "/callforgrandchallengesolutions"
+      url = "/call-for-grand-challenge-solutions"
 
       [[Languages.en.menu.header]]
       weight = 5
       name = "Call for Posters and Demos"
       parent = "CALLS"
-      url = "/callforpostersanddemos"
+      url = "/call-for-posters-and-demos"
 
       [[Languages.en.menu.header]]
       weight = 6
@@ -94,13 +94,13 @@ theme = "debs2020-hugo-theme"
         weight = 1
         name = "Organizing Committee"
         parent = "COMMITTEE"
-        url = "/organizingcommittee"
+        url = "/organizing-committee"
 
         [[Languages.en.menu.header]]
         weight = 2
         name = "Program Committee"
         parent = "COMMITTEE"
-        url = "/programcommittee"
+        url = "/program-committee"
 
     [[Languages.en.menu.header]]
     weight = 4
@@ -111,19 +111,19 @@ theme = "debs2020-hugo-theme"
       weight = 1
       name = "Important Dates"
       parent = "CONFERENCE INFO"
-      url = "/importantdates"
+      url = "/important-dates"
 
       [[Languages.en.menu.header]]
       weight = 2
       name = "Venue Information"
       parent = "CONFERENCE INFO"
-      url = "/venueinformation"
+      url = "/venue-information"
 
       [[Languages.en.menu.header]]
       weight = 3
       name = "Past DEBS Events"
       parent = "CONFERENCE INFO"
-      url = "/pastdebsevents"
+      url = "/past-debs-events"
 
       [[Languages.en.menu.header]]
       weight = 4
@@ -135,7 +135,7 @@ theme = "debs2020-hugo-theme"
       weight = 5
       name = "Visa Information"
       parent = "CONFERENCE INFO"
-      url = "/visainformation"
+      url = "/visa-information"
 
     [[Languages.en.menu.header]]
     weight = 5

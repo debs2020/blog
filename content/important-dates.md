@@ -1,6 +1,6 @@
 +++
 title = "IMPORTANT DATES"
-id = "importantdates"
+id = "important-dates"
 description = "Important dates"
 bgImage = "img/Montreal.jpg"
 bgImageAlt = "img/Montreal.jpg"

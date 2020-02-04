@@ -1,6 +1,6 @@
 +++
 title = "VISA INFORMATION"
-id = "visainformation"
+id = "visa-information"
 description = "Visa information"
 bgImage = "img/Montreal.jpg"
 bgImageAlt = "img/Montreal.jpg"
