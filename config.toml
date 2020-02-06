@@ -121,18 +121,24 @@ theme = "debs2020-hugo-theme"
 
       [[Languages.en.menu.header]]
       weight = 3
+      name = "Tourist Information"
+      parent = "CONFERENCE INFO"
+      url = "/tourist-information"
+
+      [[Languages.en.menu.header]]
+      weight = 4
       name = "Past DEBS Events"
       parent = "CONFERENCE INFO"
       url = "/past-debs-events"
 
       [[Languages.en.menu.header]]
-      weight = 4
+      weight = 5
       name = "Accommodation"
       parent = "CONFERENCE INFO"
       url = "/accommodation"
 
       [[Languages.en.menu.header]]
-      weight = 5
+      weight = 6
       name = "Visa Information"
       parent = "CONFERENCE INFO"
       url = "/visa-information"

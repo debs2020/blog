@@ -1,0 +1,34 @@
+{{ partial "global-header.html" . }}
+
+{{ $data := index .Site.Data .Site.Language.Lang }}
+<section id = "tourist-formation">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-9 col-sm-6">
+        <div class="block" style="margin-bottom: 100px">
+          <div>
+            {{ range $data.touristinformation.tourism }}
+            <h1>{{ .title }}</h1>
+            <p align="justify">{{ .text }}</p>
+              <div class="" style="max-width:100%;max-height: 20%;">{{ .googleMap | markdownify }}</div>
+              {{ .places | markdownify }}
+            {{ end }}
+          </div>
+          <div>
+            <h1>{{ $data.touristinformation.placesList.title }}</h1>
+            {{ range $data.touristinformation.placesList.places }}
+            <li>{{ .name }}</li>
+            {{ end }}
+          </div>
+          <div style="margin-bottom: 100px;">
+            <h1>{{ $data.touristinformation.RestaurantsList.title }}</h1>
+            {{ range $data.touristinformation.RestaurantsList.places }}
+            <li>{{ .name }}</li>
+            {{ end }}
+          </div>
+        </div>
+      </div>
+      {{ partial "sidebar.html" . }}
+    </div>
+  </div>
+</section>
