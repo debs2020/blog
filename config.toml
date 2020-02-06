@@ -257,7 +257,7 @@ theme = "debs2020-hugo-theme"
     content = "The conference venue will be the École de technologie supérieure (ÉTS). Specializing in education and applied research in engineering and technology transfer to companies, ÉTS trains engineers and researchers who stand apart because of their practical and innovative approach. We offer approximately 100 different study programs for undergraduate, graduate and doctoral students in five departments."
     [Languages.en.params.feature.button]
       caption = "Venue Information"
-      url = "/venueinformation"
+      url = "/venue-information"
 
   [Languages.en.params.call]
     enable = false
