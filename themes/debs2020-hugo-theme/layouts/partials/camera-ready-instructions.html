@@ -1,0 +1,42 @@
+{{ partial "global-header.html" . }}
+
+{{ $data := index .Site.Data .Site.Language.Lang }}
+<section id = "camera-ready-instructions">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-9 col-sm-6">
+        <div class="block">
+          <div>
+            {{ $data.camerareadyinstructions.intro.title | markdownify }}
+            {{ $data.camerareadyinstructions.intro.text1 | markdownify }}
+            {{ $data.camerareadyinstructions.intro.text2 | markdownify }}
+          </div>
+          <div style="margin-bottom: 15px">
+            {{ $data.camerareadyinstructions.dates.importantDates }}
+            {{ range $data.camerareadyinstructions.dates.list }}
+            {{.info | markdownify}}
+            {{ end }}
+          </div>
+          <div>
+            {{ range $data.camerareadyinstructions.cameraReadyInstructions.texts }}
+            {{.text | markdownify}}
+            {{ end }}
+          </div>
+          <div>
+            {{ $data.camerareadyinstructions.ACMCopyRight.title | markdownify }}
+            {{ range $data.camerareadyinstructions.ACMCopyRight.texts }}
+            {{.text | markdownify}}
+            {{ end }}
+          </div>
+          <div>
+            {{ $data.camerareadyinstructions.requirements.title | markdownify }}
+            {{ range $data.camerareadyinstructions.requirements.texts }}
+            {{.text | markdownify}}
+            {{ end }}
+          </div>
+        </div>
+      </div>
+      {{ partial "sidebar.html" . }}
+    </div>
+  </div>
+</section>

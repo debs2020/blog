@@ -1,0 +1,96 @@
+
+intro:
+  title: '<h1>Camera Ready Instructions for DEBS 2020 papers</h1>'
+  text1: '<p align = "justify">Authors of accepted papers should have already received reviewer comments by email. Please take them into account carefully when preparing your camera-ready paper for the proceedings.</p>'
+  text2: '<p align = "justify">The final paper and the signed copyright form are due on:</p>'
+
+dates:
+  enable : true
+  list:
+    - info : <li>Research and industry tracks <b>March 20th, 2020 AoE</b></li>
+    - info : <li>Poster, Demo and doctoral symposium <b>May 10th, 2020 AoE</b></li>
+    - info : <li>Grand Challenge and Tutorials <b>May 3rd, 2020 AoE</b></li>
+
+cameraReadyInstructions:
+  texts:
+    - text : '<p align = "justify">This is a <b>firm deadline</b> for inclusion of your paper in the proceedings.</p>'
+    - text : '<p align = "justify">Furthermore, please note that we expect to receive at least <u>one non-student full conference registration</u> for each paper, accepted in the research, industry and grand challenge tracks. For each accepted poster or demo, there must be at least one student or non-student conference registration. The deadline for research and industry registrations is TBD. All other papers require an author registration by TBD. If the registration is not received in time, the paper will not be included in the proceedings.</p>'
+    - text : '<p align = "justify">The DEBS 2020 Proceedings will be published under ACM (Association for Computing Machinery) copyright, under their usual <a href="https://www.acm.org/publications/policies/copyright-policy">copyright and permissions policy</a>.</p>'
+
+ACMCopyRight:
+  title: "<h1>ACM Copyright Form to be completed</h1>"
+  texts:
+    - text : '<p align = "justify">The contact author of an accepted paper will receive an email with a link to the appropriate ACM electronic form to sign. The ACM form usually only takes moments to complete. <b>Please give this matter your immediate attention, after you receive the link for the appropriate ACM copyrights and permissions form.</b></p>'
+    - text : '<p align = "justify"><b>Note:</b> Usually, only one ACM copyright form is needed, and it can be signed by the lead or contact author. A second form may be requested from co-presenters depending on any US or foreign government affiliations. The ACM Copyrights-Permission office will notify you if a second form is needed.</p>'
+
+requirements:
+  title: '<h1>Requirements for preparing your final paper version</h1>'
+  texts:
+    - text : '<p align = "justify">ACM provides a template for Microsoft Word and a template for LaTeX. However, ACM is currently in the process of revamping its Word template. <u>We highly recommend that the LaTeX template be used.</u></p>'
+    - text : '<h3><font size="5">Microsoft Word instructions</font></h3>'
+    - text : '<p align = "justify">Please download the ACM “Interim Template” Word document (Interim layout.docx) from ACM <a href="https://www.acm.org/publications/proceedings-template">here</a>. There is also a sample PDF file produced with the Word template.</p>'
+    - text: '<p align = "justify">We strongly encourage you to review the sample file above so you will be aware of the mandatory sections, copyright strip information (see next step), formatting requirements, font requirements, font sizes, and spacing required for the final version.</p>'
+    - text : '<p align = "justify">The correct ACM DEBS 2020 copyright-permission notice needs to be inserted in the sample files above, see page 1, bottom of column 1 before you submit your final version. The ACM rights management process will email the lead author this information when the online ACM copyright form is completed. There are three different forms of copyright block. ACM rights management system will automatically send you the correct copyright text based on the form you choose. A custom DOI URL will also be included in that email.</p>'
+    - text : '<p align = "justify">Please double-check that your produced document matches the details in the email sent you by the rights management system, and that you have included your full DOI URL.</p>'
+    - text : '<p align = "justify">This statement must be in 7 point Libertine font, with the first paragraph text justified, with DEBS ‘20 (the venue acronym) in italics. Refer to the “Interim-layout.docx” sample file to view how the ACM copyright statement should appear -- you should preserve the original formatting.</p>'
+    - text : '<h3><font size="5">LaTeX instructions</font></h3>'
+    - text : '<p align = "justify"><b>Note:</b> the main problem that occurs with submissions generated with pdflatex is that the fonts are not embedded properly. This most often occurs because vector images included from your LaTeX do not themselves embed their fonts. If we find problems with your PDF, and you are unable to submit a revised version with correctly embedded fonts, we may have to take a less desirable and less safe route: that you submit a PostScript (PS) version, from which we produce PDF.</p>'
+    - text : '<p align = "justify"><b>Template:</b> Please use <u>the sigconf proceedings template</u> from the <a href="https://www.acm.org/publications/proceedings-template">ACM Master article template for LaTeX</a> (acmart class) for your submission (under the LaTeX Authors section). Please follow the instructions given on the page, and please have a look / start from the sample file “sample-sigconf.tex” in the acmart package. Even if you have already downloaded the package for another conference, you should download it again as ACM often makes changes to their template and publishes new versions. If you submit a paper using an outdated version of the template, you might be required to update to a newer version.</p>'
+    - text : '<p align = "justify"><b>Fonts:</b> Type 1 or TrueType fonts must be used (this will usually happen by default).
+Type 3 fonts are not permitted. TrueType fonts are permitted, but will be tested for any problems which may need to be rectified. For help on obtaining the correct type of fonts, see this hint in the ACM FAQ list.
+Inserting the following commands before your \begin{document} will improve the page layout:</p>'
+    - text : '<li>\clubpenalty=10000</li>'
+    - text : '<li style="margin-bottom: 15px">\clubpenalty=10000</li>'
+    - text : '<p align = "justify"><b>Camera-ready:</b> Should your paper be accepted, when preparing the camera-ready version of your paper, the ACM copyright form will provide you with a block of LaTeX code to be included in the “Rights management information” section of the header. Please double-check that your produced document matches the details in the email sent to you by the rights management system, and that you have included your full DOI URL. We will be issuing a reminder by email prior to the final submission deadline.</p>'
+    - text : '<h3><font size="5">Mandatory fields for your submission’s preparation and submission page fields</font></h3>'
+    - text : '<p align = "justify">Please continue reading for additional information on preparing your final paper including the requirements for Page Size, File Naming Scheme, ACM Classification Sections, Images, Figures, Illustrations, 3rd Party Material Permissions, Bad Breaks, Creating an ACM compliant PDF, Optional accompanying thumbnail image and caption.</p>'
+    - text : '<h3><font size="5">Page size</font></h3>'
+    - text : '<p align = "justify">The page size for this ACM publication is US Letter Portrait (8.5×11 inches). Submissions that do not conform to the ACM SIG standards, templates, and formats will be returned to the author for corrections and/or alterations.</p>'
+    - text : '<h3><font size="5">File naming scheme</font></h3>'
+    - text : '<p align = "justify">Name your final submission according to the ACM convention: firstauthorname.pdf (e.g. JanetSmith.pdf) using the name of the first author.</p>'
+    - text : '<h3><font size="5">Title</font></h3>'
+    - text : '<p align = "justify">Must be in Initial Caps Meaning First Letter of the Main Words Should be Made Capital Letters</p>'
+    - text : '<li>Note the Capital Letter “M” in Must, Meaning, and Main</li>'
+    - text : '<li>Note the Capital Letter “C” in Caps and Capital</li>'
+    - text : '<li style="margin-bottom: 15px">Note the Capital Letter “L” in Letter and Letters</li>'
+    - text : '<p align = "justify"><b>Prefixes:</b> In order to distinguish different paper types, it is mandatory to prefix your title with</p>'
+    - text : '<li><b>Grand Challenge:</b> if your paper belongs to this category</li>'
+    - text : '<li><b>Tutorial:</b> if your paper is a tutorial paper</li>'
+    - text : '<li><b>Demo:</b> if you are presenting a demo</li>'
+    - text : '<li><b>Poster:</b> if you are describing your poster</li>'
+    - text : '<li><b>Industry Paper:</b> if you have a paper in the industry track</li>'
+    - text : '<li><b>Doctoral Symposium:</b> if you have a paper in the PhD Symposium</li>'
+    - text : '<h3><font size="5">Authors’ complete names, email, affiliation and affiliation location</font></h3>'
+    - text : '<p align = "justify">Prior to submitting, be sure to update the final version of your PDF to include all authors full names, and correct affiliation names, location, and other information under the title of the paper. See the first page of the <a href="http://ctan.uib.no/macros/latex/contrib/acmart/samples/sample-sigconf.pdf">ACM sample pdf</a>.</p>'
+    - text : '<h3><font size="5">Abstract</font></h3>'
+    - text : '<p align = "justify">Authors must include a brief summary (abstract) of their work in the first section of their submission after the title, authors, and affiliation information on the first page. See the first page of the <a href="http://ctan.uib.no/macros/latex/contrib/acmart/samples/sample-sigconf.pdf">ACM sample pdf</a>.</p>'
+    - text : '<h3><font size="5">References</font></h3>'
+    - text : '<p align = "justify">Authors must include all works cited in their submission in a References section at the end of the paper or extended abstract. See page 4 of <a href="http://ctan.uib.no/macros/latex/contrib/acmart/samples/sample-sigconf.pdf">ACM sample pdf</a>. Also refer to the <a href="https://www.acm.org/publications/authors/reference-formatting">ACM citation style and reference formats</a>.</p>'
+    - text : '<h3><font size="5">ACM Classification Sections</font></h3>'
+    - text : '<p align = "justify">The <b>Categories and Subject Descriptors</b> and <b>Keywords</b> are mandatory by ACM on the first page of your submission after the Abstract. See the first page of the <a href="http://ctan.uib.no/macros/latex/contrib/acmart/samples/sample-sigconf.pdf">ACM sample pdf</a> for information about how these two sections should appear in your submission.</p>'
+    - text : '<p align = "justify"><b>Read this section carefully.</b> Your selections for the three sections are mandatory on the submission page when submitting your final version.</p>'
+    - text : '<p align = "justify"><b>Categories and Subject Descriptors (Mandatory for the first page of your paper):</b> Make sure that your selection included on the first page of your paper are also chosen accordingly on the submission page. <a href="https://www.acm.org/publications/class-2012">Click here for information on the ACM Computing Classification Scheme</a>. The new templates enable you to import required indexing concepts for your article from the <a href="https://www.acm.org/publications/class-2012">ACM Computing Classification System (CCS)</a> using an <a href="https://dl.acm.org/ccs">indexing support tool</a> found in the ACM Digital Library (DL) which generates the necessary LaTeX code once you have selected your terms.</p>'
+    - text : '<p align = "justify"><b>Keywords:</b> This section is your (author) choice of terms that you would like used to index your work.</p>'
+    - text : '<h3><font size="5">Bad breaks</font></h3>'
+    - text : '<p align = "justify">Be sure you do not have bad page breaks or bad column breaks. One example of a bad column break is a widow, which occurs when the last line of a paragraph that begins at the bottom of one column appears by itself at the top of the next column). If this happens, tighten the previous column to bring it back, or force an additional line of text over to the next column.</p>'
+    - text : '<p align = "justify">Also make sure that Section and Sub-section headings have at least two lines of body text below them when they appear at the end of a page or column.</p>'
+    - text : '<h3><font size="5">Third party material</font></h3>'
+    - text : '<p align = "justify">In the event, any element used in your material contains the work of third-parties, it is the author/presenter’s responsibility to secure any necessary permissions and/or licenses, and the authors will provide the same permissions in writing to the ACM. If the copyright holder requires a citation to a copyrighted work, it is the authors’ responsibility to include the correct wording and citations to the copyrighted material in their submissions.</p>'
+    - text : '<h3><font size="5">Images and figures</font></h3>'
+    - text : '<p align = "justify">Below are some recommendations to ensure good print reproduction of the images, figures, and illustrations utilized in your submission.</p>'
+    - text : '<p align = "justify"><b>Colors and Black & White (Gray Scale) Print Testing.</b> If you have any images in color, please print your paper out in black and white to ensure that the tones and screens used in your images or figures reproduce well in black and white, too. However, your images will appear in full color in any distributed electronic proceedings and in the ACM digital library.</p>'
+    - text : '<p align = "justify"><b>Resolution & CMYK.</b> Figures, charts, and diagrams should use a vector image format (e.g. PDF, SVG). Raster images (e.g. photographs) should be at least 300 or 600 dpi for quality reproduction and saved as .tiff images (or other compatible formats that support print-quality resolution). When creating or revising your images for inclusion in the paper, we recommend choosing CMYK (and not RGB) as the color profile.</p>'
+    - text : '<p align = "justify"><b>TIFF/PNG versus JPG (JPEG) image.</b> For raster images (e.g. photos), TIFFs are preferred for press applications where quality takes priority over file size. When TIFFs are compressed (using LZW compression option when saving from Adobe Photoshop, for example), no image data is lost, thus ensuring maximum quality. A JPEG is a compressed image format designed to keep the file size small, which makes it ideal for use in web graphics. However, to achieve this, the JPEG format actually removes precision from the image. This is referred to as a lossy compression system. On a printout, the removed data tends to show up as blocky areas of a solid color, or ghosting near high-contrast changes. At higher print resolutions (a minimum of 200 dpi), there’s usually enough data in the JPEG file for the compression artefacts to be very noticeable.</p>'
+    - text : '<p align = "justify"><b>Rules/Lines.</b> Rules used in your graphs, tables or charts must be at least 0.5 point in stroke and black for quality reproduction. Finer lines and points than this will not reproduce well, even if you can see them on your laser printed hardcopy when checked — your laser printers will usually have a far lower resolution than the imagesetters that will be used.</p>'
+    - text : '<p align = "justify"><b>Fonts.</b> If your figure uses custom or any non-standard font, the characters may appear differently when printed in the proceedings. Remember to check your figure creation to ensure that all fonts are embedded or included in the figure correctly. Be sure that your images do not contain any Type 3 fonts.</p>'
+    - text : '<p align = "justify"><b>Transparency.</b> If a figure or image is assembled from multiple images, the images must be embedded, and layers be flattened or grouped together properly in the file. Transparency <b>must</b> be flattened.</p>'
+    - text : '<h3><font size="5">Page numbering, headers, and footers</font></h3>'
+    - text : '<p align = "justify">Your final submission <b>MUST NOT</b> contain any footer or header string information at the top or bottom of each page, nor any page numbering. The submissions will be paginated in a determined order by the chairs and page numbers added to the PDF during the compiling, indexing, and pagination process.</p>'
+    - text : '<h3><font size="5">Acknowledgements</font></h3>'
+    - text : '<p align = "justify">It is the contact or submitting author’s responsibility to be sure that any funding or special contribution acknowledgements are included in the final version submitted as required by any research, financial, or other grants received (by using the “Acknowledgements” section before the References section). See page 4 of the <a href="http://ctan.uib.no/macros/latex/contrib/acmart/samples/sample-sigconf.pdf">ACM sample pdf</a>.</p>'
+    - text : '<h3><font size="5">Submitting the Required Files</font></h3>'
+    - text : '<p align = "justify">When your final version is ready, you need to upload your zip file with PDF and source files using <b>HotCrp</b>. As an accepted author, you have access to the proceedings section of <b>HotCrp</b>.</p>'
+    - text : '<p align = "justify">You will see a confirmation screen after a successful upload to HotCrp. As well, a confirmation email will be sent to the contact’s email address entered on the submission page.</p>'
+    - text : '<p align = "justify">If changes are needed, you will be contacted by one of the publication coordinators in case you need to fix something. If this is true, you will receive specific information about how to revise your submission to meet requirements, and a new deadline will be given to submit the corrected material. You are required by the chairs to adhere to this NEW deadline so publication is not delayed.</p>'
+    - text : '<h3><font size="5">Questions</font></h3>'
+    - text : '<p align = "justify" style="margin-bottom: 90px">If you still have questions or problems about the copyrights and formatting requirements, please email <a href="mailto:julien.gascon-samson@etsmtl.ca">julien.gascon-samson@etsmtl.ca</a> <b>with the conference name (DEBS 2020) in the subject line</b>.</p>'
