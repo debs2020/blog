@@ -63,18 +63,18 @@ h6 {
 }
 
 h1 {
-  font-size: 30px;
+  font-size: 27px;
   font-weight: 400;
   margin-top: 60px;
 }
 
 h2 {
-  font-size: 30px;
-  font-weight: 400;
+  font-size: 26px;
+  font-weight: 350;
 }
 
 h3 {
-  font-size: 28px;
+  font-size: 25px;
   font-weight: 300;
   margin-top: 60px;
 }
@@ -504,7 +504,7 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 
 #clients-logo-section .clients-logo-img {
-  padding:0px 110px;
+  padding:0px 100px;
 }
 
 /*---------------------------------------------
@@ -538,14 +538,14 @@ font header .navbar-default .navbar-nav li a:hover {
 #global-header .block {
   color: #E3E3E4;
   margin: 0 auto;
-  padding-left: 80px;
+  padding-left: 10px;
   text-align: center;
 }
 
 #global-header .block h1 {
   font-weight: 100;
-  font-size: 25px;
-  letter-spacing: 6px;
+  font-size: 19px;
+  letter-spacing: 5px;
   padding-bottom: 15px;
   margin-top: 0;
   text-transform: capitalize;

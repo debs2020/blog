@@ -102,6 +102,12 @@ theme = "debs2020-hugo-theme"
         parent = "COMMITTEE"
         url = "/program-committee"
 
+        [[Languages.en.menu.header]]
+        weight = 3
+        name = "Poster and Demo PC"
+        parent = "COMMITTEE"
+        url = "/poster-demo-pc"
+
     [[Languages.en.menu.header]]
     weight = 4
     name = "CONFERENCE INFO"
