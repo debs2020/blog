@@ -104,6 +104,12 @@ theme = "debs2020-hugo-theme"
 
         [[Languages.en.menu.header]]
         weight = 3
+        name = "Industry PC"
+        parent = "COMMITTEE"
+        url = "/industry-pc"
+
+        [[Languages.en.menu.header]]
+        weight = 4
         name = "Poster and Demo PC"
         parent = "COMMITTEE"
         url = "/poster-demo-pc"
