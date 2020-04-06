@@ -30,7 +30,7 @@ secondCat1:
   - info : <li>Each new pair of features (active and reactive power) are added to window W<sub>2</sub>.</li>
   - info : '<li>The DBSCAN algorithm is applied to the window: it has a forward and a backward pass.</li>'
 secondCat2:
-  - info : <li>If an event is not detected and window W<sub>2</sub> contains more than 100 elements, the earliest pair of features is removed.</li>
+  - info : <li>If an event is not detected and window W<sub>2</sub> contains more than 100 elements, the window is then emptied.</li>
 
 thirdCat1:
   - info : '<li>Forward pass:</li>'
