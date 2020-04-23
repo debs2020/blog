@@ -27,3 +27,9 @@ events:
       info : <li>Large logo on our web site and handouts</li>
              <li>Two free registrations</li>
              <li>Possibility to have a booth at the conference venue</li>
+
+sponsor:
+  enable : true
+  title : Gold Sponsor
+  logo : "/img/clients/clients-logo5.png"
+  link : "https://euranova.eu/"
