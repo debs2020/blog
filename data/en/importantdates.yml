@@ -21,13 +21,10 @@ events:
     - event : Author Notification Industry Track
       date : May 3rd, 2020
 
-    - event : Doctoral Symposium Submission
-      date : May 10th, 2020
-
     - event : Author Notification Research Track
       date :  <del>May 3rd</del> May 18th, 2020
 
-    - event : Poster and Demo Submission
+    - event : Poster, Demo and Doctoral Symposium Submission
       date :  <del>May 10th</del> May 18th, 2020
 
     - event : Camera Ready for All Tracks
