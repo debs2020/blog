@@ -21,9 +21,9 @@ dates:
   enable : true
 
   list:
-    - info : <li>Poster and demo paper submissions <b><del>May 10th</del> May 18th, 2020</b></li>
-    - info : <li>Author notification <b><del>May 17th</del> May 25th, 2020</b></li>
-    - info : <li>Camera ready deadline <b>May 28th, 2020</b></li>
+    - info : <li>Poster and demo paper submissions <b><del>May 18th</del> May 25th, 2020</b></li>
+    - info : <li>Author notification <b><del>May 25th</del> June 1st, 2020</b></li>
+    - info : <li>Camera ready deadline <b><del>May 28th</del> June 4th, 2020</b></li>
     - info : <li>Conference <b>July 13 &ndash; 17th, 2020</b></li>
 
 submissionText: 'For submissions please use the following link: <a href="https://debs2020demos-posters.hotcrp.com/">https://debs2020demos-posters.hotcrp.com/</a>.'
