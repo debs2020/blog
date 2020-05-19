@@ -1,0 +1,48 @@
+{{ partial "global-header.html" . }}
+
+{{ $data := index .Site.Data .Site.Language.Lang }}
+<section id = "conference-registration">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-9 col-sm-6">
+        <div class="block">
+          <div>
+            <h1>{{ $data.conferenceregistration.title }}</h1>
+            {{ range $data.conferenceregistration.texts }}
+              <p>{{.text | markdownify}}</p>
+            {{ end }}
+          </div>
+          <div>
+            <table class="table table-bordered table-hover text-center">
+              <thead class="bg-gray">
+                <tr>
+                  <th class="text-center">Registration Type</th>
+                  <th class="text-center">Price</th>
+                </tr>
+              </thead>
+              <tbody>
+                {{ range $data.conferenceregistration.registrationInfo.registration }}
+                <tr>
+                  <td>{{.type | markdownify}}</td>
+                  <td>{{.fee | markdownify}}</td>
+                </tr>
+                {{ end }}
+              </tbody>
+            </table>
+          </div>
+          <div>
+            <h1>{{ $data.conferenceregistration.include.title }}</h1>
+            {{ range $data.conferenceregistration.include.texts }}
+              <p>{{.text | markdownify}}</p>
+            {{ end }}
+          </div>
+          <div>
+            <h1>{{ $data.conferenceregistration.cancelation.title }}</h1>
+            <p>{{ $data.conferenceregistration.cancelation.text | markdownify }}</p>
+          </div>
+        </div>
+      </div>
+      {{ partial "sidebar.html" . }}
+    </div>
+  </div>
+</section>

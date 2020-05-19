@@ -1,0 +1,26 @@
+title: Registration
+texts:
+  - text: "Authors should register their paper at camera ready deadline. Camera ready for all tracks is <b>June 4th, 2020</b>. If the registration is not received in time, the paper will not be included in the proceedings. It should be one author registration per paper. Everyone else can register for free, including additional authors of the same paper."
+  - text: 'To register for the conference, please click <a href="http://www.cvent.com/d/gnqjwq">here</a>.'
+  - text: "<b>Registration Fees</b> (Tax are included. No ACM discounts are offered)"
+
+registrationInfo:
+  enable : true
+
+  registration:
+    - type : Full Paper (Industry paper and main research track full papers which are 12 pages)
+      fee : "100$"
+
+    - type : Short Paper (Every other paper, which are 6 pages or less in length)
+      fee : "50$"
+
+    - type : Participant (Non author or additional author beyond the first registration)
+      fee : "0$"
+
+include:
+  title: What is included in the registration
+  texts:
+    - text: "Full conference registrations include participation in the main DEBS program."
+cancelation:
+  title: Cancellation Policy
+  text: 'Note that no cancellation and no refunds are possible.'

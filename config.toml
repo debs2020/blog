@@ -181,7 +181,7 @@ theme = "debs2020-hugo-theme"
       weight = 1
       name = "Conference Registration"
       parent = "REGISTRATION"
-      url = ""
+      url = "/conference-registration"
 
       [[Languages.en.menu.header]]
       weight = 2

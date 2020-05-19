@@ -30,11 +30,8 @@ events:
     - event : Poster & Demo Submission
       date :  <del>May 18th</del> May 25th, 2020
 
-    - event : Camera Ready for All Tracks except Poster & Demo
-      date : May 28th, 2020
-
-    - event : Camera Ready for Poster & Demo
-      date : <del>May 28th, 2020</del> June 4th, 2020
+    - event : Camera Ready for All Tracks
+      date : <del>May 28th</del> June 4th, 2020
 
     - event : Conference
       date : July 13th &ndash; 17th, 2020
