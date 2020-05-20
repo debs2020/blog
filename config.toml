@@ -230,7 +230,7 @@ theme = "debs2020-hugo-theme"
   [Languages.en.params.venue]
     enable = true
     title = "venue"
-    italic = "DEBS 2020 will be hosted by École de technologie supérieure in Montreal, QC, Canada."
+    italic = "DEBS 2020 will be hosted by École de Technologie Supérieure in Montreal, QC, Canada."
 
   [Languages.en.params.organizers]
     enable = true
@@ -244,7 +244,7 @@ theme = "debs2020-hugo-theme"
     title = "École de technologie supérieure"
     bgImage = "img/campus.png"
     bgImageAlt = "img/campus.png"
-    content = "The conference will be hosted by the École de technologie supérieure (ÉTS). Specializing in education and applied research in engineering and technology transfer to companies, ÉTS trains engineers and researchers who stand apart because of their practical and innovative approach. We offer approximately 100 different study programs for undergraduate, graduate and doctoral students in five departments."
+    content = "The conference will be hosted by École de Technologie Supérieure (ÉTS). Specializing in education and applied research in engineering and technology transfer to companies, ÉTS trains engineers and researchers who stand apart because of their practical and innovative approach. We offer approximately 100 different study programs for undergraduate, graduate, and doctoral students in five departments."
 
 
   [Languages.en.params.call]
