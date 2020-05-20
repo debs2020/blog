@@ -9,7 +9,7 @@
           <div>
             <h1>{{ $data.conferenceregistration.title }}</h1>
             {{ range $data.conferenceregistration.texts }}
-              <p>{{.text | markdownify}}</p>
+              <p align = "justify">{{.text | markdownify}}</p>
             {{ end }}
           </div>
           <div>
@@ -33,12 +33,12 @@
           <div>
             <h1>{{ $data.conferenceregistration.include.title }}</h1>
             {{ range $data.conferenceregistration.include.texts }}
-              <p>{{.text | markdownify}}</p>
+              <p align = "justify">{{.text | markdownify}}</p>
             {{ end }}
           </div>
           <div>
             <h1>{{ $data.conferenceregistration.cancelation.title }}</h1>
-            <p>{{ $data.conferenceregistration.cancelation.text | markdownify }}</p>
+            <p align = "justify">{{ $data.conferenceregistration.cancelation.text | markdownify }}</p>
           </div>
         </div>
       </div>

@@ -7,20 +7,20 @@ intro:
 dates:
   enable : true
   list:
-    - info : <li>Research and industry tracks <b>March 20th, 2020 AoE</b></li>
-    - info : <li>Poster, Demo and doctoral symposium <b>May 10th, 2020 AoE</b></li>
-    - info : <li>Grand Challenge and Tutorials <b>May 3rd, 2020 AoE</b></li>
+    - info : <li>Research and industry tracks <b><del>March 20th</del> June 4th, 2020 AoE</b></li>
+    - info : <li>Poster, Demo and doctoral symposium <b><del>May 10th</del> June 4th, 2020 AoE</b></li>
+    - info : <li>Grand Challenge and Tutorials <b><del>May 3rd</del> May 28th, 2020 AoE</b></li>
 
 cameraReadyInstructions:
   texts:
-    - text : '<p align = "justify">This is a <b>firm deadline</b> for inclusion of your paper in the proceedings.</p>'
-    - text : '<p align = "justify">Furthermore, please note that we expect to receive at least <u>one non-student full conference registration</u> for each paper, accepted in the research, industry and grand challenge tracks. For each accepted poster or demo, there must be at least one student or non-student conference registration. The deadline for research and industry registrations is TBD. All other papers require an author registration by TBD. If the registration is not received in time, the paper will not be included in the proceedings.</p>'
+    - text : '<p align = "justify">Furthermore, please note that we expect to receive at least <u>one non-student full conference registration</u> for each paper, accepted in the research, industry and grand challenge tracks. For each accepted poster or demo, there must be at least one student or non-student conference registration. If the registration is not received in time, the paper will not be included in the proceedings.</p>'
     - text : '<p align = "justify">The DEBS 2020 Proceedings will be published under ACM (Association for Computing Machinery) copyright, under their usual <a href="https://www.acm.org/publications/policies/copyright-policy">copyright and permissions policy</a>.</p>'
 
 ACMCopyRight:
   title: "<h1>ACM Copyright Form to be completed</h1>"
   texts:
-    - text : '<p align = "justify">The contact author of an accepted paper will receive an email with a link to the appropriate ACM electronic form to sign. The ACM form usually only takes moments to complete. <b>Please give this matter your immediate attention, after you receive the link for the appropriate ACM copyrights and permissions form.</b></p>'
+    - text : '<p align = "justify"></b>Authors of accepted papers need to log-in to the HotCrp site corresponding to the track that they submitted their paper to. On the submission page for their paper, there will be a link to the ACM e-Rights form that need to be filled and submitted (this is the same page as for the camera-ready submission).</p>'
+    - text : '<p align = "justify"><b>Very important -- for DEBS 2020:</b> Given that the conference will be held virtually, if you intend to participate in the conference remotely, then <u>you must agree to videotaping in your eRights form.</u>'
     - text : '<p align = "justify"><b>Note:</b> Usually, only one ACM copyright form is needed, and it can be signed by the lead or contact author. A second form may be requested from co-presenters depending on any US or foreign government affiliations. The ACM Copyrights-Permission office will notify you if a second form is needed.</p>'
 
 requirements:
@@ -41,7 +41,7 @@ Type 3 fonts are not permitted. TrueType fonts are permitted, but will be tested
 Inserting the following commands before your \begin{document} will improve the page layout:</p>'
     - text : '<li>\clubpenalty=10000</li>'
     - text : '<li style="margin-bottom: 15px">\clubpenalty=10000</li>'
-    - text : '<p align = "justify"><b>Camera-ready:</b> Should your paper be accepted, when preparing the camera-ready version of your paper, the ACM copyright form will provide you with a block of LaTeX code to be included in the “Rights management information” section of the header. Please double-check that your produced document matches the details in the email sent to you by the rights management system, and that you have included your full DOI URL. We will be issuing a reminder by email prior to the final submission deadline.</p>'
+    - text : '<p align = "justify"><b>Camera-ready copyright header:</b> The ACM copyright form will provide you with a block of LaTeX code to be included in the “Rights management information” section of the header. Please double-check that your produced document matches the details in the email sent to you by the rights management system, and that you have included your full DOI URL.</p>'
     - text : '<h3><font size="5">Mandatory fields for your submission’s preparation and submission page fields</font></h3>'
     - text : '<p align = "justify">Please continue reading for additional information on preparing your final paper including the requirements for Page Size, File Naming Scheme, ACM Classification Sections, Images, Figures, Illustrations, 3rd Party Material Permissions, Bad Breaks, Creating an ACM compliant PDF, Optional accompanying thumbnail image and caption.</p>'
     - text : '<h3><font size="5">Page size</font></h3>'
