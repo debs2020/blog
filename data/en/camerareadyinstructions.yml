@@ -13,7 +13,7 @@ dates:
 
 cameraReadyInstructions:
   texts:
-    - text : '<p align = "justify">Furthermore, please note that we expect to receive at least <u>one non-student full conference registration</u> for each paper, accepted in the research, industry and grand challenge tracks. For each accepted poster or demo, there must be at least one student or non-student conference registration. If the registration is not received in time, the paper will not be included in the proceedings.</p>'
+    - text : '<p align = "justify">Furthermore, please note that each paper should be registered in order to be included in the proceedings. Please see the registration page for more details.</p>'
     - text : '<p align = "justify">The DEBS 2020 Proceedings will be published under ACM (Association for Computing Machinery) copyright, under their usual <a href="https://www.acm.org/publications/policies/copyright-policy">copyright and permissions policy</a>.</p>'
 
 ACMCopyRight:

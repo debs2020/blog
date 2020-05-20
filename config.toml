@@ -125,35 +125,13 @@ theme = "debs2020-hugo-theme"
       parent = "CONFERENCE INFO"
       url = "/important-dates"
 
+
       [[Languages.en.menu.header]]
       weight = 2
-      name = "Venue Information"
-      parent = "CONFERENCE INFO"
-      url = "/venue-information"
-
-      [[Languages.en.menu.header]]
-      weight = 3
-      name = "Tourist Information"
-      parent = "CONFERENCE INFO"
-      url = "/tourist-information"
-
-      [[Languages.en.menu.header]]
-      weight = 4
       name = "Past DEBS Events"
       parent = "CONFERENCE INFO"
       url = "/past-debs-events"
 
-      [[Languages.en.menu.header]]
-      weight = 5
-      name = "Accommodation"
-      parent = "CONFERENCE INFO"
-      url = "/accommodation"
-
-      [[Languages.en.menu.header]]
-      weight = 6
-      name = "Visa Information"
-      parent = "CONFERENCE INFO"
-      url = "/visa-information"
 
     [[Languages.en.menu.header]]
     weight = 5
@@ -189,11 +167,6 @@ theme = "debs2020-hugo-theme"
       parent = "REGISTRATION"
       url = "/camera-ready-instructions"
 
-      [[Languages.en.menu.header]]
-      weight = 3
-      name = "Travel Grants"
-      parent = "REGISTRATION"
-      url = ""
 
     [[Languages.en.menu.header]]
     weight = 7
