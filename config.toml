@@ -230,7 +230,7 @@ theme = "debs2020-hugo-theme"
   [Languages.en.params.venue]
     enable = true
     title = "venue"
-    italic = "DEBS 2020 will be hosted by École de Technologie Supérieure in Montreal, QC, Canada."
+    italic = "DEBS 2020 will be hosted online by École de Technologie Supérieure in Montreal, QC, Canada."
 
   [Languages.en.params.organizers]
     enable = true

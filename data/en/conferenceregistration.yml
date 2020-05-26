@@ -20,7 +20,7 @@ registrationInfo:
 include:
   title: What is included in the registration
   texts:
-    - text: "Full conference registrations include participation in the main DEBS program."
+    - text: "Full conference registrations include participation in the main DEBS program and pre-conference program."
 cancelation:
   title: Cancellation Policy
   text: 'Note that no cancellation and no refunds are possible.'
