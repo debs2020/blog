@@ -1,6 +1,6 @@
 
 intro:
-  title: '<h1>Camera Ready Instructions for DEBS 2020 papers</h1>'
+  title: '<h1>Camera Ready Instructions for DEBS 2020 Papers</h1>'
   text1: '<p align = "justify">Authors of accepted papers should have already received reviewer comments by email. Please take them into account carefully when preparing your camera-ready paper for the proceedings.</p>'
   text2: '<p align = "justify">The final paper and the signed copyright form are due on:</p>'
 
@@ -17,14 +17,14 @@ cameraReadyInstructions:
     - text : '<p align = "justify">The DEBS 2020 Proceedings will be published under ACM (Association for Computing Machinery) copyright, under their usual <a href="https://www.acm.org/publications/policies/copyright-policy">copyright and permissions policy</a>.</p>'
 
 ACMCopyRight:
-  title: "<h1>ACM Copyright Form to be completed</h1>"
+  title: "<h1>ACM Copyright Form to be Completed</h1>"
   texts:
     - text : '<p align = "justify"></b>Authors of accepted papers need to log-in to the HotCrp site corresponding to the track that they submitted their paper to. On the submission page for their paper, there will be a link to the ACM e-Rights form that need to be filled and submitted (this is the same page as for the camera-ready submission).</p>'
     - text : '<p align = "justify"><b>Very important -- for DEBS 2020:</b> Given that the conference will be held virtually, if you intend to participate in the conference remotely, then <u>you must agree to videotaping in your eRights form.</u>'
     - text : '<p align = "justify"><b>Note:</b> Usually, only one ACM copyright form is needed, and it can be signed by the lead or contact author. A second form may be requested from co-presenters depending on any US or foreign government affiliations. The ACM Copyrights-Permission office will notify you if a second form is needed.</p>'
 
 requirements:
-  title: '<h1>Requirements for preparing your final paper version</h1>'
+  title: '<h1>Requirements for Preparing Your Final Paper Version</h1>'
   texts:
     - text : '<p align = "justify">ACM provides a template for Microsoft Word and a template for LaTeX. However, ACM is currently in the process of revamping its Word template. <u>We highly recommend that the LaTeX template be used.</u></p>'
     - text : '<h3><font size="5">Microsoft Word instructions</font></h3>'

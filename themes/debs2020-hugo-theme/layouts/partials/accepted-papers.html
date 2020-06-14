@@ -1,0 +1,119 @@
+{{ partial "global-header.html" . }}
+
+{{ $data := index .Site.Data .Site.Language.Lang }}
+<section id = "accepted-papers">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-9 col-sm-6">
+        <div class="block">
+          <div>
+            <h1>{{ $data.acceptedpapers.paperInfo.research.title }}</h1>
+            <table class="table table-bordered table-hover text-center">
+              <thead class="bg-gray">
+                <tr>
+                  <th class="text-center">No.</th>
+                  <th class="text-center">Title</th>
+                  <th class="text-center">Author</th>
+                </tr>
+              </thead>
+              <tbody>
+                {{ range $data.acceptedpapers.paperInfo.research.fields }}
+                <tr>
+                  <td>{{ .Number | markdownify}}</td>
+                  <td style="width:60%">{{ .Title | markdownify}}</td>
+                  <td style="width:40%">{{ .Author | markdownify}}</td>
+                </tr>
+                {{ end }}
+              </tbody>
+            </table>
+          </div>
+          <div>
+            <h1>{{ $data.acceptedpapers.paperInfo.industry.title }}</h1>
+            <table class="table table-bordered table-hover text-center">
+              <thead class="bg-gray">
+                <tr>
+                  <th class="text-center">No.</th>
+                  <th class="text-center">Title</th>
+                  <th class="text-center">Author</th>
+                </tr>
+              </thead>
+              <tbody>
+                {{ range $data.acceptedpapers.paperInfo.industry.fields }}
+                <tr>
+                  <td>{{ .Number | markdownify}}</td>
+                  <td style="width:60%">{{ .Title | markdownify}}</td>
+                  <td style="width:40%">{{ .Author | markdownify}}</td>
+                </tr>
+                {{ end }}
+              </tbody>
+            </table>
+          </div>
+          <div>
+            <h1>{{ $data.acceptedpapers.paperInfo.gc.title }}</h1>
+            <table class="table table-bordered table-hover text-center">
+              <thead class="bg-gray">
+                <tr>
+                  <th class="text-center">No.</th>
+                  <th class="text-center">Title</th>
+                  <th class="text-center">Author</th>
+                </tr>
+              </thead>
+              <tbody>
+                {{ range $data.acceptedpapers.paperInfo.gc.fields }}
+                <tr>
+                  <td>{{ .Number | markdownify}}</td>
+                  <td style="width:60%">{{ .Title | markdownify}}</td>
+                  <td style="width:40%">{{ .Author | markdownify}}</td>
+                </tr>
+                {{ end }}
+              </tbody>
+            </table>
+          </div>
+          <div>
+            <h1>{{ $data.acceptedpapers.paperInfo.tutorial.title }}</h1>
+            <table class="table table-bordered table-hover text-center">
+              <thead class="bg-gray">
+                <tr>
+                  <th class="text-center">No.</th>
+                  <th class="text-center">Title</th>
+                  <th class="text-center">Author</th>
+                </tr>
+              </thead>
+              <tbody>
+                {{ range $data.acceptedpapers.paperInfo.tutorial.fields }}
+                <tr>
+                  <td>{{ .Number | markdownify}}</td>
+                  <td style="width:60%">{{ .Title | markdownify}}</td>
+                  <td style="width:40%">{{ .Author | markdownify}}</td>
+                </tr>
+                {{ end }}
+              </tbody>
+            </table>
+          </div>
+          <div style="margin-bottom: 150px">
+            <h1>{{ $data.acceptedpapers.paperInfo.DS.title }}</h1>
+            <table class="table table-bordered table-hover text-center">
+              <thead class="bg-gray">
+                <tr>
+                  <th class="text-center">No.</th>
+                  <th class="text-center">Title</th>
+                  <th class="text-center">Author</th>
+                </tr>
+              </thead>
+              <tbody>
+                {{ range $data.acceptedpapers.paperInfo.DS.fields }}
+                <tr>
+                  <td>{{ .Number | markdownify}}</td>
+                  <td style="width:60%">{{ .Title | markdownify}}</td>
+                  <td style="width:40%">{{ .Author | markdownify}}</td>
+                </tr>
+                {{ end }}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      {{ partial "sidebar.html" . }}
+    </div>
+  </div>
+</section>

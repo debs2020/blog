@@ -150,6 +150,12 @@ theme = "debs2020-hugo-theme"
       parent = "PROGRAM"
       url = ""
 
+      [[Languages.en.menu.header]]
+      weight = 3
+      name = "Accepted Papers"
+      parent = "PROGRAM"
+      url = "/accepted-papers"
+
     [[Languages.en.menu.header]]
     weight = 6
     name = "REGISTRATION"
