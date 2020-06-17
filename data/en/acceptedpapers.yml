@@ -13,112 +13,112 @@ paperInfo:
         Author : "Omar Farhat, Harsh Bindra, Khuzaima Daudjee (University of Waterloo)"
 
       - Number : "3"
-        Title : "EdgeScaler: Effective Elastic Scaling for Graph Stream Processing Systems"
-        Author : "Daniel Presser, Frank Siqueira (Universidade Federal de Santa Catarina); Luis Rodrigues (INESC-ID, IST, ULisboa); Paolo Romano (IST/INESC-ID)"
-
-      - Number : "4"
-        Title : "Mechanisms for Outsourcing Computation via a Decentralized Market"
-        Author : "Scott Eisele (Vanderbilt University); Taha Eghtesad, Nicholas Troutman, Aron Laszka (University of Houston); Abhishek Dubey (Vanderbilt University)"
-
-      - Number : "5"
-        Title : "FaasDom: A Benchmark Suite for Serverless Computing"
-        Author : "Pascal Maissen (University of Fribourg, Switzerland); Pascal Felber, Peter Kropf, Valerio Schiavoni (University of Neuchatel, Switzerland)"
-
-      - Number : "6"
-        Title : "ByzGame: Byzantine Generals Game"
-        Author : "James Clavin, Pradeep M. Prakash, Sisi Duan (University of Maryland, Baltimore County)"
-
-      - Number : "7"
-        Title : "The Kaiju Project: Enabling Event-Driven Observability"
-        Author : "Mario Scrocca (Politecnico di Milano); Riccardo Tommasini (University of Tartu); Alessandro Margara, Emanuele Della Valle (Politecnico di Milano); Sherif Sakr (University of Tartu)"
-
-      - Number : "8"
-        Title : "DeepMatch: Deep Matching for In-Vehicle Presence Detection in Transportation"
-        Author : "Magnus Oplenskedal (Norwegian University of Science and Technology); Amir Taherkordi (University of Oslo); Peter Herrmann (Norwegian University of Science and Technology)"
-
-      - Number : "9"
-        Title : "hSPICE: State-Aware Event Shedding in Complex Event Processing"
-        Author : "Ahmad Slo, Sukanya Bhowmik, Kurt Rothermel (University of Stuttgart)"
-
-      - Number : "10"
-        Title : "RocketBufs: A Framework for Building Efficient, In-Memory, Message-Oriented Middleware"
-        Author : "Huy Hoang, Ben Cassell, Tim Brecht, Samer Al-Kiswany (University of Waterloo)"
-
-      - Number : "11"
         Title : "A Survey of Adaptive Sampling and Filtering Algorithms for the Internet of Things"
         Author : "Dimitrios Giouroukis, Alexander Dadiani, Jonas Traub, Steffen Zeuch, Volker Markl (Technische Universität Berlin)"
 
 
-      - Number : "12"
+      - Number : "4"
+        Title : "EdgeScaler: Effective Elastic Scaling for Graph Stream Processing Systems"
+        Author : "Daniel Presser, Frank Siqueira (Universidade Federal de Santa Catarina); Luis Rodrigues (INESC-ID, IST, ULisboa); Paolo Romano (IST/INESC-ID)"
+
+      - Number : "5"
         Title : "On the Tracking of Sensitive Data and Confidential Executions"
         Author : "José Roberto Nascimento Júnior, José B. S. Nunes, Eduardo Lucena Falcão, Lilia Sampaio, Andrey Brito (Federal University of Campina Grande (UFCG))"
 
-      - Number : "13"
+      - Number : "6"
         Title : "Hermes: Enabling Energy-efficient IoT Networks with Generalized Deduplication"
         Author : "Christian Göttel (University of Neuchatel, Switzerland); Lars Nielsen, Niloofar Yazdani (Aarhus University); Pascal Felber (University of Neuchatel, Switzerland); Daniel E. Lucani (Aarhus University); Valerio Schiavoni (University of Neuchatel, Switzerland)"
+
+      - Number : "7"
+        Title : "Mechanisms for Outsourcing Computation via a Decentralized Market"
+        Author : "Scott Eisele (Vanderbilt University); Taha Eghtesad, Nicholas Troutman, Aron Laszka (University of Houston); Abhishek Dubey (Vanderbilt University)"
+
+      - Number : "8"
+        Title : "FaasDom: A Benchmark Suite for Serverless Computing"
+        Author : "Pascal Maissen (University of Fribourg, Switzerland); Pascal Felber, Peter Kropf, Valerio Schiavoni (University of Neuchatel, Switzerland)"
+
+      - Number : "9"
+        Title : "ByzGame: Byzantine Generals Game"
+        Author : "James Clavin, Pradeep M. Prakash, Sisi Duan (University of Maryland, Baltimore County)"
+
+      - Number : "10"
+        Title : "The Kaiju Project: Enabling Event-Driven Observability"
+        Author : "Mario Scrocca (Politecnico di Milano); Riccardo Tommasini (University of Tartu); Alessandro Margara, Emanuele Della Valle (Politecnico di Milano); Sherif Sakr (University of Tartu)"
+
+      - Number : "11"
+        Title : "DeepMatch: Deep Matching for In-Vehicle Presence Detection in Transportation"
+        Author : "Magnus Oplenskedal (Norwegian University of Science and Technology); Amir Taherkordi (University of Oslo); Peter Herrmann (Norwegian University of Science and Technology)"
+
+      - Number : "12"
+        Title : "hSPICE: State-Aware Event Shedding in Complex Event Processing"
+        Author : "Ahmad Slo, Sukanya Bhowmik, Kurt Rothermel (University of Stuttgart)"
+
+      - Number : "13"
+        Title : "RocketBufs: A Framework for Building Efficient, In-Memory, Message-Oriented Middleware"
+        Author : "Huy Hoang, Ben Cassell, Tim Brecht, Samer Al-Kiswany (University of Waterloo)"
 
   industry:
     title: Industry Track
     fields:
       - Number : "1"
+        Title : "TinTiN: Travelling in Time (if Necessary) to deal with out-of-order data in streaming aggregation"
+        Author : "Joris van Rooij (Göteborg Energi); Vincenzo Gulisano, Marina Papatriantafilou (Chalmers University of Technology)"
+
+      - Number : "2"
+        Title : "On the Performance of Commodity Hardware for Low Latency and Low Jitter Packet Processing"
+        Author : "Charalampos Stylianopoulos, Magnus Almgren, Olaf Landsiedel, Marina Papatriantafilou (Chalmers University of Technology); Trevor Neish, Linus Gillander, Bengt Johansson, Staffan Bonnier (Ericsson)"
+
+      - Number : "3"
         Title : "Classification of vessel activity in streaming data"
         Author : "Ioannis Kontopoulos (Harokopio University of Athens); Konstantinos Chatzikokolakis (MarineTraffic); Konstantinos Tserpes (Harokopio University of Athens); Dimitris Zissis (MarineTraffic)"
 
-      - Number : "2"
-        Title : "Industry Paper: Managing Geo-Distributed Stream Processing Pipelines for the IIoT with StreamPipes Edge Extensions"
-        Author : "Patrick Wiener, Philipp Zehnder, Dominik Riemer (FZI Research Center for Information Technology)"
-
-      - Number : "3"
-        Title : "Industry Paper: TinTiN: Travelling in Time (if Necessary) to deal with out-of-order data in streaming aggregation"
-        Author : "Joris van Rooij (Göteborg Energi); Vincenzo Gulisano, Marina Papatriantafilou (Chalmers University of Technology)"
-
       - Number : "4"
-        Title : "Industry Paper: On the Performance of Commodity Hardware for Low Latency and Low Jitter Packet Processing"
-        Author : "Charalampos Stylianopoulos, Magnus Almgren, Olaf Landsiedel, Marina Papatriantafilou (Chalmers University of Technology); Trevor Neish, Linus Gillander, Bengt Johansson, Staffan Bonnier (Ericsson)"
+        Title : "Managing Geo-Distributed Stream Processing Pipelines for the IIoT with StreamPipes Edge Extensions"
+        Author : "Patrick Wiener, Philipp Zehnder, Dominik Riemer (FZI Research Center for Information Technology)"
 
   gc:
     title: Grand Challenge Track
     fields:
       - Number : "1"
+        Title : "The DEBS 2020 Grand Challenge"
+        Author : "Vincenzo Gulisano (Chalmers University of Technology, Sweden); Daniel Jorde, Ruben Mayer (Technical University of Munich, Germany); Hannaneh Najdataei, Dimitris Palyvos-Giannas (Chalmers University of Technology, Sweden)"
+
+      - Number : "2"
         Title : "Incremental Stream Query Analytics"
         Author : "Pedro Silva, Wang Yue, Tilmann Rabl (Hasso Plattner Institute, University of Potsdam)"
 
-      - Number : "2"
-        Title : "Grand Challenge: Real-time Detection of Smart Meter Events with Odysseus"
+      - Number : "3"
+        Title : "Real-time Detection of Smart Meter Events with Odysseus"
         Author : "Michael Brand (University of Oldenburg); Tobias Brandt (OFFIS); Marco Grawunder (University of Oldenburg)"
 
-      - Number : "3"
-        Title : "Grand Challenge: Anomaly Detection for NILM task with Apache Flink"
+      - Number : "4"
+        Title : "Anomaly Detection for NILM task with Apache Flink"
         Author : "Zongshun Zhang, Ethan Go (Boston University)"
 
-      - Number : "4"
-        Title : "Grand Challenge: Using Streaming Data and Apache Flink to Infer Energy Consumption"
+      - Number : "5"
+        Title : "Using Streaming Data and Apache Flink to Infer Energy Consumption"
         Author : "Michael Hendrick, Manuja DeSilva (Boston University)"
 
-      - Number : "5"
-        Title : "Grand Challenge: Optimized Parallel Implementation of Sequential Clustering-Based Event Detection"
-        Author : "Gengtao Xu, Jing Qin, Runqi Tian (Boston University)"
-
       - Number : "6"
-        Title : "The DEBS 2020 Grand Challenge"
-        Author : "Vincenzo Gulisano (Chalmers University of Technology, Sweden); Daniel Jorde, Ruben Mayer (Technical University of Munich, Germany); Hannaneh Najdataei, Dimitris Palyvos-Giannas (Chalmers University of Technology, Sweden)"
+        Title : "Optimized Parallel Implementation of Sequential Clustering-Based Event Detection"
+        Author : "Gengtao Xu, Jing Qin, Runqi Tian (Boston University)"
 
   tutorial:
     title: Tutorial Track
     fields:
       - Number : "1"
-        Title : "Tutorial: The Role of Event-Time Analysis Order in Data Streaming"
+        Title : "The Role of Event-Time Analysis Order in Data Streaming"
         Author : "Vincenzo Gulisano (Chalmers University of Technology); Bastian Havers (Chalmers University of Technology & Volvo Cars); Dimitrios Palyvos-Giannas, Marina Papatriantafilou (Chalmers University of Technology)"
 
       - Number : "2"
-        Title : "Tutorial: Blockchain Consensus Unraveled: Virtues and Limitations"
+        Title : "Blockchain Consensus Unraveled: Virtues and Limitations"
         Author : "Suyash Gupta, Jelle Hellings, Sajjad Rahnama, Mohammad Sadoghi (University of California, Davis)"
 
   DS:
     title: Doctoral Symposium Track
     fields:
       - Number : "1"
-        Title : "Doctoral Symposium: Quantitative Performance-Reliability Trade-off Analysis of Thermal-Constrained Scheduling Strategies in Multi-Core Systems"
+        Title : "Quantitative Performance-Reliability Trade-off Analysis of Thermal-Constrained Scheduling Strategies in Multi-Core Systems"
         Author : "Muhammad Usama Sardar (Technische Universität Dresden)"
 
       - Number : "2"
