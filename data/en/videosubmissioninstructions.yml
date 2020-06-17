@@ -1,0 +1,31 @@
+title: "Video Submission Instructions"
+date: "<b>Video submission deadline:</b> July 3rd, 2020 (acmdebs2020@gmail.com)"
+content:
+  - text: "Sign in to <a href=https://www.youtube.com/>YouTube</a>."
+  - text: "At the top right corner, select the Create video or more button -> Upload Video as shown in the following figure: <img src=/img/youtube.png width=100% margin-top=30px>"
+  - text: "Select the video file you would like to upload."
+  - text: "While your video is being processed, click on “Details” of the video to fill in information. Your video title should be in the following format: <b>TITLE (ACM DEBS 2020)</b>. Note that the title should contain the <b>prefix</b> according to the <a href=/camera-ready-instructions/>camera-ready instructions</a>."
+  - text: "In the description section, please include the track (Research, Industry, Grand Challenge, …), paper ID (which can be found from HotCRP) and the names of the authors."
+  - text: "Under visibility, please select “Unlisted” or “Public”. The difference is that an unlisted video will be indexed by the YouTube search engine. Click <b>“Save”</b> once done."
+  - text: "You can optionally go to the “Subtitles” section to manually enter subtitles for your video, which will be displayed during the live broadcast. <b>Please ensure the subtitles are accurate</b>."
+  - text: "Once your video is available, please copy the link by viewing the video page on YouTube and sharing its link."
+
+instructions:
+  title: "Instructions for Emailing Your Youtube Video Link"
+  text: "<b>Please send the video link by email to the DEBS organizers according to the following instructions:</b>"
+  listContent:
+    - text: "Email subject must be titled with your paper ID # and presenter last name: <br><b>DEBS 2020 Video Link: PAPERID#_PRESENTER-LASTNAME</b>"
+    - text: "Email body should contain:"
+  innerList:
+    - text: "Paper ID and track"
+    - text: "YouTube video link"
+    - text: "Name of the speaker in the video"
+    - text: "A short 3-4 lines biography of the speaker"
+  texts:
+    - text: "Below is a sample format for the email:"
+    - text: "<b>Title: “DEBS 2020 Video Link: 1_DOE”</b>"
+    - text: "<b>Paper ID and Track:</b> #1, Research track"
+    - text: "Video Link: https://youtu.be/a1b2c3def_g (or https://www.youtube.com/watch?v=a1b2c3def_g) "
+    - text: "<b>Presenter Full Name:</b> John Doe"
+    - text: "<b>Presenter Bio:</b> Lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum lorum ipsum."
+    - text: "The above email should be sent to: <b>acmdebs2020@gmail.com</b> by <b>July 3rd, 2020</b>. If you have any difficulty following these instructions, please contact the chairs of your track or the general chairs immediately."

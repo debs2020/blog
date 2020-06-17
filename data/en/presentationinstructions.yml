@@ -1,0 +1,42 @@
+title : "Presentation Instructions"
+date: "<b>Video submission deadline:</b> July 3rd, 2020 (Please see <a href=/video-submission-instructions/>this page</a> for more info)"
+
+overview:
+  title: "Overview"
+  text: "To ensure smooth operation for our online program, talks are pre-recorded and uploaded to be streamed during each session. Instructions on how to submit and upload videos can be found <a href=/video-submission-instructions/>this page</a>. Authors must attend their respective Zoom sessions for the Q&A immediately following the broadcast of their video, according to the moderation of the session chair. In addition, dedicated Slack channels for each session will be available throughout the conference to allow for asynchronous discussions and to coordinate the sessions."
+
+duration:
+  title : "Duration of video files"
+  texts:
+    - text : "<b>Full papers (12 pages):</b> 15 minutes"
+    - text : "<b>Short papers (6 pages):</b> 12 minutes"
+    - text : "<b>File format:</b> .mp4 using the H.264 and AAC codecs in accordance with YouTube <a href=https://support.google.com/youtube/answer/1722171?hl=en>guidelines</a>."
+    - text : "<b>Video quality:</b> at least HD (720p)"
+    - text : "<b>Audio quality:</b> please verify that your speech is clear before uploading (you may wish to include subtitles)"
+
+QA:
+  title: "Q&A during the session"
+  texts:
+    - text: "Authors <b>must attend</b> their respective Zoom sessions for the Q&A immediately following the broadcast of their video, according to the moderation of the session chair:"
+    - text: "<b>Full papers (12 pages):</b> 3 minutes"
+    - text: "<b>Short papers (6 pages):</b> 3 minutes"
+
+
+content:
+  title: "Content of the video recording"
+  texts:
+    - text: "Authors should treat the video recording as a direct substitute for a physical presentation. The audio should contain a spoken narration of the presentation. The accompanying video should contain a full walkthrough of the presentation slides, which are clearly visible. In addition, the presenter is strongly encouraged to overlay a thumbnail-sized camera feed showing the speaker."
+    - text: '<span style="color: red">In addition, please add some 2-3 discussion points to your conclusion slide.</span> As the talks are intentionally kept short for the online format, it is likely that there are points not discussed during the presentation, such as technical details or future work. Please include these in your conclusion slide to facilitate questions during the Q&A.'
+
+resource:
+  title : "Resources"
+  texts:
+    - text : "We recommend the following resources to record your video:"
+    - text : "<a href=https://www.youtube.com/playlist?list=PLsLWHLZB96VeVp3IVzvSH58ttVz_Anr7H>ASPLOS 2020 YouTube Channel:</a> Example conference presentation videos."
+    - text : "<a href=https://medium.com/sigchi/a-remote-video-presentation-guide-93957c63aa7a>Remove Video Presentation Guide:</a> Guide for recording presentations with slides and camera overlay."
+    - text : "<a href=https://people.clarkson.edu/~jmatthew/acm/VirtualConferences_GuideToBestPractices_CURRENT.pdf>Guide to Best Practices:</a> Section 3.2 from this ACM guide presents some suggestions of equipment to use."
+    - text : "<a href=https://obsproject.com/>Open Broadcaster Software</a> is an open-source software for recording videos: scenes can be created which compose the computer screen with a camera feed."
+    - text : "<a href=https://zoom.us/>Zoom</a> provides a simple method for recording videos by simply starting a meeting in solitaire, opening the camera and sharing the screen."
+    - text : "PowerPoint also provides a mechanism for recording slides."
+
+latter: "Do not hesitate to contact the chairs of your respective track and the general chairs if you have any questions."

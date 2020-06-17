@@ -1,0 +1,49 @@
+{{ partial "global-header.html" . }}
+
+{{ $data := index .Site.Data .Site.Language.Lang }}
+<section id = "presentation-instructions">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-9 col-sm-6">
+        <div class="block">
+          <div>
+            <h1>{{ $data.presentationinstructions.title }}</h1>
+              <p style="color:red";>{{ $data.presentationinstructions.date | markdownify }}</p>
+          </div>
+          <div>
+            <h3>{{ $data.presentationinstructions.overview.title }}</h3>
+            <p align = "justify">{{ $data.presentationinstructions.overview.text | markdownify }}</p>
+          </div>
+          <div>
+            <h3>{{ $data.presentationinstructions.duration.title }}</h3>
+            {{ range $data.presentationinstructions.duration.texts }}
+              <p align = "justify">{{ .text | markdownify}}</p>
+            {{ end }}
+          </div>
+          <div>
+            <h3>{{ $data.presentationinstructions.QA.title }}</h3>
+            {{ range $data.presentationinstructions.QA.texts }}
+              <p align = "justify">{{ .text | markdownify}}</p>
+            {{ end }}
+          </div>
+          <div>
+            <h3>{{ $data.presentationinstructions.content.title }}</h3>
+            {{ range $data.presentationinstructions.content.texts }}
+              <p align = "justify">{{ .text | markdownify}}</p>
+            {{ end }}
+          </div>
+          <div>
+            <h3>{{ $data.presentationinstructions.resource.title }}</h3>
+            {{ range $data.presentationinstructions.resource.texts }}
+              <p align = "justify">{{ .text | markdownify}}</p>
+            {{ end }}
+          </div>
+          <div style="margin-bottom: 150px; margin-top: 50px;">
+            <p align = "justify">{{ $data.presentationinstructions.latter }}</p>
+          </div>
+        </div>
+      </div>
+      {{ partial "sidebar.html" . }}
+    </div>
+  </div>
+</section>

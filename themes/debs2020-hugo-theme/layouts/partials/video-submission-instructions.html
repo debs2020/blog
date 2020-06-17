@@ -1,0 +1,44 @@
+{{ partial "global-header.html" . }}
+
+{{ $data := index .Site.Data .Site.Language.Lang }}
+<section id = "video-submission-instructions">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-9 col-sm-6">
+        <div class="block">
+          <div>
+            <h1>{{ $data.videosubmissioninstructions.title }}</h1>
+            <p style="color:red";>{{ $data.videosubmissioninstructions.date | markdownify }}</p>
+          </div>
+          <div>
+            <ol align="justify">
+              {{ range $data.videosubmissioninstructions.content }}
+                <li style="margin-bottom: 25px; margin-top: 25px; font-size:16px;">{{ .text | markdownify}}</li>
+              {{ end }}
+            </ol>
+          </div>
+          <div>
+            <h1>{{ $data.videosubmissioninstructions.instructions.title }}</h1>
+            <p align="justify">{{ $data.videosubmissioninstructions.instructions.text | markdownify }}</p>
+            <ol align="justify">
+              {{ range $data.videosubmissioninstructions.instructions.listContent }}
+                <li style="margin-bottom: 25px; margin-top: 25px; font-size:16px;">{{ .text | markdownify}}</li>
+              {{ end }}
+              <ul style="list-style-type: circle; margin-left:50px;">
+                {{ range $data.videosubmissioninstructions.instructions.innerList }}
+                  <li style="margin-bottom: 25px; margin-top: 25px; font-size:16px;">{{ .text | markdownify}}</li>
+                {{ end }}
+              </ul>
+            </ol>
+          </div>
+          <div style="margin-bottom: 150px;">
+              {{ range $data.videosubmissioninstructions.instructions.texts }}
+              <p align="justify">{{ .text | markdownify}}</p>
+              {{ end }}
+          </div>
+        </div>
+      </div>
+      {{ partial "sidebar.html" . }}
+    </div>
+  </div>
+</section>
