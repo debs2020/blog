@@ -1,54 +1,19 @@
-enable: false
-title: Fun Facts About Us
-paragraph: >
-  Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics
-
-number:
-  enable : false
-numbers:
-  - icon: ion-ios-chatboxes-outline
-    counter: 2000
-    text: Cups of Coffee
-  - icon: ion-ios-glasses-outline
-    counter: 2000
-    text: Cups of Coffee
-  - icon: ion-ios-compose-outline
-    counter: 2000
-    text: Cups of Coffee
-  - icon: ion-ios-timer-outline
-    counter: 2000
-    text: Cups of Coffee
+enable: true
 
 peoples:
-  enable : false
+  enable : true
 people:
   - text: >
-      Write Something Here1
-    quoteImg: img/cotation.png
-    image: img/item-img1.jpg
-    name: Person 1
-    role: Professor
+      KEYNOTE
+    image: img/speakers/speaker1.jpg
+    name: Tamer Özsu
+    linkTo: keynote-speakers/#Tamer-Özsu
+    university: University of Waterloo
+    title: "Title: Streaming Graph Processing and Analytics"
   - text: >
-      Write Something Here2
-    quoteImg: img/cotation.png
-    image: img/item-img1.jpg
-    name: Person 2
-    role: CEO
-  - text: >
-      Write Something Here3
-    quoteImg: img/cotation.png
-    image: img/item-img1.jpg
-    name: Person 3
-    role: Web designer
-  - text: >
-      Write Something Here4
-    quoteImg: img/cotation.png
-    image: img/item-img1.jpg
-    name: Person 4
-    role: Manager
-  - text: >
-      Write Something Here5
-    quoteImg: img/cotation.png
-    image: img/item-img1.jpg
-    name: Person 5
-    role: Programmer
+      KEYNOTE
+    image: img/speakers/speaker2.jpg
+    name: Joelle Pineau
+    linkTo: keynote-speakers/#Joelle-Pineau
+    university: MILA / McGill / Facebook AI Research
+    title: "Building Reproducible, Reusable, and Robust Machine Learning Software"
