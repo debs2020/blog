@@ -4,11 +4,11 @@ keynotes:
   fields:
     - Speaker : "<b>Tamer Özsu</b><br>University of Waterloo"
       Title : "Streaming Graph Processing and Analytics"
-      Info : "<a href=#Tamer-Özsu><img src=/img/infoImg.png width=50% margin-top=30px></a>"
+      Info : "<a href=#Tamer><img src=/img/infoImg.png width=50% margin-top=30px></a>"
 
     - Speaker : "<b>Joelle Pineau</b><br>MILA / McGill / Facebook AI Research"
       Title : "Building Reproducible, Reusable, and Robust Machine Learning Software"
-      Info : "<a href=#Joelle-Pineau><img src=/img/infoImg.png width=50% margin-top=30px></a>"
+      Info : "<a href=#Joelle><img src=/img/infoImg.png width=50% margin-top=30px></a>"
 
 speaker1:
   img: '<img src=/img/speakers/speaker1.jpg width=100% height=auto">'

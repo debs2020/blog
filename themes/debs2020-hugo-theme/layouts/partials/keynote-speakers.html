@@ -1,6 +1,32 @@
 {{ partial "global-header.html" . }}
 
 {{ $data := index .Site.Data .Site.Language.Lang }}
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
 <section id = "keynote-speakers">
   <div class="container">
     <div class="row">
@@ -28,7 +54,10 @@
             </table>
             <hr>
           </div>
-          <div id="Tamer-Özsu" style="margin-top: 50px;">
+          <div id="Tamer" style="margin-bottom: 100px;">
+
+          </div>
+          <div>
             <div>
               <div class="col-md-3 mb-10">
                 {{ $data.keynotespeakers.speaker1.img | markdownify }}
@@ -51,7 +80,7 @@
           </div>
           <div>
             <div>
-              <div id="Joelle-Pineau" class="col-md-3 mb-10">
+              <div id="Joelle" class="col-md-3 mb-10">
                 {{ $data.keynotespeakers.speaker2.img | markdownify }}
               </div>
             </div>
