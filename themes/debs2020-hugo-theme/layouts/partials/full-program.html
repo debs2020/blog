@@ -51,7 +51,13 @@ $(document).ready(function(){
 }
 
 .right {
-  width: 90%;
+  width: 85%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 </style>
 <section id = "full-program">
@@ -224,7 +230,7 @@ $(document).ready(function(){
 
             </div>
             <div class="row">
-              <div class="column left" style="background:green;">
+              <div class="column left" style="background:#00C293;">
 
               </div>
               <div class="column middle">
@@ -319,7 +325,7 @@ $(document).ready(function(){
 
               </div>
               <div class="column right">
-                <h3 id="time19">{{ $data.fullprogram.keynote1.title }}</h3>
+                <h3 id="time19">{{ $data.fullprogram.keynote1.title | markdownify }}</h3>
                 <p>{{ $data.fullprogram.keynote1.chair | markdownify }}</p>
                 {{ range $data.fullprogram.keynote1.texts }}
                 <p align="justify">{{ .text | markdownify }}</p>
@@ -404,7 +410,7 @@ $(document).ready(function(){
 
               </div>
               <div class="column right">
-                <h3 id="time24">{{ $data.fullprogram.keynote2.title }}</h3>
+                <h3 id="time24">{{ $data.fullprogram.keynote2.title | markdownify }}</h3>
                 <p>{{ $data.fullprogram.keynote2.chair | markdownify }}</p>
                 {{ range $data.fullprogram.keynote2.texts }}
                 <p align="justify">{{ .text | markdownify }}</p>
