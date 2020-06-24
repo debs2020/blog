@@ -4,33 +4,33 @@ tutorial1a:
   title: "Tutorial #1a"
   chair: "<b>Chair:</b> Leonardo Querzoni (Sapienza University of Rome)"
   texts:
-    - text: "<b>The Role of Event-Time Analysis Order in Data Streaming</b> <a href = /pdf/debs20-1002.pdf/><img style = width:5% src = /img/pdfIcon.png></a><br>Vincenzo Gulisano (Chalmers University of Technology); Bastian Havers (Chalmers University of Technology & Volvo Cars); Dimitrios Palyvos-Giannas, Marina Papatriantafilou (Chalmers University of Technology)"
+    - text: "<b>The Role of Event-Time Analysis Order in Data Streaming</b> <a href = /pdf/debs20-1002.pdf><img style = width:5% src = /img/pdfIcon.png></a><br>Vincenzo Gulisano (Chalmers University of Technology); Bastian Havers (Chalmers University of Technology & Volvo Cars); Dimitrios Palyvos-Giannas, Marina Papatriantafilou (Chalmers University of Technology)"
 
 tutorial1b:
   title: "Tutorial #1b"
   chair: "<b>Chair:</b> Leonardo Querzoni (Sapienza University of Rome)"
   texts:
-    - text: "<b>The Role of Event-Time Analysis Order in Data Streaming</b> <a href = /pdf/debs20-1002.pdf/><img style = width:5% src = /img/pdfIcon.png></a><br>Vincenzo Gulisano (Chalmers University of Technology); Bastian Havers (Chalmers University of Technology & Volvo Cars); Dimitrios Palyvos-Giannas, Marina Papatriantafilou (Chalmers University of Technology)"
+    - text: "<b>The Role of Event-Time Analysis Order in Data Streaming</b> <a href = /pdf/debs20-1002.pdf><img style = width:5% src = /img/pdfIcon.png></a><br>Vincenzo Gulisano (Chalmers University of Technology); Bastian Havers (Chalmers University of Technology & Volvo Cars); Dimitrios Palyvos-Giannas, Marina Papatriantafilou (Chalmers University of Technology)"
 
 DS:
   title: "Doctoral Symposium"
   chair: "<b>Co-chairs:</b> David Eyers (University of Otago) & Roman Vitenberg (University of Oslo)"
   texts:
-    - text: "<b>Quantitative Performance-Reliability Trade-off Analysis of Thermal-Constrained Scheduling Strategies in Multi-Core Systems</b> <a href = /pdf/debs20-1003.pdf/><img style = width:5% src = /img/pdfIcon.png></a><br>Muhammad Usama Sardar (Technische Universität Dresden)"
-    - text: "<b>Pre-processing and Data Validation in IoT Data Streams</b> <a href = /pdf/debs20-1004.pdf/><img style = width:5% src = /img/pdfIcon.png></a><br>Philsy Baban (TU Ilmenau)"
-    - text: "<b>Dynamic Scaling of Distributed Data-flows under Uncertainty - Reflections of a financial analyst on the application of finance principles to Systems research</b> <a href = /pdf/debs20-3.pdf/><img style = width:5% src = /img/pdfIcon.png></a><br>Stuart Jamieson (Newcastle University, UK)"
+    - text: "<b>Quantitative Performance-Reliability Trade-off Analysis of Thermal-Constrained Scheduling Strategies in Multi-Core Systems</b> <a href = /pdf/debs20-1003.pdf><img style = width:5% src = /img/pdfIcon.png></a><br>Muhammad Usama Sardar (Technische Universität Dresden)"
+    - text: "<b>Pre-processing and Data Validation in IoT Data Streams</b> <a href = /pdf/debs20-1004.pdf><img style = width:5% src = /img/pdfIcon.png></a><br>Philsy Baban (TU Ilmenau)"
+    - text: "<b>Dynamic Scaling of Distributed Data-flows under Uncertainty - Reflections of a financial analyst on the application of finance principles to Systems research</b> <a href = /pdf/debs20-3.pdf><img style = width:5% src = /img/pdfIcon.png></a><br>Stuart Jamieson (Newcastle University, UK)"
 
 tutorial2a:
   title: "Tutorial #2a"
   chair: "<b>Chair:</b> Tilmann Rabl (Hasso Plattner Institute / University of Potsdam)"
   texts:
-    - text: "<b>Blockchain Consensus Unraveled: Virtues and Limitations</b> <a href = /pdf/debs20-2.pdf/><img style = width:5% src = /img/pdfIcon.png></a><br>Suyash Gupta (University of California, Davis); Jelle Hellings (University of California, Davis); Sajjad Rahnama (University of California, Davis); Mohammad Sadoghi (University of California, Davis)"
+    - text: "<b>Blockchain Consensus Unraveled: Virtues and Limitations</b> <a href = /pdf/debs20-2.pdf><img style = width:5% src = /img/pdfIcon.png></a><br>Suyash Gupta (University of California, Davis); Jelle Hellings (University of California, Davis); Sajjad Rahnama (University of California, Davis); Mohammad Sadoghi (University of California, Davis)"
 
 tutorial2b:
   title: "Tutorial #2b"
   chair: "<b>Chair:</b> Tilmann Rabl (Hasso Plattner Institute / University of Potsdam)"
   texts:
-    - text: "<b>Blockchain Consensus Unraveled: Virtues and Limitations</b> <a href = /pdf/debs20-2.pdf/><img style = width:5% src = /img/pdfIcon.png></a><br>Suyash Gupta (University of California, Davis); Jelle Hellings (University of California, Davis); Sajjad Rahnama (University of California, Davis); Mohammad Sadoghi (University of California, Davis)"
+    - text: "<b>Blockchain Consensus Unraveled: Virtues and Limitations</b> <a href = /pdf/debs20-2.pdf><img style = width:5% src = /img/pdfIcon.png></a><br>Suyash Gupta (University of California, Davis); Jelle Hellings (University of California, Davis); Sajjad Rahnama (University of California, Davis); Mohammad Sadoghi (University of California, Davis)"
 
 keynote1:
   title: "<a href=/keynote-speakers>Opening Speech and Keynote #1</a>"
@@ -42,18 +42,18 @@ research1:
   title: "Research #1: Events"
   chair: "<b>Chair:</b> TBA"
   texts:
-    - text: "<b>DeepMatch: Deep Matching for In-Vehicle Presence Detection in Transportation</b> <a href = /pdf/debs20-51.pdf/><img style = width:5% src = /img/pdfIcon.png></a><br>Magnus Oplenskedal (Norwegian University of Science and Technology); Amir Taherkordi (University of Oslo); Peter Herrmann (Norwegian University of Science and Technology)"
-    - text: "<b>hSPICE: State--Aware Event Shedding in Complex Event Processing</b> <a href = /pdf/debs20-52.pdf/><img style = width:5% src = /img/pdfIcon.png></a><br>Ahmad Slo, Sukanya Bhowmik, Kurt Rothermel (University of Stuttgart)"
-    - text: "<b>The Kaiju Project: Enabling Event-Driven Observability</b> <a href = /pdf/debs20-47.pdf/><img style = width:5% src = /img/pdfIcon.png></a><br>Mario Scrocca (Politecnico di Milano); Riccardo Tommasini (University of Tartu); Alessandro Margara, Emanuele Della Valle (Politecnico di Milano); Sherif Sakr (University of Tartu)"
+    - text: "<b>DeepMatch: Deep Matching for In-Vehicle Presence Detection in Transportation</b> <a href = /pdf/debs20-51.pdf><img style = width:5% src = /img/pdfIcon.png></a><br>Magnus Oplenskedal (Norwegian University of Science and Technology); Amir Taherkordi (University of Oslo); Peter Herrmann (Norwegian University of Science and Technology)"
+    - text: "<b>hSPICE: State--Aware Event Shedding in Complex Event Processing</b> <a href = /pdf/debs20-52.pdf><img style = width:5% src = /img/pdfIcon.png></a><br>Ahmad Slo, Sukanya Bhowmik, Kurt Rothermel (University of Stuttgart)"
+    - text: "<b>The Kaiju Project: Enabling Event-Driven Observability</b> <a href = /pdf/debs20-47.pdf><img style = width:5% src = /img/pdfIcon.png></a><br>Mario Scrocca (Politecnico di Milano); Riccardo Tommasini (University of Tartu); Alessandro Margara, Emanuele Della Valle (Politecnico di Milano); Sherif Sakr (University of Tartu)"
 
 research2:
   title: "Research #2: Dependability"
   chair: "<b>Chair:</b> TBA"
   texts:
-    - text: "<b>Leaving Stragglers at the Window: Low-Latency Stream Sampling with Accuracy Guarantees</b> <a href = /pdf/debs20-8.pdf/><img style = width:5% src = /img/pdfIcon.png></a><br>Omar Farhat, Harsh Bindra, Khuzaima Daudjee (University of Waterloo)"
-    - text: "<b>ByzGame: Byzantine Generals Game</b> <a href = /pdf/debs20-40.pdf/><img style = width:5% src = /img/pdfIcon.png></a><br>James Clavin, Pradeep M. Prakash Sisi Duan (University of Maryland, Baltimore County)"
-    - text: "<b>On the Tracking of Sensitive Data and Confidential Executions</b> <a href = /pdf/debs20-22.pdf/><img style = width:5% src = /img/pdfIcon.png></a><br>José Roberto Nascimento Júnior, José B. S. Nunes, Eduardo Lucena Falcão, Lilia Sampaio, Andrey Brito (Federal University of Campina Grande (UFCG))"
-    - text: "<b>Mechanisms for Outsourcing Computation via a Decentralized Market</b> <a href = /pdf/debs20-36.pdf/><img style = width:5% src = /img/pdfIcon.png></a><br>Scott Eisele (Vanderbilt University); Taha Eghtesad, Nicholas Troutman, Aron Laszka (University of Houston); Abhishek Dubey (Vanderbilt University)"
+    - text: "<b>Leaving Stragglers at the Window: Low-Latency Stream Sampling with Accuracy Guarantees</b> <a href = /pdf/debs20-8.pdf><img style = width:5% src = /img/pdfIcon.png></a><br>Omar Farhat, Harsh Bindra, Khuzaima Daudjee (University of Waterloo)"
+    - text: "<b>ByzGame: Byzantine Generals Game</b> <a href = /pdf/debs20-40.pdf><img style = width:5% src = /img/pdfIcon.png></a><br>James Clavin, Pradeep M. Prakash Sisi Duan (University of Maryland, Baltimore County)"
+    - text: "<b>On the Tracking of Sensitive Data and Confidential Executions</b> <a href = /pdf/debs20-22.pdf><img style = width:5% src = /img/pdfIcon.png></a><br>José Roberto Nascimento Júnior, José B. S. Nunes, Eduardo Lucena Falcão, Lilia Sampaio, Andrey Brito (Federal University of Campina Grande (UFCG))"
+    - text: "<b>Mechanisms for Outsourcing Computation via a Decentralized Market</b> <a href = /pdf/debs20-36.pdf><img style = width:5% src = /img/pdfIcon.png></a><br>Scott Eisele (Vanderbilt University); Taha Eghtesad, Nicholas Troutman, Aron Laszka (University of Houston); Abhishek Dubey (Vanderbilt University)"
 
 keynote2:
   title: "<a href=/keynote-speakers>Keynote #2</a>"
@@ -65,21 +65,21 @@ industry:
   title: "Industry"
   chair: "<b>Chair:</b> TBA"
   texts:
-    - text: "<b>TinTiN: Travelling in Time (if Necessary) to deal with out-of-order data in streaming aggregation</b> <a href = /pdf/debs20-25.pdf/><img style = width:5% src = /img/pdfIcon.png></a><br>Joris van Rooij (Göteborg Energi); Vincenzo Gulisano, Marina Papatriantafilou (Chalmers University of Technology)"
-    - text: "<b>On the Performance of Commodity Hardware for Low Latency and Low Jitter Packet Processing</b> <a href = /pdf/debs20-27.pdf/><img style = width:5% src = /img/pdfIcon.png></a><br>Charalampos Stylianopoulos, Magnus Almgren, Olaf Landsiedel, Marina Papatriantafilou (Chalmers University of Technology); Trevor Neish, Linus Gillander, Bengt Johansson, Staffan Bonnier (Ericsson)"
-    - text: "<b>Classification of vessel activity in streaming data</b> <a href = /pdf/debs20-30.pdf/><img style = width:5% src = /img/pdfIcon.png></a><br>Ioannis Kontopoulos (Harokopio University of Athens); Konstantinos Chatzikokolakis (MarineTraffic); Konstantinos Tserpes (Harokopio University of Athens); Dimitris Zissis (MarineTraffic)"
-    - text: "<b>Managing Geo-Distributed Stream Processing Pipelines for the IIoT with StreamPipes Edge Extensions</b> <a href = /pdf/debs20-97.pdf/><img style = width:5% src = /img/pdfIcon.png></a><br>Patrick Wiener, Philipp Zehnder, Dominik Riemer (FZI Research Center for Information Technology)"
+    - text: "<b>TinTiN: Travelling in Time (if Necessary) to deal with out-of-order data in streaming aggregation</b> <a href = /pdf/debs20-25.pdf><img style = width:5% src = /img/pdfIcon.png></a><br>Joris van Rooij (Göteborg Energi); Vincenzo Gulisano, Marina Papatriantafilou (Chalmers University of Technology)"
+    - text: "<b>On the Performance of Commodity Hardware for Low Latency and Low Jitter Packet Processing</b> <a href = /pdf/debs20-27.pdf><img style = width:5% src = /img/pdfIcon.png></a><br>Charalampos Stylianopoulos, Magnus Almgren, Olaf Landsiedel, Marina Papatriantafilou (Chalmers University of Technology); Trevor Neish, Linus Gillander, Bengt Johansson, Staffan Bonnier (Ericsson)"
+    - text: "<b>Classification of vessel activity in streaming data</b> <a href = /pdf/debs20-30.pdf><img style = width:5% src = /img/pdfIcon.png></a><br>Ioannis Kontopoulos (Harokopio University of Athens); Konstantinos Chatzikokolakis (MarineTraffic); Konstantinos Tserpes (Harokopio University of Athens); Dimitris Zissis (MarineTraffic)"
+    - text: "<b>Managing Geo-Distributed Stream Processing Pipelines for the IIoT with StreamPipes Edge Extensions</b> <a href = /pdf/debs20-97.pdf><img style = width:5% src = /img/pdfIcon.png></a><br>Patrick Wiener, Philipp Zehnder, Dominik Riemer (FZI Research Center for Information Technology)"
 
 GC:
   title: "Grand Challenge"
   chair: "<b>Co-chairs:</b> Vincenzo Gulisano (Chalmers University of Technology) & Ruben Mayer (Technical University of Munich)"
   texts:
-    - text: "<b>The DEBS 2020 Grand Challenge</b> <a href = /pdf/debs20-1.pdf/><img style = width:5% src = /img/pdfIcon.png></a><br>Vincenzo Gulisano (Chalmers University of Technology, Sweden); Daniel Jorde, Ruben Mayer (Technical University of Munich, Germany); Hannaneh Najdataei, Dimitris Palyvos-Giannas (Chalmers University of Technology, Sweden)"
-    - text: "<b>Incremental Stream Query Analytics</b> <a href = /pdf/debs20-4.pdf/><img style = width:5% src = /img/pdfIcon.png></a><br>Pedro Silva, Wang Yue, Tilmann Rabl (Hasso Plattner Institute, University of Potsdam)"
-    - text: "<b>Real-time Detection of Smart Meter Events with Odysseus</b> <a href = /pdf/debs20-1000.pdf/><img style = width:5% src = /img/pdfIcon.png></a><br>Michael Brand (University of Oldenburg); Tobias Brandt (OFFIS); Marco Grawunder (University of Oldenburg)"
-    - text: "<b>Anomaly Detection for NILM task with Apache Flink</b> <a href = /pdf/debs20-1001.pdf/><img style = width:5% src = /img/pdfIcon.png></a><br>Zongshun Zhang, Ethan Go (Boston University)"
-    - text: "<b>Using Streaming Data and Apache Flink to Infer Energy Consumption</b> <a href = /pdf/debs20-17.pdf/><img style = width:5% src = /img/pdfIcon.png></a><br>Michael Hendrick, Manuja DeSilva (Boston University)"
-    - text: "<b>Optimized Parallel Implementation of Sequential Clustering-Based Event Detection</b> <a href = /pdf/debs20-18.pdf/><img style = width:5% src = /img/pdfIcon.png></a><br>Gengtao Xu, Jing Qin, Runqi Tian (Boston University)"
+    - text: "<b>The DEBS 2020 Grand Challenge</b> <a href = /pdf/debs20-1.pdf><img style = width:5% src = /img/pdfIcon.png></a><br>Vincenzo Gulisano (Chalmers University of Technology, Sweden); Daniel Jorde, Ruben Mayer (Technical University of Munich, Germany); Hannaneh Najdataei, Dimitris Palyvos-Giannas (Chalmers University of Technology, Sweden)"
+    - text: "<b>Incremental Stream Query Analytics</b> <a href = /pdf/debs20-4.pdf><img style = width:5% src = /img/pdfIcon.png></a><br>Pedro Silva, Wang Yue, Tilmann Rabl (Hasso Plattner Institute, University of Potsdam)"
+    - text: "<b>Real-time Detection of Smart Meter Events with Odysseus</b> <a href = /pdf/debs20-1000.pdf><img style = width:5% src = /img/pdfIcon.png></a><br>Michael Brand (University of Oldenburg); Tobias Brandt (OFFIS); Marco Grawunder (University of Oldenburg)"
+    - text: "<b>Anomaly Detection for NILM task with Apache Flink</b> <a href = /pdf/debs20-1001.pdf><img style = width:5% src = /img/pdfIcon.png></a><br>Zongshun Zhang, Ethan Go (Boston University)"
+    - text: "<b>Using Streaming Data and Apache Flink to Infer Energy Consumption</b> <a href = /pdf/debs20-17.pdf><img style = width:5% src = /img/pdfIcon.png></a><br>Michael Hendrick, Manuja DeSilva (Boston University)"
+    - text: "<b>Optimized Parallel Implementation of Sequential Clustering-Based Event Detection</b> <a href = /pdf/debs20-18.pdf><img style = width:5% src = /img/pdfIcon.png></a><br>Gengtao Xu, Jing Qin, Runqi Tian (Boston University)"
 
 test:
   title: "Test of Time"
@@ -91,14 +91,14 @@ research3:
   title: "Research #3: Serverless"
   chair: "<b>Chair:</b> TBA"
   texts:
-    - text: "<b>Triggerflow: Trigger-based Orchestration of Serverless Workflows</b> <a href = /pdf/debs20-5.pdf/><img style = width:5% src = /img/pdfIcon.png></a><br>Pedro Garcia Lopez (IBM Watson Research); Aitor Arjona, Josep Sampe (Universitat Rovira i Virgili); Aleksander Slominski, Lionel Villard (IBM Watson Research)"
-    - text: "<b>FaasDom: A Benchmark Suite for Serverless Computing</b> <a href = /pdf/debs20-38.pdf/><img style = width:5% src = /img/pdfIcon.png></a><br>Pascal Maissen (University of Fribourg, Switzerland); Pascal Felber, Peter Kropf, Valerio Schiavoni (University of Neuchatel, Switzerland)"
+    - text: "<b>Triggerflow: Trigger-based Orchestration of Serverless Workflows</b> <a href = /pdf/debs20-5.pdf><img style = width:5% src = /img/pdfIcon.png></a><br>Pedro Garcia Lopez (IBM Watson Research); Aitor Arjona, Josep Sampe (Universitat Rovira i Virgili); Aleksander Slominski, Lionel Villard (IBM Watson Research)"
+    - text: "<b>FaasDom: A Benchmark Suite for Serverless Computing</b> <a href = /pdf/debs20-38.pdf><img style = width:5% src = /img/pdfIcon.png></a><br>Pascal Maissen (University of Fribourg, Switzerland); Pascal Felber, Peter Kropf, Valerio Schiavoni (University of Neuchatel, Switzerland)"
 
 research4:
   title: "Research #4: Streams and IoT"
   chair: "<b>Chair:</b> TBA"
   texts:
-    - text: "<b>EdgeScaler: Effective Elastic Scaling for Graph Stream Processing Systems</b> <a href = /pdf/debs20-21.pdf/><img style = width:5% src = /img/pdfIcon.png></a><br>Daniel Presser, Frank Siqueira (Universidade Federal de Santa Catarina); Luis Rodrigues (INESC-ID, IST, ULisboa); Paolo Romano (IST/INESC-ID)"
-    - text: "<b>RocketBufs: A Framework for Building Efficient, In-Memory, Message-Oriented Middleware</b> <a href = /pdf/debs20-53.pdf/><img style = width:5% src = /img/pdfIcon.png></a><br>Huy Hoang, Ben Cassell, Tim Brecht, Samer Al-Kiswany (University of Waterloo)"
-    - text: "<b>A Survey of Adaptive Sampling and Filtering Algorithms for the Internet of Things</b> <a href = /pdf/debs20-13.pdf/><img style = width:5% src = /img/pdfIcon.png></a><br>Dimitrios Giouroukis, Alexander Dadiani, Jonas Traub, Steffen Zeuch, Volker Markl (Technische Universität Berlin)"
-    - text: "<b>Hermes: Enabling Energy-efficient IoT Networks with Generalized Deduplication</b> <a href = /pdf/debs20-24.pdf/><img style = width:5% src = /img/pdfIcon.png></a><br>Christian Göttel (University of Neuchatel, Switzerland); Lars Nielsen, Niloofar Yazdani (Aarhus University); Pascal Felber (University of Neuchatel, Switzerland); Daniel E. Lucani (Aarhus University); Valerio Schiavoni (University of Neuchatel, Switzerland)"
+    - text: "<b>EdgeScaler: Effective Elastic Scaling for Graph Stream Processing Systems</b> <a href = /pdf/debs20-21.pdf><img style = width:5% src = /img/pdfIcon.png></a><br>Daniel Presser, Frank Siqueira (Universidade Federal de Santa Catarina); Luis Rodrigues (INESC-ID, IST, ULisboa); Paolo Romano (IST/INESC-ID)"
+    - text: "<b>RocketBufs: A Framework for Building Efficient, In-Memory, Message-Oriented Middleware</b> <a href = /pdf/debs20-53.pdf><img style = width:5% src = /img/pdfIcon.png></a><br>Huy Hoang, Ben Cassell, Tim Brecht, Samer Al-Kiswany (University of Waterloo)"
+    - text: "<b>A Survey of Adaptive Sampling and Filtering Algorithms for the Internet of Things</b> <a href = /pdf/debs20-13.pdf><img style = width:5% src = /img/pdfIcon.png></a><br>Dimitrios Giouroukis, Alexander Dadiani, Jonas Traub, Steffen Zeuch, Volker Markl (Technische Universität Berlin)"
+    - text: "<b>Hermes: Enabling Energy-efficient IoT Networks with Generalized Deduplication</b> <a href = /pdf/debs20-24.pdf><img style = width:5% src = /img/pdfIcon.png></a><br>Christian Göttel (University of Neuchatel, Switzerland); Lars Nielsen, Niloofar Yazdani (Aarhus University); Pascal Felber (University of Neuchatel, Switzerland); Daniel E. Lucani (Aarhus University); Valerio Schiavoni (University of Neuchatel, Switzerland)"
