@@ -226,8 +226,8 @@ theme = "debs2020-hugo-theme"
 
   [Languages.en.params.statement]
     enable = true
-    title = "Statement on COVID-19 (Coronavirus)"
-    text = "As of April 13, given the current situation of COVID19 and the likelihood of longer-term travel advisory, the decision has been made to hold DEBS online. The organizing committee is aiming in providing an exciting virtual conference, and is currently considering various options of online delivery. Note that the conference proceedings of all tracks for DEBS 2020 will proceed as planned. All accepted papers for all tracks will be available on the ACM Digital Library in early July 2020. We will monitor closely other conferences, as well as the situation on COVID-19 (coronavirus) and provide updates as they become available through our various channels (Website, Twitter, Facebook, LinkedIn)."
+    link = "<a href = /full-program>Click here to see the online program</a>"
+    # text = "As of April 13, given the current situation of COVID19 and the likelihood of longer-term travel advisory, the decision has been made to hold DEBS online. The organizing committee is aiming in providing an exciting virtual conference, and is currently considering various options of online delivery. Note that the conference proceedings of all tracks for DEBS 2020 will proceed as planned. All accepted papers for all tracks will be available on the ACM Digital Library in early July 2020. We will monitor closely other conferences, as well as the situation on COVID-19 (coronavirus) and provide updates as they become available through our various channels (Website, Twitter, Facebook, LinkedIn)."
 
   [Languages.en.params.wrapper]
     enable = true
