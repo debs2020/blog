@@ -1,0 +1,595 @@
+{{ partial "global-header.html" . }}
+
+{{ $data := index .Site.Data .Site.Language.Lang }}
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 1px;/* Should be removed. Only for demonstration */
+}
+
+.left {
+  width: 2%;
+  height: 70px;
+  margin-top:60px;
+  margin-left: 10px;
+}
+
+.middle {
+  width: 3%;
+  margin-top:60px;
+}
+
+.right {
+  width: 90%;
+}
+</style>
+<section id = "full-program">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-9 col-sm-6">
+        <div class="block">
+          <div>
+            <div>
+              <h1>DEBS 2020 Full Program</h1>
+            </div>
+            <div style="margin-bottom:30px; margin-top:50px;">
+              {{ "<!-- Main Script -->" | safeHTML }}
+              {{ $script := resources.Get "js/timezone.js" | minify}}
+
+              <select id="sel" onchange="show(this)">
+                  <option value="Default">-- Select the timezone! --</option>
+                  <script src="{{ $script.Permalink }}"></script>
+              </select>
+            </div>
+            <div style="margin-bottom:70px; overflow-x:auto;">
+              <table class="table table-bordered table-hover text-center">
+                <thead class="bg-gray">
+                  <tr>
+                    <th style="width:10%;" class="text-center">Time</th>
+                    <th style="width:18%;" class="text-center">Mon, 13 July</th>
+                    <th style="width:18%;" class="text-center">Tue, 14 July</th>
+                    <th style="width:18%;" class="text-center">Wed, 15 July</th>
+                    <th style="width:18%;" class="text-center">Thu, 16 July</th>
+                    <th style="width:18%;" class="text-center">Fri, 17 July</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td id="time1"></td>
+                    <td style="height:70px; background-color: #655E7A"></td>
+                    <td rowspan="2"><a href="#doctoral-symposium">Doctoral Symposium</a></td>
+                    <td style="background-color: #655E7A;"></td>
+                    <td style="background-color: #655E7A;"></td>
+                    <td style="background-color: #655E7A;"></td>
+                  </tr>
+                  <tr>
+                    <td id="time2" style="height:100px;"></td>
+                    <td><a href="#tutorial1a">Tutorial 1a (Streaming)</a></td>
+                    <td rowspan="2"><a href="#keynote1">Opening Speech, Keynote 1 (Tamer Özsu)</a></td>
+                    <td><a href="#keynote2">Keynote 2 (Joelle Pineau)</a></td>
+                    <td><a href="#test">Test-of-Time, Research Session 3 (Serverless)</a></td>
+                  </tr>
+                  <tr>
+                    <td id="time3"></td>
+                    <td rowspan="2"><a href="#break1">Discussion break</a></td>
+                    <td rowspan="2"><a href="#break2">Discussion break</a></td>
+                    <td rowspan="2"><a href="#break4">Discussion break</a></td>
+                    <td rowspan="2"><a href="#break5">Discussion break</a></td>
+                  </tr>
+                  <tr>
+                    <td id="time4"></td>
+                    <td rowspan="2"><a href="#break3">Discussion break</a></td>
+
+                  </tr>
+                  <tr>
+                    <td id="time5"></td>
+                    <td rowspan="2"><a href="#tutorial1b">Tutorial 1b (Streaming)</a></td>
+                    <td rowspan="2"><a href="#tutorial2a">Tutorial 2a (Blockchain)</a></td>
+                    <td rowspan="2"><a href="#industry">Industry Session</a></td>
+                    <td rowspan="2"><a href="#research4">Research Session 4 (Streams and IoT)</a></td>
+                  </tr>
+                  <tr>
+                    <td id="time6" style="height:90px;"></td>
+                    <td><a href="#research1">Research Session 1 (Events)</td>
+
+                  </tr>
+                  <tr>
+                    <td id="time7" style="height:150px;"></td>
+                    <td style="background-color: #655E7A;">Lunch break</td>
+                    <td><a href="#lunch1">Lunch break</a></td>
+                    <td><a href="#lunch2">Lunch break</a></td>
+                    <td><a href="#lunch3">Lunch break</a></td>
+                    <td><a href="#lunch4">Lunch break</a></td>
+                  </tr>
+                  <tr>
+                    <td id="time8" style="height:120px;"></td>
+                    <td style="background-color: #655E7A;"></td>
+                    <td><a href="#tutorial2b">Tutorial 2b (Blockchain)</a></td>
+                    <td><a href="#research2">Research Session 2 (Dependability)</a></td>
+                    <td rowspan="2"><a href="#grand-challenge-solutions">Grand Challenge</td>
+                    <td><a href="#business">Business Meeting, Closing Remarks</a></td>
+                  </tr>
+                  <tr>
+                    <td id="time9"></td>
+                    <td style="background-color: #655E7A;"></td>
+                    <td style="background-color: #655E7A;"></td>
+                    <td style="background-color: #655E7A;"></td>
+                    <td style="background-color: #655E7A;"></td>
+                  </tr>
+                  <tr>
+                    <td id="time10"></td>
+                    <td style="background-color: #655E7A;"></td>
+                    <td style="background-color: #655E7A;"></td>
+                    <td style="background-color: #655E7A;"></td>
+                    <td style="background-color: #655E7A;"></td>
+                    <td style="background-color: #655E7A;"></td>
+                  </tr>
+                </tbody>
+              </table>
+              <hr>
+            </div>
+            <div>
+              <h1 style="margin:0px;">{{ $data.fullprogram.title }}</h1>
+            </div>
+            <div>
+              <h1>Monday, July 13th</h1>
+            </div>
+            <div id="tutorial1a" style="margin-bottom: 30px;">
+
+            </div>
+            <div class="row">
+              <div class="column left" style="background:red;">
+
+              </div>
+              <div class="column middle">
+
+              </div>
+              <div class="column right">
+                <h3 id="time11">{{ $data.fullprogram.tutorial1a.title }}</h3>
+                <p>{{ $data.fullprogram.tutorial1a.chair | markdownify }}</p>
+                {{ range $data.fullprogram.tutorial1a.texts }}
+                <p align="justify">{{ .text | markdownify }}</p>
+                {{ end }}
+              </div>
+            </div>
+            <div id="break1" style="margin-bottom: 30px;">
+
+            </div>
+            <div class="row">
+              <div class="column left" style="background:orange;">
+
+              </div>
+              <div class="column middle">
+
+              </div>
+              <div class="column right">
+                <h3 id="time12">Discussion Break</h3>
+                <p align="justify"><li>Please use our Slack and Zoom to discuss</li></p>
+              </div>
+            </div>
+            <div id="tutorial1b" style="margin-bottom: 30px;">
+
+            </div>
+            <div class="row">
+              <div class="column left" style="background:red;">
+
+              </div>
+              <div class="column middle">
+
+              </div>
+              <div class="column right">
+                <h3 id="time13">{{ $data.fullprogram.tutorial1b.title }}</h3>
+                <p>{{ $data.fullprogram.tutorial1b.chair | markdownify }}</p>
+                {{ range $data.fullprogram.tutorial1b.texts }}
+                <p align="justify">{{ .text | markdownify }}</p>
+                {{ end }}
+              </div>
+            </div>
+            <div>
+              <hr>
+              <h1>Tuesday, July 14th</h1>
+            </div>
+            <div id="doctoral-symposium" style="margin-bottom: 30px;">
+
+            </div>
+            <div class="row">
+              <div class="column left" style="background:green;">
+
+              </div>
+              <div class="column middle">
+
+              </div>
+              <div class="column right">
+                <h3 id="time14">{{ $data.fullprogram.DS.title }}</h3>
+                <p>{{ $data.fullprogram.DS.chair | markdownify }}</p>
+                {{ range $data.fullprogram.DS.texts }}
+                <p align="justify">{{ .text | markdownify }}</p>
+                {{ end }}
+              </div>
+            </div>
+            <div id="break2" style="margin-bottom: 30px;">
+
+            </div>
+            <div class="row">
+              <div class="column left" style="background:orange;">
+
+              </div>
+              <div class="column middle">
+
+              </div>
+              <div class="column right">
+                <h3 id="time15">Discussion Break</h3>
+                <p align="justify"><li>Please use our Slack and Zoom to discuss</li></p>
+              </div>
+            </div>
+            <div id="tutorial2a" style="margin-bottom: 30px;">
+
+            </div>
+            <div class="row">
+              <div class="column left" style="background:red;">
+
+              </div>
+              <div class="column middle">
+
+              </div>
+              <div class="column right">
+                <h3 id="time16">{{ $data.fullprogram.tutorial2a.title }}</h3>
+                <p>{{ $data.fullprogram.tutorial2a.chair | markdownify }}</p>
+                {{ range $data.fullprogram.tutorial2a.texts }}
+                <p align="justify">{{ .text | markdownify }}</p>
+                {{ end }}
+              </div>
+            </div>
+            <div id="lunch1" style="margin-bottom: 30px;">
+
+            </div>
+            <div class="row">
+              <div class="column left" style="background:brown;">
+
+              </div>
+              <div class="column middle">
+
+              </div>
+              <div class="column right">
+                <h3 id="time17">Lunch Break</h3>
+                <p align="justify"><li>Please use our Slack and Zoom to discuss</li></p>
+              </div>
+            </div>
+            <div id="tutorial2b" style="margin-bottom: 30px;">
+
+            </div>
+            <div class="row">
+              <div class="column left" style="background:red;">
+
+              </div>
+              <div class="column middle">
+
+              </div>
+              <div class="column right">
+                <h3 id="time18">{{ $data.fullprogram.tutorial2b.title }}</h3>
+                <p>{{ $data.fullprogram.tutorial2b.chair | markdownify }}</p>
+                {{ range $data.fullprogram.tutorial2b.texts }}
+                <p align="justify">{{ .text | markdownify }}</p>
+                {{ end }}
+              </div>
+            </div>
+            <div>
+              <hr>
+              <h1>Wednesday, July 15th</h1>
+            </div>
+            <div id="keynote1" style="margin-bottom: 30px;">
+
+            </div>
+            <div class="row">
+              <div class="column left" style="background:green;">
+
+              </div>
+              <div class="column middle">
+
+              </div>
+              <div class="column right">
+                <h3 id="time19">{{ $data.fullprogram.keynote1.title }}</h3>
+                <p>{{ $data.fullprogram.keynote1.chair | markdownify }}</p>
+                {{ range $data.fullprogram.keynote1.texts }}
+                <p align="justify">{{ .text | markdownify }}</p>
+                {{ end }}
+              </div>
+            </div>
+            <div id="break3" style="margin-bottom: 30px;">
+
+            </div>
+            <div class="row">
+              <div class="column left" style="background:orange;">
+
+              </div>
+              <div class="column middle">
+
+              </div>
+              <div class="column right">
+                <h3 id="time20">Discussion Break</h3>
+                <p align="justify"><li>Please use our Slack and Zoom to discuss</li></p>
+              </div>
+            </div>
+            <div id="research1" style="margin-bottom: 30px;">
+
+            </div>
+            <div class="row">
+              <div class="column left" style="background:darkblue;">
+              </div>
+              <div class="column middle">
+
+              </div>
+              <div class="column right">
+                <h3 id="time21">{{ $data.fullprogram.research1.title }}</h3>
+                <p>{{ $data.fullprogram.research1.chair | markdownify }}</p>
+                {{ range $data.fullprogram.research1.texts }}
+                <p align="justify">{{ .text | markdownify }}</p>
+                {{ end }}
+              </div>
+            </div>
+            <div id="lunch2" style="margin-bottom: 30px;">
+
+            </div>
+            <div class="row">
+              <div class="column left" style="background:brown;">
+
+              </div>
+              <div class="column middle">
+
+              </div>
+              <div class="column right">
+                <h3 id="time22">Lunch Break</h3>
+                <p align="justify"><li>Please use our Slack and Zoom to discuss</li></p>
+              </div>
+            </div>
+            <div id="research2" style="margin-bottom: 30px;">
+
+            </div>
+            <div class="row">
+              <div class="column left" style="background:darkblue;">
+              </div>
+              <div class="column middle">
+
+              </div>
+              <div class="column right">
+                <h3 id="time23">{{ $data.fullprogram.research2.title }}</h3>
+                <p>{{ $data.fullprogram.research2.chair | markdownify }}</p>
+                {{ range $data.fullprogram.research2.texts }}
+                <p align="justify">{{ .text | markdownify }}</p>
+                {{ end }}
+              </div>
+            </div>
+            <hr>
+            <div>
+              <h1>Thursday, July 16th</h1>
+            </div>
+            <div id="keynote2" style="margin-bottom: 30px;">
+
+            </div>
+            <div class="row">
+              <div class="column left" style="background:green;">
+              </div>
+              <div class="column middle">
+
+              </div>
+              <div class="column right">
+                <h3 id="time24">{{ $data.fullprogram.keynote2.title }}</h3>
+                <p>{{ $data.fullprogram.keynote2.chair | markdownify }}</p>
+                {{ range $data.fullprogram.keynote2.texts }}
+                <p align="justify">{{ .text | markdownify }}</p>
+                {{ end }}
+              </div>
+            </div>
+            <div id="break4" style="margin-bottom: 30px;">
+
+            </div>
+            <div class="row">
+              <div class="column left" style="background:orange;">
+
+              </div>
+              <div class="column middle">
+
+              </div>
+              <div class="column right">
+                <h3 id="time25">Discussion Break</h3>
+                <p align="justify"><li>Please use our Slack and Zoom to discuss</li></p>
+              </div>
+            </div>
+            <div id="industry" style="margin-bottom: 30px;">
+
+            </div>
+            <div class="row">
+              <div class="column left" style="background:#FA8072;">
+              </div>
+              <div class="column middle">
+
+              </div>
+              <div class="column right">
+                <h3 id="time26">{{ $data.fullprogram.industry.title }}</h3>
+                <p>{{ $data.fullprogram.industry.chair | markdownify }}</p>
+                {{ range $data.fullprogram.industry.texts }}
+                <p align="justify">{{ .text | markdownify }}</p>
+                {{ end }}
+              </div>
+            </div>
+            <div id="lunch3" style="margin-bottom: 30px;">
+
+            </div>
+            <div class="row">
+              <div class="column left" style="background:brown;">
+
+              </div>
+              <div class="column middle">
+
+              </div>
+              <div class="column right">
+                <h3 id="time27">Lunch Break</h3>
+                <p align="justify"><li>Please use our Slack and Zoom to discuss</li></p>
+              </div>
+            </div>
+            <div id="grand-challenge-solutions" style="margin-bottom: 30px;">
+
+            </div>
+            <div class="row">
+              <div class="column left" style="background:#004359;">
+              </div>
+              <div class="column middle">
+
+              </div>
+              <div class="column right">
+                <h3 id="time28">{{ $data.fullprogram.GC.title }}</h3>
+                <p>{{ $data.fullprogram.GC.chair | markdownify }}</p>
+                {{ range $data.fullprogram.GC.texts }}
+                <p align="justify">{{ .text | markdownify }}</p>
+                {{ end }}
+              </div>
+            </div>
+            <hr>
+            <div>
+              <h1>Friday, July 17th</h1>
+            </div>
+            <div id="test" style="margin-bottom: 30px;">
+
+            </div>
+            <div class="row">
+              <div class="column left" style="background:olive;">
+              </div>
+              <div class="column middle">
+
+              </div>
+              <div class="column right">
+                <h3 id="time29">{{ $data.fullprogram.test.title }}</h3>
+                <p>{{ $data.fullprogram.test.chair | markdownify }}</p>
+                {{ range $data.fullprogram.test.texts }}
+                <p align="justify">{{ .text | markdownify }}</p>
+                {{ end }}
+              </div>
+            </div>
+            <div id="research3" style="margin-bottom: 30px;">
+
+            </div>
+            <div class="row">
+              <div class="column left" style="background:darkblue;">
+              </div>
+              <div class="column middle">
+
+              </div>
+              <div class="column right">
+                <h3 id="time30">{{ $data.fullprogram.research3.title }}</h3>
+                <p>{{ $data.fullprogram.research3.chair | markdownify }}</p>
+                {{ range $data.fullprogram.research3.texts }}
+                <p align="justify">{{ .text | markdownify }}</p>
+                {{ end }}
+              </div>
+            </div>
+            <div id="break5" style="margin-bottom: 30px;">
+
+            </div>
+            <div class="row">
+              <div class="column left" style="background:red;">
+
+              </div>
+              <div class="column middle">
+
+              </div>
+              <div class="column right">
+                <h3 id="time31">Discussion Break</h3>
+                <p align="justify"><li>Please use our Slack and Zoom to discuss</li></p>
+              </div>
+            </div>
+            <div id="research4" style="margin-bottom: 30px;">
+
+            </div>
+            <div class="row">
+              <div class="column left" style="background:darkblue;">
+              </div>
+              <div class="column middle">
+
+              </div>
+              <div class="column right">
+                <h3 id="time32">{{ $data.fullprogram.research4.title }}</h3>
+                <p>{{ $data.fullprogram.research4.chair | markdownify }}</p>
+                {{ range $data.fullprogram.research4.texts }}
+                <p align="justify">{{ .text | markdownify }}</p>
+                {{ end }}
+              </div>
+            </div>
+            <div id="lunch4" style="margin-bottom: 30px;">
+
+            </div>
+            <div class="row">
+              <div class="column left" style="background:brown;">
+
+              </div>
+              <div class="column middle">
+
+              </div>
+              <div class="column right">
+                <h3 id="time33">Lunch Break</h3>
+                <p align="justify"><li>Please use our Slack and Zoom to discuss</li></p>
+              </div>
+            </div>
+            <div id="business" style="margin-bottom: 30px;">
+
+            </div>
+            <div class="row">
+              <div class="column left" style="background:#75B800;">
+
+              </div>
+              <div class="column middle">
+
+              </div>
+              <div class="column right">
+                <h3 id="time34">Business Meeting and Closing Remarks</h3>
+                <p align="justify"><b>Chair:</b> Peter Pietzuch (Imperial College London)</p>
+              </div>
+            </div>
+            <div class="row" style="margin-bottom:150px;">
+              <div class="column left" style="background:#655E7A;">
+
+              </div>
+              <div class="column middle">
+
+              </div>
+              <div class="column right">
+                <h3>End of DEBS 2020</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {{ partial "sidebar.html" . }}
+    </div>
+  </div>
+</section>
