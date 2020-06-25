@@ -170,10 +170,10 @@ var msg11 = document.getElementById('time11');
 offsetTimeString = offsetTime.substr(15,6);
 offsetTimeString1 = offsetTime1.substr(15,6);
 if(ele.options[ele.selectedIndex].value == -5){
-  msg11.innerHTML = 'Tutorial #1a <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' EST )</p>';
+  msg11.innerHTML = 'Tutorial #1a <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' EST ) <a href="#change">Change the time zone!</a></p>';
 }
 else if(ele.options[ele.selectedIndex].value == 1){
-  msg11.innerHTML = 'Tutorial #1a <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' CET )</p>';
+  msg11.innerHTML = 'Tutorial #1a <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' CET ) <a href="#change">Change the time zone!</a></p>';
 }
 //////////////////////////////////////////////////////
 var date = "July 13, 2020 11:00:00";
@@ -198,10 +198,10 @@ var msg12 = document.getElementById('time12');
 offsetTimeString = offsetTime.substr(15,6);
 offsetTimeString1 = offsetTime1.substr(15,6);
 if(ele.options[ele.selectedIndex].value == -5){
-  msg12.innerHTML = 'Discussion Break <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' EST )</p>';
+  msg12.innerHTML = 'Discussion Break <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' EST ) <a href="#change">Change the time zone!</a></p>';
 }
 else if(ele.options[ele.selectedIndex].value == 1){
-  msg12.innerHTML = 'Discussion Break <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' CET )</p>';
+  msg12.innerHTML = 'Discussion Break <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' CET ) <a href="#change">Change the time zone!</a></p>';
 }
 //////////////////////////////////////////////////////
 var date = "July 13, 2020 11:30:00";
@@ -226,10 +226,10 @@ var msg13 = document.getElementById('time13');
 offsetTimeString = offsetTime.substr(15,6);
 offsetTimeString1 = offsetTime1.substr(15,6);
 if(ele.options[ele.selectedIndex].value == -5){
-  msg13.innerHTML = 'Tutorial #1b <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' EST )</p>';
+  msg13.innerHTML = 'Tutorial #1b <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' EST ) <a href="#change">Change the time zone!</a></p>';
 }
 else if(ele.options[ele.selectedIndex].value == 1){
-  msg13.innerHTML = 'Tutorial #1b <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' CET )</p>';
+  msg13.innerHTML = 'Tutorial #1b <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' CET ) <a href="#change">Change the time zone!</a></p>';
 }
 
 //////////////////////////////////////////////////////
@@ -255,10 +255,10 @@ var msg14 = document.getElementById('time14');
 offsetTimeString = offsetTime.substr(15,6);
 offsetTimeString1 = offsetTime1.substr(15,6);
 if(ele.options[ele.selectedIndex].value == -5){
-  msg14.innerHTML = 'Doctoral Symposium <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' EST )</p>';
+  msg14.innerHTML = 'Doctoral Symposium <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' EST ) <a href="#change">Change the time zone!</a></p>';
 }
 else if(ele.options[ele.selectedIndex].value == 1){
-  msg14.innerHTML = 'Doctoral Symposium <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' CET )</p>';
+  msg14.innerHTML = 'Doctoral Symposium <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' CET ) <a href="#change">Change the time zone!</a></p>';
 }
 
 //////////////////////////////////////////////////////
@@ -284,10 +284,10 @@ var msg15 = document.getElementById('time15');
 offsetTimeString = offsetTime.substr(15,6);
 offsetTimeString1 = offsetTime1.substr(15,6);
 if(ele.options[ele.selectedIndex].value == -5){
-  msg15.innerHTML = 'Discussion Break <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' EST )</p>';
+  msg15.innerHTML = 'Discussion Break <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' EST ) <a href="#change">Change the time zone!</a></p>';
 }
 else if(ele.options[ele.selectedIndex].value == 1){
-  msg15.innerHTML = 'Discussion Break <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' CET )</p>';
+  msg15.innerHTML = 'Discussion Break <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' CET ) <a href="#change">Change the time zone!</a></p>';
 }
 
 //////////////////////////////////////////////////////
@@ -313,10 +313,10 @@ var msg16 = document.getElementById('time16');
 offsetTimeString = offsetTime.substr(15,6);
 offsetTimeString1 = offsetTime1.substr(15,6);
 if(ele.options[ele.selectedIndex].value == -5){
-  msg16.innerHTML = 'Tutorial #2a <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' EST )</p>';
+  msg16.innerHTML = 'Tutorial #2a <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' EST ) <a href="#change">Change the time zone!</a></p>';
 }
 else if(ele.options[ele.selectedIndex].value == 1){
-  msg16.innerHTML = 'Tutorial #2a <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' CET )</p>';
+  msg16.innerHTML = 'Tutorial #2a <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' CET ) <a href="#change">Change the time zone!</a></p>';
 }
 
 //////////////////////////////////////////////////////
@@ -342,10 +342,10 @@ var msg17 = document.getElementById('time17');
 offsetTimeString = offsetTime.substr(15,6);
 offsetTimeString1 = offsetTime1.substr(15,6);
 if(ele.options[ele.selectedIndex].value == -5){
-  msg17.innerHTML = 'Lunch Break <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' EST )</p>';
+  msg17.innerHTML = 'Lunch Break <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' EST ) <a href="#change">Change the time zone!</a></p>';
 }
 else if(ele.options[ele.selectedIndex].value == 1){
-  msg17.innerHTML = 'Lunch Break <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' CET )</p>';
+  msg17.innerHTML = 'Lunch Break <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' CET ) <a href="#change">Change the time zone!</a></p>';
 }
 
 //////////////////////////////////////////////////////
@@ -371,10 +371,10 @@ var msg18 = document.getElementById('time18');
 offsetTimeString = offsetTime.substr(15,6);
 offsetTimeString1 = offsetTime1.substr(15,6);
 if(ele.options[ele.selectedIndex].value == -5){
-  msg18.innerHTML = 'Tutorial #2b <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' EST )</p>';
+  msg18.innerHTML = 'Tutorial #2b <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' EST ) <a href="#change">Change the time zone!</a></p>';
 }
 else if(ele.options[ele.selectedIndex].value == 1){
-  msg18.innerHTML = 'Tutorial #2b <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' CET )</p>';
+  msg18.innerHTML = 'Tutorial #2b <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' CET ) <a href="#change">Change the time zone!</a></p>';
 }
 
 //////////////////////////////////////////////////////
@@ -400,10 +400,10 @@ var msg19 = document.getElementById('time19');
 offsetTimeString = offsetTime.substr(15,6);
 offsetTimeString1 = offsetTime1.substr(15,6);
 if(ele.options[ele.selectedIndex].value == -5){
-  msg19.innerHTML = '<a href="/keynote-speakers" target="_blank">Opening Speech and Keynote #1</a> <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' EST )</p>';
+  msg19.innerHTML = '<a href="/keynote-speakers" target="_blank">Opening Speech and Keynote #1</a> <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' EST ) <a href="#change">Change the time zone!</a></p></p>';
 }
 else if(ele.options[ele.selectedIndex].value == 1){
-  msg19.innerHTML = '<a href="/keynote-speakers" target="_blank">Opening Speech and Keynote #1</a> <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' CET )</p>';
+  msg19.innerHTML = '<a href="/keynote-speakers" target="_blank">Opening Speech and Keynote #1</a> <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' CET ) <a href="#change">Change the time zone!</a></p></p>';
 }
 
 //////////////////////////////////////////////////////
@@ -429,10 +429,10 @@ var msg20 = document.getElementById('time20');
 offsetTimeString = offsetTime.substr(15,6);
 offsetTimeString1 = offsetTime1.substr(15,6);
 if(ele.options[ele.selectedIndex].value == -5){
-  msg20.innerHTML = 'Discussion Break <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' EST )</p>';
+  msg20.innerHTML = 'Discussion Break <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' EST ) <a href="#change">Change the time zone!</a></p></p>';
 }
 else if(ele.options[ele.selectedIndex].value == 1){
-  msg20.innerHTML = 'Discussion Break <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' CET )</p>';
+  msg20.innerHTML = 'Discussion Break <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' CET ) <a href="#change">Change the time zone!</a></p></p>';
 }
 
 //////////////////////////////////////////////////////
@@ -458,10 +458,10 @@ var msg21 = document.getElementById('time21');
 offsetTimeString = offsetTime.substr(15,6);
 offsetTimeString1 = offsetTime1.substr(15,6);
 if(ele.options[ele.selectedIndex].value == -5){
-  msg21.innerHTML = 'Research #1: Events <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' EST )</p>';
+  msg21.innerHTML = 'Research #1: Events <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' EST ) <a href="#change">Change the time zone!</a></p></p>';
 }
 else if(ele.options[ele.selectedIndex].value == 1){
-  msg21.innerHTML = 'Research #1: Events <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' CET )</p>';
+  msg21.innerHTML = 'Research #1: Events <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' CET ) <a href="#change">Change the time zone!</a></p></p>';
 }
 
 //////////////////////////////////////////////////////
@@ -487,10 +487,10 @@ var msg22 = document.getElementById('time22');
 offsetTimeString = offsetTime.substr(15,6);
 offsetTimeString1 = offsetTime1.substr(15,6);
 if(ele.options[ele.selectedIndex].value == -5){
-  msg22.innerHTML = 'Lunch Break <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' EST )</p>';
+  msg22.innerHTML = 'Lunch Break <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' EST ) <a href="#change">Change the time zone!</a></p></p>';
 }
 else if(ele.options[ele.selectedIndex].value == 1){
-  msg22.innerHTML = 'Lunch Break <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' CET )</p>';
+  msg22.innerHTML = 'Lunch Break <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' CET ) <a href="#change">Change the time zone!</a></p></p>';
 }
 
 //////////////////////////////////////////////////////
@@ -516,10 +516,10 @@ var msg23 = document.getElementById('time23');
 offsetTimeString = offsetTime.substr(15,6);
 offsetTimeString1 = offsetTime1.substr(15,6);
 if(ele.options[ele.selectedIndex].value == -5){
-  msg23.innerHTML = 'Research #2: Dependability <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' EST )</p>';
+  msg23.innerHTML = 'Research #2: Dependability <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' EST ) <a href="#change">Change the time zone!</a></p></p>';
 }
 else if(ele.options[ele.selectedIndex].value == 1){
-  msg23.innerHTML = 'Research #2: Dependability <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' CET )</p>';
+  msg23.innerHTML = 'Research #2: Dependability <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' CET ) <a href="#change">Change the time zone!</a></p></p>';
 }
 
 //////////////////////////////////////////////////////
@@ -545,10 +545,10 @@ var msg24 = document.getElementById('time24');
 offsetTimeString = offsetTime.substr(15,6);
 offsetTimeString1 = offsetTime1.substr(15,6);
 if(ele.options[ele.selectedIndex].value == -5){
-  msg24.innerHTML = '<a href="/keynote-speakers" target="_blank">Keynote #2</a> <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' EST )</p>';
+  msg24.innerHTML = '<a href="/keynote-speakers" target="_blank">Keynote #2</a> <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' EST ) <a href="#change">Change the time zone!</a></p></p>';
 }
 else if(ele.options[ele.selectedIndex].value == 1){
-  msg24.innerHTML = '<a href="/keynote-speakers" target="_blank">Keynote #2</a> <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' CET )</p>';
+  msg24.innerHTML = '<a href="/keynote-speakers" target="_blank">Keynote #2</a> <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' CET ) <a href="#change">Change the time zone!</a></p></p>';
 }
 
 //////////////////////////////////////////////////////
@@ -574,10 +574,10 @@ var msg25 = document.getElementById('time25');
 offsetTimeString = offsetTime.substr(15,6);
 offsetTimeString1 = offsetTime1.substr(15,6);
 if(ele.options[ele.selectedIndex].value == -5){
-  msg25.innerHTML = 'Discussion Break <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' EST )</p>';
+  msg25.innerHTML = 'Discussion Break <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' EST ) <a href="#change">Change the time zone!</a></p></p>';
 }
 else if(ele.options[ele.selectedIndex].value == 1){
-  msg25.innerHTML = 'Discussion Break <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' CET )</p>';
+  msg25.innerHTML = 'Discussion Break <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' CET ) <a href="#change">Change the time zone!</a></p></p>';
 }
 
 //////////////////////////////////////////////////////
@@ -603,10 +603,10 @@ var msg26 = document.getElementById('time26');
 offsetTimeString = offsetTime.substr(15,6);
 offsetTimeString1 = offsetTime1.substr(15,6);
 if(ele.options[ele.selectedIndex].value == -5){
-  msg26.innerHTML = 'Industry <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' EST )</p>';
+  msg26.innerHTML = 'Industry <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' EST ) <a href="#change">Change the time zone!</a></p></p>';
 }
 else if(ele.options[ele.selectedIndex].value == 1){
-  msg26.innerHTML = 'Industry <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' CET )</p>';
+  msg26.innerHTML = 'Industry <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' CET ) <a href="#change">Change the time zone!</a></p></p>';
 }
 
 //////////////////////////////////////////////////////
@@ -632,10 +632,10 @@ var msg27 = document.getElementById('time27');
 offsetTimeString = offsetTime.substr(15,6);
 offsetTimeString1 = offsetTime1.substr(15,6);
 if(ele.options[ele.selectedIndex].value == -5){
-  msg27.innerHTML = 'Lunch Break <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' EST )</p>';
+  msg27.innerHTML = 'Lunch Break <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' EST ) <a href="#change">Change the time zone!</a></p></p>';
 }
 else if(ele.options[ele.selectedIndex].value == 1){
-  msg27.innerHTML = 'Lunch Break <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' CET )</p>';
+  msg27.innerHTML = 'Lunch Break <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' CET ) <a href="#change">Change the time zone!</a></p></p>';
 }
 
 //////////////////////////////////////////////////////
@@ -661,10 +661,10 @@ var msg28 = document.getElementById('time28');
 offsetTimeString = offsetTime.substr(15,6);
 offsetTimeString1 = offsetTime1.substr(15,6);
 if(ele.options[ele.selectedIndex].value == -5){
-  msg28.innerHTML = 'Grand Challenge <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' EST )</p>';
+  msg28.innerHTML = 'Grand Challenge <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' EST ) <a href="#change">Change the time zone!</a></p></p>';
 }
 else if(ele.options[ele.selectedIndex].value == 1){
-  msg28.innerHTML = 'Grand Challenge <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' CET )</p>';
+  msg28.innerHTML = 'Grand Challenge <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' CET ) <a href="#change">Change the time zone!</a></p></p>';
 }
 
 //////////////////////////////////////////////////////
@@ -690,10 +690,10 @@ var msg29 = document.getElementById('time29');
 offsetTimeString = offsetTime.substr(15,6);
 offsetTimeString1 = offsetTime1.substr(15,6);
 if(ele.options[ele.selectedIndex].value == -5){
-  msg29.innerHTML = 'Test of Time <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' EST )</p>';
+  msg29.innerHTML = 'Test of Time <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' EST ) <a href="#change">Change the time zone!</a></p></p>';
 }
 else if(ele.options[ele.selectedIndex].value == 1){
-  msg29.innerHTML = 'Test of Time <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' CET )</p>';
+  msg29.innerHTML = 'Test of Time <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' CET ) <a href="#change">Change the time zone!</a></p></p>';
 }
 
 //////////////////////////////////////////////////////
@@ -719,10 +719,10 @@ var msg30 = document.getElementById('time30');
 offsetTimeString = offsetTime.substr(15,6);
 offsetTimeString1 = offsetTime1.substr(15,6);
 if(ele.options[ele.selectedIndex].value == -5){
-  msg30.innerHTML = 'Research #3: Serverless <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' EST )</p>';
+  msg30.innerHTML = 'Research #3: Serverless <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' EST ) <a href="#change">Change the time zone!</a></p></p>';
 }
 else if(ele.options[ele.selectedIndex].value == 1){
-  msg30.innerHTML = 'Research #3: Serverless <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' CET )</p>';
+  msg30.innerHTML = 'Research #3: Serverless <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' CET ) <a href="#change">Change the time zone!</a></p></p>';
 }
 
 //////////////////////////////////////////////////////
@@ -748,10 +748,10 @@ var msg31 = document.getElementById('time31');
 offsetTimeString = offsetTime.substr(15,6);
 offsetTimeString1 = offsetTime1.substr(15,6);
 if(ele.options[ele.selectedIndex].value == -5){
-  msg31.innerHTML = 'Discussion Break <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' EST )</p>';
+  msg31.innerHTML = 'Discussion Break <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' EST ) <a href="#change">Change the time zone!</a></p></p>';
 }
 else if(ele.options[ele.selectedIndex].value == 1){
-  msg31.innerHTML = 'Discussion Break <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' CET )</p>';
+  msg31.innerHTML = 'Discussion Break <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' CET ) <a href="#change">Change the time zone!</a></p></p>';
 }
 
 //////////////////////////////////////////////////////
@@ -777,10 +777,10 @@ var msg32 = document.getElementById('time32');
 offsetTimeString = offsetTime.substr(15,6);
 offsetTimeString1 = offsetTime1.substr(15,6);
 if(ele.options[ele.selectedIndex].value == -5){
-  msg32.innerHTML = 'Research #4: Streams and IoT <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' EST )</p>';
+  msg32.innerHTML = 'Research #4: Streams and IoT <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' EST ) <a href="#change">Change the time zone!</a></p></p>';
 }
 else if(ele.options[ele.selectedIndex].value == 1){
-  msg32.innerHTML = 'Research #4: Streams and IoT <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' CET )</p>';
+  msg32.innerHTML = 'Research #4: Streams and IoT <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' CET ) <a href="#change">Change the time zone!</a></p></p>';
 }
 
 //////////////////////////////////////////////////////
@@ -806,10 +806,10 @@ var msg33 = document.getElementById('time33');
 offsetTimeString = offsetTime.substr(15,6);
 offsetTimeString1 = offsetTime1.substr(15,6);
 if(ele.options[ele.selectedIndex].value == -5){
-  msg33.innerHTML = 'Lunch Break <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' EST )</p>';
+  msg33.innerHTML = 'Lunch Break <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' EST ) <a href="#change">Change the time zone!</a></p></p>';
 }
 else if(ele.options[ele.selectedIndex].value == 1){
-  msg33.innerHTML = 'Lunch Break <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' CET )</p>';
+  msg33.innerHTML = 'Lunch Break <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' CET ) <a href="#change">Change the time zone!</a></p></p>';
 }
 
 //////////////////////////////////////////////////////
@@ -835,10 +835,10 @@ var msg34 = document.getElementById('time34');
 offsetTimeString = offsetTime.substr(15,6);
 offsetTimeString1 = offsetTime1.substr(15,6);
 if(ele.options[ele.selectedIndex].value == -5){
-  msg34.innerHTML = 'Business Meeting and Closing Remarks <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' EST )</p>';
+  msg34.innerHTML = 'Business Meeting and Closing Remarks <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' EST ) <a href="#change">Change the time zone!</a></p></p>';
 }
 else if(ele.options[ele.selectedIndex].value == 1){
-  msg34.innerHTML = 'Business Meeting and Closing Remarks <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' CET )</p>';
+  msg34.innerHTML = 'Business Meeting and Closing Remarks <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' CET ) <a href="#change">Change the time zone!</a></p></p>';
 }
 
 //////////////////////////////////////////////////////
