@@ -77,7 +77,7 @@ div.selectTimezone{
               {{ "<!-- Main Script -->" | safeHTML }}
               {{ $script := resources.Get "js/timezone.js" | minify}}
 
-              <select id="sel" onchange="show(this)">
+              <b>Choose the time zone:</b> <select id="sel" onchange="show(this)">
 
                   <script src="{{ $script.Permalink }}"></script>
               </select>
