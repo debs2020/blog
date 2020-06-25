@@ -33,7 +33,7 @@ tutorial2b:
     - text: "<b>Blockchain Consensus Unraveled: Virtues and Limitations</b> <a href = /pdf/debs20-2.pdf><img style = width:5% src = /img/pdfIcon.png></a><br>Suyash Gupta (University of California, Davis); Jelle Hellings (University of California, Davis); Sajjad Rahnama (University of California, Davis); Mohammad Sadoghi (University of California, Davis)"
 
 keynote1:
-  title: "<a href=/keynote-speakers>Opening Speech and Keynote #1</a>"
+  title: "<a href=/keynote-speakers target=_blank>Opening Speech and Keynote #1</a>"
   chair: "<b>Chair:</b> Khuzaima Daudjee (University of Waterloo)"
   texts:
     - text: "<b>Streaming Graph Processing and Analytics</b><br>Tamer Özsu (University of Waterloo)"
@@ -56,7 +56,7 @@ research2:
     - text: "<b>Mechanisms for Outsourcing Computation via a Decentralized Market</b> <a href = /pdf/debs20-36.pdf><img style = width:5% src = /img/pdfIcon.png></a><br>Scott Eisele (Vanderbilt University); Taha Eghtesad, Nicholas Troutman, Aron Laszka (University of Houston); Abhishek Dubey (Vanderbilt University)"
 
 keynote2:
-  title: "<a href=/keynote-speakers>Keynote #2</a>"
+  title: "<a href=/keynote-speakers target=_blank>Keynote #2</a>"
   chair: "<b>Chair:</b> Bettina Kemme (McGill University)"
   texts:
     - text: "<b>Building Reproducible, Reusable, and Robust Machine Learning Software</b><br>Joelle Pineau (Facebook AI Research, McGill University)"

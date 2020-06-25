@@ -400,10 +400,10 @@ var msg19 = document.getElementById('time19');
 offsetTimeString = offsetTime.substr(15,6);
 offsetTimeString1 = offsetTime1.substr(15,6);
 if(ele.options[ele.selectedIndex].value == -5){
-  msg19.innerHTML = '<a href="/keynote-speakers">Opening Speech and Keynote #1</a> <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' EST )</p>';
+  msg19.innerHTML = '<a href="/keynote-speakers" target="_blank">Opening Speech and Keynote #1</a> <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' EST )</p>';
 }
 else if(ele.options[ele.selectedIndex].value == 1){
-  msg19.innerHTML = '<a href="/keynote-speakers">Opening Speech and Keynote #1</a> <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' CET )</p>';
+  msg19.innerHTML = '<a href="/keynote-speakers" target="_blank">Opening Speech and Keynote #1</a> <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' CET )</p>';
 }
 
 //////////////////////////////////////////////////////
@@ -545,10 +545,10 @@ var msg24 = document.getElementById('time24');
 offsetTimeString = offsetTime.substr(15,6);
 offsetTimeString1 = offsetTime1.substr(15,6);
 if(ele.options[ele.selectedIndex].value == -5){
-  msg24.innerHTML = '<a href="/keynote-speakers">Keynote #2</a> <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' EST )</p>';
+  msg24.innerHTML = '<a href="/keynote-speakers" target="_blank">Keynote #2</a> <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' EST )</p>';
 }
 else if(ele.options[ele.selectedIndex].value == 1){
-  msg24.innerHTML = '<a href="/keynote-speakers">Keynote #2</a> <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' CET )</p>';
+  msg24.innerHTML = '<a href="/keynote-speakers" target="_blank">Keynote #2</a> <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' CET )</p>';
 }
 
 //////////////////////////////////////////////////////
