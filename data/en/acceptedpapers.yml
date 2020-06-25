@@ -5,125 +5,125 @@ paperInfo:
     title: Research Track
     fields:
       - Number : "1"
-        Title : "Triggerflow: Trigger-based Orchestration of Serverless Workflows<br><a href = /pdf/debs20-5.pdf><img style = width:9% src = /img/pdfIcon.png></a>"
+        Title : "Triggerflow: Trigger-based Orchestration of Serverless Workflows<br><a href = /pdf/debs20-5.pdf target = _blank><img style = width:9% src = /img/pdfIcon.png></a>"
         Author : "Pedro Garcia Lopez (IBM Watson Research); Aitor Arjona, Josep Sampe (Universitat Rovira i Virgili); Aleksander Slominski, Lionel Villard (IBM Watson Research)"
 
       - Number : "2"
-        Title : "Leaving Stragglers at the Window: Low-Latency Stream Sampling with Accuracy Guarantees<br><a href = /pdf/debs20-8.pdf><img style = width:9% src = /img/pdfIcon.png></a>"
+        Title : "Leaving Stragglers at the Window: Low-Latency Stream Sampling with Accuracy Guarantees<br><a href = /pdf/debs20-8.pdf target = _blank><img style = width:9% src = /img/pdfIcon.png></a>"
         Author : "Omar Farhat, Harsh Bindra, Khuzaima Daudjee (University of Waterloo)"
 
       - Number : "3"
-        Title : "A Survey of Adaptive Sampling and Filtering Algorithms for the Internet of Things<br><a href = /pdf/debs20-13.pdf><img style = width:9% src = /img/pdfIcon.png></a>"
+        Title : "A Survey of Adaptive Sampling and Filtering Algorithms for the Internet of Things<br><a href = /pdf/debs20-13.pdf target = _blank><img style = width:9% src = /img/pdfIcon.png></a>"
         Author : "Dimitrios Giouroukis, Alexander Dadiani, Jonas Traub, Steffen Zeuch, Volker Markl (Technische Universität Berlin)"
 
 
       - Number : "4"
-        Title : "EdgeScaler: Effective Elastic Scaling for Graph Stream Processing Systems<br><a href = /pdf/debs20-21.pdf><img style = width:9% src = /img/pdfIcon.png></a>"
+        Title : "EdgeScaler: Effective Elastic Scaling for Graph Stream Processing Systems<br><a href = /pdf/debs20-21.pdf target = _blank><img style = width:9% src = /img/pdfIcon.png></a>"
         Author : "Daniel Presser, Frank Siqueira (Universidade Federal de Santa Catarina); Luis Rodrigues (INESC-ID, IST, ULisboa); Paolo Romano (IST/INESC-ID)"
 
       - Number : "5"
-        Title : "On the Tracking of Sensitive Data and Confidential Executions<br><a href = /pdf/debs20-22.pdf><img style = width:9% src = /img/pdfIcon.png></a>"
+        Title : "On the Tracking of Sensitive Data and Confidential Executions<br><a href = /pdf/debs20-22.pdf target = _blank><img style = width:9% src = /img/pdfIcon.png></a>"
         Author : "José Roberto Nascimento Júnior, José B. S. Nunes, Eduardo Lucena Falcão, Lilia Sampaio, Andrey Brito (Federal University of Campina Grande (UFCG))"
 
       - Number : "6"
-        Title : "Hermes: Enabling Energy-efficient IoT Networks with Generalized Deduplication<br><a href = /pdf/debs20-24.pdf><img style = width:9% src = /img/pdfIcon.png></a>"
+        Title : "Hermes: Enabling Energy-efficient IoT Networks with Generalized Deduplication<br><a href = /pdf/debs20-24.pdf target = _blank><img style = width:9% src = /img/pdfIcon.png></a>"
         Author : "Christian Göttel (University of Neuchatel, Switzerland); Lars Nielsen, Niloofar Yazdani (Aarhus University); Pascal Felber (University of Neuchatel, Switzerland); Daniel E. Lucani (Aarhus University); Valerio Schiavoni (University of Neuchatel, Switzerland)"
 
       - Number : "7"
-        Title : "Mechanisms for Outsourcing Computation via a Decentralized Market<br><a href = /pdf/debs20-36.pdf><img style = width:9% src = /img/pdfIcon.png></a>"
+        Title : "Mechanisms for Outsourcing Computation via a Decentralized Market<br><a href = /pdf/debs20-36.pdf target = _blank><img style = width:9% src = /img/pdfIcon.png></a>"
         Author : "Scott Eisele (Vanderbilt University); Taha Eghtesad, Nicholas Troutman, Aron Laszka (University of Houston); Abhishek Dubey (Vanderbilt University)"
 
       - Number : "8"
-        Title : "FaasDom: A Benchmark Suite for Serverless Computing<br><a href = /pdf/debs20-38.pdf><img style = width:9% src = /img/pdfIcon.png></a>"
+        Title : "FaasDom: A Benchmark Suite for Serverless Computing<br><a href = /pdf/debs20-38.pdf target = _blank><img style = width:9% src = /img/pdfIcon.png></a>"
         Author : "Pascal Maissen (University of Fribourg, Switzerland); Pascal Felber, Peter Kropf, Valerio Schiavoni (University of Neuchatel, Switzerland)"
 
       - Number : "9"
-        Title : "ByzGame: Byzantine Generals Game<br><a href = /pdf/debs20-40.pdf><img style = width:9% src = /img/pdfIcon.png></a>"
+        Title : "ByzGame: Byzantine Generals Game<br><a href = /pdf/debs20-40.pdf target = _blank><img style = width:9% src = /img/pdfIcon.png></a>"
         Author : "James Clavin, Pradeep M. Prakash, Sisi Duan (University of Maryland, Baltimore County)"
 
       - Number : "10"
-        Title : "The Kaiju Project: Enabling Event-Driven Observability<br><a href = /pdf/debs20-47.pdf><img style = width:9% src = /img/pdfIcon.png></a>"
+        Title : "The Kaiju Project: Enabling Event-Driven Observability<br><a href = /pdf/debs20-47.pdf target = _blank><img style = width:9% src = /img/pdfIcon.png></a>"
         Author : "Mario Scrocca (Politecnico di Milano); Riccardo Tommasini (University of Tartu); Alessandro Margara, Emanuele Della Valle (Politecnico di Milano); Sherif Sakr (University of Tartu)"
 
       - Number : "11"
-        Title : "DeepMatch: Deep Matching for In-Vehicle Presence Detection in Transportation<br><a href = /pdf/debs20-51.pdf><img style = width:9% src = /img/pdfIcon.png></a>"
+        Title : "DeepMatch: Deep Matching for In-Vehicle Presence Detection in Transportation<br><a href = /pdf/debs20-51.pdf target = _blank><img style = width:9% src = /img/pdfIcon.png></a>"
         Author : "Magnus Oplenskedal (Norwegian University of Science and Technology); Amir Taherkordi (University of Oslo); Peter Herrmann (Norwegian University of Science and Technology)"
 
       - Number : "12"
-        Title : "hSPICE: State-Aware Event Shedding in Complex Event Processing<br><a href = /pdf/debs20-52.pdf><img style = width:9% src = /img/pdfIcon.png></a>"
+        Title : "hSPICE: State-Aware Event Shedding in Complex Event Processing<br><a href = /pdf/debs20-52.pdf target = _blank><img style = width:9% src = /img/pdfIcon.png></a>"
         Author : "Ahmad Slo, Sukanya Bhowmik, Kurt Rothermel (University of Stuttgart)"
 
       - Number : "13"
-        Title : "RocketBufs: A Framework for Building Efficient, In-Memory, Message-Oriented Middleware<br><a href = /pdf/debs20-53.pdf><img style = width:9% src = /img/pdfIcon.png></a>"
+        Title : "RocketBufs: A Framework for Building Efficient, In-Memory, Message-Oriented Middleware<br><a href = /pdf/debs20-53.pdf target = _blank><img style = width:9% src = /img/pdfIcon.png></a>"
         Author : "Huy Hoang, Ben Cassell, Tim Brecht, Samer Al-Kiswany (University of Waterloo)"
 
   industry:
     title: Industry Track
     fields:
       - Number : "1"
-        Title : "TinTiN: Travelling in Time (if Necessary) to deal with out-of-order data in streaming aggregation<br><a href = /pdf/debs20-25.pdf><img style = width:9% src = /img/pdfIcon.png></a>"
+        Title : "TinTiN: Travelling in Time (if Necessary) to deal with out-of-order data in streaming aggregation<br><a href = /pdf/debs20-25.pdf target = _blank><img style = width:9% src = /img/pdfIcon.png></a>"
         Author : "Joris van Rooij (Göteborg Energi); Vincenzo Gulisano, Marina Papatriantafilou (Chalmers University of Technology)"
 
       - Number : "2"
-        Title : "On the Performance of Commodity Hardware for Low Latency and Low Jitter Packet Processing<br><a href = /pdf/debs20-27.pdf><img style = width:9% src = /img/pdfIcon.png></a>"
+        Title : "On the Performance of Commodity Hardware for Low Latency and Low Jitter Packet Processing<br><a href = /pdf/debs20-27.pdf target = _blank><img style = width:9% src = /img/pdfIcon.png></a>"
         Author : "Charalampos Stylianopoulos, Magnus Almgren, Olaf Landsiedel, Marina Papatriantafilou (Chalmers University of Technology); Trevor Neish, Linus Gillander, Bengt Johansson, Staffan Bonnier (Ericsson)"
 
       - Number : "3"
-        Title : "Classification of vessel activity in streaming data<br><a href = /pdf/debs20-30.pdf><img style = width:9% src = /img/pdfIcon.png></a>"
+        Title : "Classification of vessel activity in streaming data<br><a href = /pdf/debs20-30.pdf target = _blank><img style = width:9% src = /img/pdfIcon.png></a>"
         Author : "Ioannis Kontopoulos (Harokopio University of Athens); Konstantinos Chatzikokolakis (MarineTraffic); Konstantinos Tserpes (Harokopio University of Athens); Dimitris Zissis (MarineTraffic)"
 
       - Number : "4"
-        Title : "Managing Geo-Distributed Stream Processing Pipelines for the IIoT with StreamPipes Edge Extensions<br><a href = /pdf/debs20-97.pdf><img style = width:9% src = /img/pdfIcon.png></a>"
+        Title : "Managing Geo-Distributed Stream Processing Pipelines for the IIoT with StreamPipes Edge Extensions<br><a href = /pdf/debs20-97.pdf target = _blank><img style = width:9% src = /img/pdfIcon.png></a>"
         Author : "Patrick Wiener, Philipp Zehnder, Dominik Riemer (FZI Research Center for Information Technology)"
 
   gc:
     title: Grand Challenge Track
     fields:
       - Number : "1"
-        Title : "The DEBS 2020 Grand Challenge<br><a href = /pdf/debs20-1.pdf><img style = width:9% src = /img/pdfIcon.png></a>"
+        Title : "The DEBS 2020 Grand Challenge<br><a href = /pdf/debs20-1.pdf target = _blank><img style = width:9% src = /img/pdfIcon.png></a>"
         Author : "Vincenzo Gulisano (Chalmers University of Technology, Sweden); Daniel Jorde, Ruben Mayer (Technical University of Munich, Germany); Hannaneh Najdataei, Dimitris Palyvos-Giannas (Chalmers University of Technology, Sweden)"
       - Number : "2"
-        Title : "Incremental Stream Query Analytics<br><a href = /pdf/debs20-4.pdf><img style = width:9% src = /img/pdfIcon.png></a>"
+        Title : "Incremental Stream Query Analytics<br><a href = /pdf/debs20-4.pdf target = _blank><img style = width:9% src = /img/pdfIcon.png></a>"
         Author : "Pedro Silva, Wang Yue, Tilmann Rabl (Hasso Plattner Institute, University of Potsdam)"
 
       - Number : "3"
-        Title : "Real-time Detection of Smart Meter Events with Odysseus<br><a href = /pdf/debs20-1000.pdf><img style = width:9% src = /img/pdfIcon.png></a>"
+        Title : "Real-time Detection of Smart Meter Events with Odysseus<br><a href = /pdf/debs20-1000.pdf target = _blank><img style = width:9% src = /img/pdfIcon.png></a>"
         Author : "Michael Brand (University of Oldenburg); Tobias Brandt (OFFIS); Marco Grawunder (University of Oldenburg)"
 
       - Number : "4"
-        Title : "Anomaly Detection for NILM task with Apache Flink<br><a href = /pdf/debs20-1001.pdf><img style = width:9% src = /img/pdfIcon.png></a>"
+        Title : "Anomaly Detection for NILM task with Apache Flink<br><a href = /pdf/debs20-1001.pdf target = _blank><img style = width:9% src = /img/pdfIcon.png></a>"
         Author : "Zongshun Zhang, Ethan Go (Boston University)"
 
       - Number : "5"
-        Title : "Using Streaming Data and Apache Flink to Infer Energy Consumption<br><a href = /pdf/debs20-17.pdf><img style = width:9% src = /img/pdfIcon.png></a>"
+        Title : "Using Streaming Data and Apache Flink to Infer Energy Consumption<br><a href = /pdf/debs20-17.pdf target = _blank><img style = width:9% src = /img/pdfIcon.png></a>"
         Author : "Michael Hendrick, Manuja DeSilva (Boston University)"
 
       - Number : "6"
-        Title : "Optimized Parallel Implementation of Sequential Clustering-Based Event Detection<br><a href = /pdf/debs20-18.pdf><img style = width:9% src = /img/pdfIcon.png></a>"
+        Title : "Optimized Parallel Implementation of Sequential Clustering-Based Event Detection<br><a href = /pdf/debs20-18.pdf target = _blank><img style = width:9% src = /img/pdfIcon.png></a>"
         Author : "Gengtao Xu, Jing Qin, Runqi Tian (Boston University)"
 
   tutorial:
     title: Tutorial Track
     fields:
       - Number : "1"
-        Title : "The Role of Event-Time Analysis Order in Data Streaming<br><a href = /pdf/debs20-1002.pdf><img style = width:9% src = /img/pdfIcon.png></a>"
+        Title : "The Role of Event-Time Analysis Order in Data Streaming<br><a href = /pdf/debs20-1002.pdf target = _blank><img style = width:9% src = /img/pdfIcon.png></a>"
         Author : "Vincenzo Gulisano (Chalmers University of Technology); Bastian Havers (Chalmers University of Technology & Volvo Cars); Dimitrios Palyvos-Giannas, Marina Papatriantafilou (Chalmers University of Technology)"
 
       - Number : "2"
-        Title : "Blockchain Consensus Unraveled: Virtues and Limitations<br><a href = /pdf/debs20-2.pdf><img style = width:9% src = /img/pdfIcon.png></a>"
+        Title : "Blockchain Consensus Unraveled: Virtues and Limitations<br><a href = /pdf/debs20-2.pdf target = _blank><img style = width:9% src = /img/pdfIcon.png></a>"
         Author : "Suyash Gupta, Jelle Hellings, Sajjad Rahnama, Mohammad Sadoghi (University of California, Davis)"
 
   DS:
     title: Doctoral Symposium Track
     fields:
       - Number : "1"
-        Title : "Quantitative Performance-Reliability Trade-off Analysis of Thermal-Constrained Scheduling Strategies in Multi-Core Systems<br><a href = /pdf/debs20-1003.pdf><img style = width:9% src = /img/pdfIcon.png></a>"
+        Title : "Quantitative Performance-Reliability Trade-off Analysis of Thermal-Constrained Scheduling Strategies in Multi-Core Systems<br><a href = /pdf/debs20-1003.pdf target = _blank><img style = width:9% src = /img/pdfIcon.png></a>"
         Author : "Muhammad Usama Sardar (Technische Universität Dresden)"
 
       - Number : "2"
-        Title : "Pre-processing and Data Validation in IoT Data Streams<br><a href = /pdf/debs20-1004.pdf><img style = width:9% src = /img/pdfIcon.png></a>"
+        Title : "Pre-processing and Data Validation in IoT Data Streams<br><a href = /pdf/debs20-1004.pdf target = _blank><img style = width:9% src = /img/pdfIcon.png></a>"
         Author : "Philsy Baban (TU Ilmenau)"
 
       - Number : "3"
-        Title : "Dynamic Scaling of Distributed Data-flows under Uncertainty - Reflections of a financial analyst on the application of finance principles to Systems research<br><a href = /pdf/debs20-3.pdf><img style = width:9% src = /img/pdfIcon.png></a>"
+        Title : "Dynamic Scaling of Distributed Data-flows under Uncertainty - Reflections of a financial analyst on the application of finance principles to Systems research<br><a href = /pdf/debs20-3.pdf target = _blank><img style = width:9% src = /img/pdfIcon.png></a>"
         Author : "Stuart Jamieson (Newcastle University, UK)"
