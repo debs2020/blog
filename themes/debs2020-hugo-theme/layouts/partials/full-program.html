@@ -58,6 +58,11 @@ $(document).ready(function(){
   display: table;
   clear: both;
 }
+div.selectTimezone{
+  margin-top:35px;
+  margin-bottom: 20px;
+  font-size: 12px;
+}
 </style>
 <section id = "full-program">
   <div class="container">
@@ -68,12 +73,12 @@ $(document).ready(function(){
             <div>
               <h1>DEBS 2020 Full Program</h1>
             </div>
-            <div style="margin-bottom:30px; margin-top:50px;">
+            <div class="selectTimezone">
               {{ "<!-- Main Script -->" | safeHTML }}
               {{ $script := resources.Get "js/timezone.js" | minify}}
 
               <select id="sel" onchange="show(this)">
-                  <option value="Default">-- Select the timezone! --</option>
+
                   <script src="{{ $script.Permalink }}"></script>
               </select>
             </div>
@@ -91,7 +96,7 @@ $(document).ready(function(){
                 </thead>
                 <tbody>
                   <tr>
-                    <td id="time1"></td>
+                    <td id="time1">08:30</td>
                     <td style="height:70px; background-color: #655E7A"></td>
                     <td rowspan="2"><a href="#doctoral-symposium">Doctoral Symposium</a></td>
                     <td style="background-color: #655E7A;"></td>
@@ -99,38 +104,38 @@ $(document).ready(function(){
                     <td style="background-color: #655E7A;"></td>
                   </tr>
                   <tr>
-                    <td id="time2" style="height:100px;"></td>
+                    <td id="time2" style="height:100px;">09:00</td>
                     <td><a href="#tutorial1a">Tutorial 1a (Streaming)</a></td>
                     <td rowspan="2"><a href="#keynote1">Opening Speech, Keynote 1 (Tamer Özsu)</a></td>
                     <td><a href="#keynote2">Keynote 2 (Joelle Pineau)</a></td>
                     <td><a href="#test">Test-of-Time, Research Session 3 (Serverless)</a></td>
                   </tr>
                   <tr>
-                    <td id="time3"></td>
+                    <td id="time3">10:00</td>
                     <td rowspan="2"><a href="#break1">Discussion break</a></td>
                     <td rowspan="2"><a href="#break2">Discussion break</a></td>
                     <td rowspan="2"><a href="#break4">Discussion break</a></td>
                     <td rowspan="2"><a href="#break5">Discussion break</a></td>
                   </tr>
                   <tr>
-                    <td id="time4"></td>
+                    <td id="time4">10:15</td>
                     <td rowspan="2"><a href="#break3">Discussion break</a></td>
 
                   </tr>
                   <tr>
-                    <td id="time5"></td>
+                    <td id="time5">10:30</td>
                     <td rowspan="2"><a href="#tutorial1b">Tutorial 1b (Streaming)</a></td>
                     <td rowspan="2"><a href="#tutorial2a">Tutorial 2a (Blockchain)</a></td>
                     <td rowspan="2"><a href="#industry">Industry Session</a></td>
                     <td rowspan="2"><a href="#research4">Research Session 4 (Streams and IoT)</a></td>
                   </tr>
                   <tr>
-                    <td id="time6" style="height:90px;"></td>
+                    <td id="time6" style="height:90px;">10:45</td>
                     <td><a href="#research1">Research Session 1 (Events)</td>
 
                   </tr>
                   <tr>
-                    <td id="time7" style="height:150px;"></td>
+                    <td id="time7" style="height:150px;">11:40</td>
                     <td style="background-color: #655E7A;">Lunch break</td>
                     <td><a href="#lunch1">Lunch break</a></td>
                     <td><a href="#lunch2">Lunch break</a></td>
@@ -138,7 +143,7 @@ $(document).ready(function(){
                     <td><a href="#lunch4">Lunch break</a></td>
                   </tr>
                   <tr>
-                    <td id="time8" style="height:120px;"></td>
+                    <td id="time8" style="height:120px;">13:00</td>
                     <td style="background-color: #655E7A;"></td>
                     <td><a href="#tutorial2b">Tutorial 2b (Blockchain)</a></td>
                     <td><a href="#research2">Research Session 2 (Dependability)</a></td>
@@ -146,14 +151,14 @@ $(document).ready(function(){
                     <td><a href="#business">Business Meeting, Closing Remarks</a></td>
                   </tr>
                   <tr>
-                    <td id="time9"></td>
+                    <td id="time9">14:10</td>
                     <td style="background-color: #655E7A;"></td>
                     <td style="background-color: #655E7A;"></td>
                     <td style="background-color: #655E7A;"></td>
                     <td style="background-color: #655E7A;"></td>
                   </tr>
                   <tr>
-                    <td id="time10"></td>
+                    <td id="time10">14:30</td>
                     <td style="background-color: #655E7A;"></td>
                     <td style="background-color: #655E7A;"></td>
                     <td style="background-color: #655E7A;"></td>
@@ -181,7 +186,7 @@ $(document).ready(function(){
 
               </div>
               <div class="column right">
-                <h3 id="time11">{{ $data.fullprogram.tutorial1a.title }}</h3>
+                <h3 id="time11">{{ $data.fullprogram.tutorial1a.title }} <p>( 09:00 &ndash; 10:00 EST )</p></h3>
                 <p>{{ $data.fullprogram.tutorial1a.chair | markdownify }}</p>
                 {{ range $data.fullprogram.tutorial1a.texts }}
                 <p>{{ .text | markdownify }}</p>
@@ -199,7 +204,7 @@ $(document).ready(function(){
 
               </div>
               <div class="column right">
-                <h3 id="time12">Discussion Break</h3>
+                <h3 id="time12">Discussion Break <p>( 10:00 &ndash; 10:30 EST )</p></h3>
                 <p>Please use our Slack and Zoom to discuss</p>
               </div>
             </div>
@@ -214,7 +219,7 @@ $(document).ready(function(){
 
               </div>
               <div class="column right">
-                <h3 id="time13">{{ $data.fullprogram.tutorial1b.title }}</h3>
+                <h3 id="time13">{{ $data.fullprogram.tutorial1b.title }} <p>( 10:30 &ndash; 11:40 EST )</p></h3>
                 <p>{{ $data.fullprogram.tutorial1b.chair | markdownify }}</p>
                 {{ range $data.fullprogram.tutorial1b.texts }}
                 <p>{{ .text | markdownify }}</p>
@@ -236,7 +241,7 @@ $(document).ready(function(){
 
               </div>
               <div class="column right">
-                <h3 id="time14">{{ $data.fullprogram.DS.title }}</h3>
+                <h3 id="time14">{{ $data.fullprogram.DS.title }} <p>( 08:30 &ndash; 10:00 EST )</p></h3>
                 <p>{{ $data.fullprogram.DS.chair | markdownify }}</p>
                 {{ range $data.fullprogram.DS.texts }}
                 <p>{{ .text | markdownify }}</p>
@@ -254,7 +259,7 @@ $(document).ready(function(){
 
               </div>
               <div class="column right">
-                <h3 id="time15">Discussion Break</h3>
+                <h3 id="time15">Discussion Break <p>( 10:00 &ndash; 10:30 EST )</p></h3>
                 <p>Please use our Slack and Zoom to discuss</p>
               </div>
             </div>
@@ -269,7 +274,7 @@ $(document).ready(function(){
 
               </div>
               <div class="column right">
-                <h3 id="time16">{{ $data.fullprogram.tutorial2a.title }}</h3>
+                <h3 id="time16">{{ $data.fullprogram.tutorial2a.title }} <p>( 10:30 &ndash; 11:40 EST )</p></h3>
                 <p>{{ $data.fullprogram.tutorial2a.chair | markdownify }}</p>
                 {{ range $data.fullprogram.tutorial2a.texts }}
                 <p>{{ .text | markdownify }}</p>
@@ -287,7 +292,7 @@ $(document).ready(function(){
 
               </div>
               <div class="column right">
-                <h3 id="time17">Lunch Break</h3>
+                <h3 id="time17">Lunch Break <p>( 11:40 &ndash; 13:00 EST )</p></h3>
                 <p>Please use our Slack and Zoom to discuss</p>
               </div>
             </div>
@@ -302,7 +307,7 @@ $(document).ready(function(){
 
               </div>
               <div class="column right">
-                <h3 id="time18">{{ $data.fullprogram.tutorial2b.title }}</h3>
+                <h3 id="time18">{{ $data.fullprogram.tutorial2b.title }} <p>( 13:00 &ndash; 14:10 EST )</p></h3>
                 <p>{{ $data.fullprogram.tutorial2b.chair | markdownify }}</p>
                 {{ range $data.fullprogram.tutorial2b.texts }}
                 <p>{{ .text | markdownify }}</p>
@@ -324,7 +329,7 @@ $(document).ready(function(){
 
               </div>
               <div class="column right">
-                <h3 id="time19">{{ $data.fullprogram.keynote1.title | markdownify }}</h3>
+                <h3 id="time19">{{ $data.fullprogram.keynote1.title | markdownify }} <p>( 09:00 &ndash; 10:15 EST )</p></h3>
                 <p>{{ $data.fullprogram.keynote1.chair | markdownify }}</p>
                 {{ range $data.fullprogram.keynote1.texts }}
                 <p>{{ .text | markdownify }}</p>
@@ -342,7 +347,7 @@ $(document).ready(function(){
 
               </div>
               <div class="column right">
-                <h3 id="time20">Discussion Break</h3>
+                <h3 id="time20">Discussion Break <p>( 10:15 &ndash; 10:45 EST )</p></h3>
                 <p>Please use our Slack and Zoom to discuss</p>
               </div>
             </div>
@@ -356,7 +361,7 @@ $(document).ready(function(){
 
               </div>
               <div class="column right">
-                <h3 id="time21">{{ $data.fullprogram.research1.title }}</h3>
+                <h3 id="time21">{{ $data.fullprogram.research1.title }} <p>( 10:45 &ndash; 11:40 EST )</p></h3>
                 <p>{{ $data.fullprogram.research1.chair | markdownify }}</p>
                 {{ range $data.fullprogram.research1.texts }}
                 <p>{{ .text | markdownify }}</p>
@@ -374,7 +379,7 @@ $(document).ready(function(){
 
               </div>
               <div class="column right">
-                <h3 id="time22">Lunch Break</h3>
+                <h3 id="time22">Lunch Break <p>( 11:40 &ndash; 13:00 EST )</p></h3>
                 <p>Please use our Slack and Zoom to discuss</p>
               </div>
             </div>
@@ -388,7 +393,7 @@ $(document).ready(function(){
 
               </div>
               <div class="column right">
-                <h3 id="time23">{{ $data.fullprogram.research2.title }}</h3>
+                <h3 id="time23">{{ $data.fullprogram.research2.title }} <p>( 13:00 &ndash; 14:10 EST )</p></h3>
                 <p>{{ $data.fullprogram.research2.chair | markdownify }}</p>
                 {{ range $data.fullprogram.research2.texts }}
                 <p>{{ .text | markdownify }}</p>
@@ -409,7 +414,7 @@ $(document).ready(function(){
 
               </div>
               <div class="column right">
-                <h3 id="time24">{{ $data.fullprogram.keynote2.title | markdownify }}</h3>
+                <h3 id="time24">{{ $data.fullprogram.keynote2.title | markdownify }} <p>( 09:00 &ndash; 10:00 EST )</p></h3>
                 <p>{{ $data.fullprogram.keynote2.chair | markdownify }}</p>
                 {{ range $data.fullprogram.keynote2.texts }}
                 <p>{{ .text | markdownify }}</p>
@@ -427,7 +432,7 @@ $(document).ready(function(){
 
               </div>
               <div class="column right">
-                <h3 id="time25">Discussion Break</h3>
+                <h3 id="time25">Discussion Break <p>( 10:00 &ndash; 10:30 EST )</p></h3>
                 <p>Please use our Slack and Zoom to discuss</p>
               </div>
             </div>
@@ -441,7 +446,7 @@ $(document).ready(function(){
 
               </div>
               <div class="column right">
-                <h3 id="time26">{{ $data.fullprogram.industry.title }}</h3>
+                <h3 id="time26">{{ $data.fullprogram.industry.title }} <p>( 10:30 &ndash; 11:40 EST )</p></h3>
                 <p>{{ $data.fullprogram.industry.chair | markdownify }}</p>
                 {{ range $data.fullprogram.industry.texts }}
                 <p>{{ .text | markdownify }}</p>
@@ -459,7 +464,7 @@ $(document).ready(function(){
 
               </div>
               <div class="column right">
-                <h3 id="time27">Lunch Break</h3>
+                <h3 id="time27">Lunch Break <p>( 11:40 &ndash; 13:00 EST )</p></h3>
                 <p>Please use our Slack and Zoom to discuss</p>
               </div>
             </div>
@@ -473,7 +478,7 @@ $(document).ready(function(){
 
               </div>
               <div class="column right">
-                <h3 id="time28">{{ $data.fullprogram.GC.title }}</h3>
+                <h3 id="time28">{{ $data.fullprogram.GC.title }} <p>( 13:00 &ndash; 14:30 EST )</p></h3>
                 <p>{{ $data.fullprogram.GC.chair | markdownify }}</p>
                 {{ range $data.fullprogram.GC.texts }}
                 <p>{{ .text | markdownify }}</p>
@@ -494,7 +499,7 @@ $(document).ready(function(){
 
               </div>
               <div class="column right">
-                <h3 id="time29">{{ $data.fullprogram.test.title }}</h3>
+                <h3 id="time29">{{ $data.fullprogram.test.title }} <p>( 09:00 &ndash; 09:20 EST )</p></h3>
                 <p>{{ $data.fullprogram.test.chair | markdownify }}</p>
                 {{ range $data.fullprogram.test.texts }}
                 <p>{{ .text | markdownify }}</p>
@@ -511,7 +516,7 @@ $(document).ready(function(){
 
               </div>
               <div class="column right">
-                <h3 id="time30">{{ $data.fullprogram.research3.title }}</h3>
+                <h3 id="time30">{{ $data.fullprogram.research3.title }} <p>( 09:24 &ndash; 10:00 EST )</p></h3>
                 <p>{{ $data.fullprogram.research3.chair | markdownify }}</p>
                 {{ range $data.fullprogram.research3.texts }}
                 <p>{{ .text | markdownify }}</p>
@@ -529,7 +534,7 @@ $(document).ready(function(){
 
               </div>
               <div class="column right">
-                <h3 id="time31">Discussion Break</h3>
+                <h3 id="time31">Discussion Break <p>( 10:00 &ndash; 10:30 EST )</p></h3>
                 <p>Please use our Slack and Zoom to discuss</p>
               </div>
             </div>
@@ -543,7 +548,7 @@ $(document).ready(function(){
 
               </div>
               <div class="column right">
-                <h3 id="time32">{{ $data.fullprogram.research4.title }}</h3>
+                <h3 id="time32">{{ $data.fullprogram.research4.title }} <p>( 10:30 &ndash; 11:40 EST )</p></h3>
                 <p>{{ $data.fullprogram.research4.chair | markdownify }}</p>
                 {{ range $data.fullprogram.research4.texts }}
                 <p>{{ .text | markdownify }}</p>
@@ -561,7 +566,7 @@ $(document).ready(function(){
 
               </div>
               <div class="column right">
-                <h3 id="time33">Lunch Break</h3>
+                <h3 id="time33">Lunch Break <p>( 11:40 &ndash; 13:00 EST )</p></h3>
                 <p>Please use our Slack and Zoom to discuss</p>
               </div>
             </div>
@@ -576,7 +581,7 @@ $(document).ready(function(){
 
               </div>
               <div class="column right">
-                <h3 id="time34">Business Meeting and Closing Remarks</h3>
+                <h3 id="time34">Business Meeting and Closing Remarks <p>( 13:00 &ndash; 14:10 EST )</p></h3>
                 <p><b>Chair:</b> Peter Pietzuch (Imperial College London)</p>
               </div>
             </div>

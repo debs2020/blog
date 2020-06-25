@@ -59,11 +59,11 @@ keynote2:
   title: "<a href=/keynote-speakers target=_blank>Keynote #2</a>"
   chair: "<b>Chair:</b> Bettina Kemme (McGill University)"
   texts:
-    - text: "<b>Building Reproducible, Reusable, and Robust Machine Learning Software</b><br>Joelle Pineau (Facebook AI Research, McGill University)"
+    - text: "<b>Building Reproducible, Reusable, and Robust Machine Learning Software</b><br>Joelle Pineau (Facebook AI Research, MILA, McGill University)"
 
 industry:
   title: "Industry"
-  chair: "<b>Chair:</b> TBA"
+  chair: "<b>Chair:</b> Jan Rellermeyer (TU Delft)"
   texts:
     - text: "<b>TinTiN: Travelling in Time (if Necessary) to deal with out-of-order data in streaming aggregation</b> <a href = /pdf/debs20-25.pdf target = _blank><img style = width:5% src = /img/pdfIcon.png></a><br>Joris van Rooij (Göteborg Energi); Vincenzo Gulisano, Marina Papatriantafilou (Chalmers University of Technology)"
     - text: "<b>On the Performance of Commodity Hardware for Low Latency and Low Jitter Packet Processing</b> <a href = /pdf/debs20-27.pdf target = _blank><img style = width:5% src = /img/pdfIcon.png></a><br>Charalampos Stylianopoulos, Magnus Almgren, Olaf Landsiedel, Marina Papatriantafilou (Chalmers University of Technology); Trevor Neish, Linus Gillander, Bengt Johansson, Staffan Bonnier (Ericsson)"
@@ -83,7 +83,7 @@ GC:
 
 test:
   title: "Test of Time"
-  chair: "<b>Chair:</b> TBA"
+  chair: "<b>Chair:</b> Peter Pietzuch (Imperial College London)"
   texts:
     - text: "The Test of Time award will be announced during the session."
 
@@ -96,7 +96,7 @@ research3:
 
 research4:
   title: "Research #4: Streams and IoT"
-  chair: "<b>Chair:</b> TBA"
+  chair: "<b>Chair:</b> Boris Koldehofe (University of Groningen)"
   texts:
     - text: "<b>EdgeScaler: Effective Elastic Scaling for Graph Stream Processing Systems</b> <a href = /pdf/debs20-21.pdf target = _blank><img style = width:5% src = /img/pdfIcon.png></a><br>Daniel Presser, Frank Siqueira (Universidade Federal de Santa Catarina); Luis Rodrigues (INESC-ID, IST, ULisboa); Paolo Romano (IST/INESC-ID)"
     - text: "<b>RocketBufs: A Framework for Building Efficient, In-Memory, Message-Oriented Middleware</b> <a href = /pdf/debs20-53.pdf target = _blank><img style = width:5% src = /img/pdfIcon.png></a><br>Huy Hoang, Ben Cassell, Tim Brecht, Samer Al-Kiswany (University of Waterloo)"
