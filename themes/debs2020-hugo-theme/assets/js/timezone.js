@@ -172,7 +172,7 @@ offsetTimeString1 = offsetTime1.substr(15,6);
 if(ele.options[ele.selectedIndex].value == -5){
   msg11.innerHTML = 'Tutorial #1a <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' EST )</p>';
 }
-else{
+else if(ele.options[ele.selectedIndex].value == 1){
   msg11.innerHTML = 'Tutorial #1a <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' CET )</p>';
 }
 //////////////////////////////////////////////////////
@@ -200,7 +200,7 @@ offsetTimeString1 = offsetTime1.substr(15,6);
 if(ele.options[ele.selectedIndex].value == -5){
   msg12.innerHTML = 'Discussion Break <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' EST )</p>';
 }
-else{
+else if(ele.options[ele.selectedIndex].value == 1){
   msg12.innerHTML = 'Discussion Break <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' CET )</p>';
 }
 //////////////////////////////////////////////////////
@@ -228,7 +228,7 @@ offsetTimeString1 = offsetTime1.substr(15,6);
 if(ele.options[ele.selectedIndex].value == -5){
   msg13.innerHTML = 'Tutorial #1b <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' EST )</p>';
 }
-else{
+else if(ele.options[ele.selectedIndex].value == 1){
   msg13.innerHTML = 'Tutorial #1b <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' CET )</p>';
 }
 
@@ -257,7 +257,7 @@ offsetTimeString1 = offsetTime1.substr(15,6);
 if(ele.options[ele.selectedIndex].value == -5){
   msg14.innerHTML = 'Doctoral Symposium <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' EST )</p>';
 }
-else{
+else if(ele.options[ele.selectedIndex].value == 1){
   msg14.innerHTML = 'Doctoral Symposium <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' CET )</p>';
 }
 
@@ -286,7 +286,7 @@ offsetTimeString1 = offsetTime1.substr(15,6);
 if(ele.options[ele.selectedIndex].value == -5){
   msg15.innerHTML = 'Discussion Break <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' EST )</p>';
 }
-else{
+else if(ele.options[ele.selectedIndex].value == 1){
   msg15.innerHTML = 'Discussion Break <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' CET )</p>';
 }
 
@@ -315,7 +315,7 @@ offsetTimeString1 = offsetTime1.substr(15,6);
 if(ele.options[ele.selectedIndex].value == -5){
   msg16.innerHTML = 'Tutorial #2a <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' EST )</p>';
 }
-else{
+else if(ele.options[ele.selectedIndex].value == 1){
   msg16.innerHTML = 'Tutorial #2a <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' CET )</p>';
 }
 
@@ -344,7 +344,7 @@ offsetTimeString1 = offsetTime1.substr(15,6);
 if(ele.options[ele.selectedIndex].value == -5){
   msg17.innerHTML = 'Lunch Break <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' EST )</p>';
 }
-else{
+else if(ele.options[ele.selectedIndex].value == 1){
   msg17.innerHTML = 'Lunch Break <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' CET )</p>';
 }
 
@@ -373,7 +373,7 @@ offsetTimeString1 = offsetTime1.substr(15,6);
 if(ele.options[ele.selectedIndex].value == -5){
   msg18.innerHTML = 'Tutorial #2b <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' EST )</p>';
 }
-else{
+else if(ele.options[ele.selectedIndex].value == 1){
   msg18.innerHTML = 'Tutorial #2b <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' CET )</p>';
 }
 
@@ -402,7 +402,7 @@ offsetTimeString1 = offsetTime1.substr(15,6);
 if(ele.options[ele.selectedIndex].value == -5){
   msg19.innerHTML = 'Opening Speech and Keynote #1 <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' EST )</p>';
 }
-else{
+else if(ele.options[ele.selectedIndex].value == 1){
   msg19.innerHTML = 'Opening Speech and Keynote #1 <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' CET )</p>';
 }
 
@@ -431,7 +431,7 @@ offsetTimeString1 = offsetTime1.substr(15,6);
 if(ele.options[ele.selectedIndex].value == -5){
   msg20.innerHTML = 'Discussion Break <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' EST )</p>';
 }
-else{
+else if(ele.options[ele.selectedIndex].value == 1){
   msg20.innerHTML = 'Discussion Break <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' CET )</p>';
 }
 
@@ -460,7 +460,7 @@ offsetTimeString1 = offsetTime1.substr(15,6);
 if(ele.options[ele.selectedIndex].value == -5){
   msg21.innerHTML = 'Research #1: Events <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' EST )</p>';
 }
-else{
+else if(ele.options[ele.selectedIndex].value == 1){
   msg21.innerHTML = 'Research #1: Events <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' CET )</p>';
 }
 
@@ -489,7 +489,7 @@ offsetTimeString1 = offsetTime1.substr(15,6);
 if(ele.options[ele.selectedIndex].value == -5){
   msg22.innerHTML = 'Lunch Break <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' EST )</p>';
 }
-else{
+else if(ele.options[ele.selectedIndex].value == 1){
   msg22.innerHTML = 'Lunch Break <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' CET )</p>';
 }
 
@@ -518,7 +518,7 @@ offsetTimeString1 = offsetTime1.substr(15,6);
 if(ele.options[ele.selectedIndex].value == -5){
   msg23.innerHTML = 'Research #2: Dependability <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' EST )</p>';
 }
-else{
+else if(ele.options[ele.selectedIndex].value == 1){
   msg23.innerHTML = 'Research #2: Dependability <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' CET )</p>';
 }
 
@@ -547,7 +547,7 @@ offsetTimeString1 = offsetTime1.substr(15,6);
 if(ele.options[ele.selectedIndex].value == -5){
   msg24.innerHTML = 'Keynote #2 <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' EST )</p>';
 }
-else{
+else if(ele.options[ele.selectedIndex].value == 1){
   msg24.innerHTML = 'Keynote #2 <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' CET )</p>';
 }
 
@@ -576,7 +576,7 @@ offsetTimeString1 = offsetTime1.substr(15,6);
 if(ele.options[ele.selectedIndex].value == -5){
   msg25.innerHTML = 'Discussion Break <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' EST )</p>';
 }
-else{
+else if(ele.options[ele.selectedIndex].value == 1){
   msg25.innerHTML = 'Discussion Break <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' CET )</p>';
 }
 
@@ -605,7 +605,7 @@ offsetTimeString1 = offsetTime1.substr(15,6);
 if(ele.options[ele.selectedIndex].value == -5){
   msg26.innerHTML = 'Industry <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' EST )</p>';
 }
-else{
+else if(ele.options[ele.selectedIndex].value == 1){
   msg26.innerHTML = 'Industry <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' CET )</p>';
 }
 
@@ -634,7 +634,7 @@ offsetTimeString1 = offsetTime1.substr(15,6);
 if(ele.options[ele.selectedIndex].value == -5){
   msg27.innerHTML = 'Lunch Break <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' EST )</p>';
 }
-else{
+else if(ele.options[ele.selectedIndex].value == 1){
   msg27.innerHTML = 'Lunch Break <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' CET )</p>';
 }
 
@@ -663,7 +663,7 @@ offsetTimeString1 = offsetTime1.substr(15,6);
 if(ele.options[ele.selectedIndex].value == -5){
   msg28.innerHTML = 'Grand Challenge <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' EST )</p>';
 }
-else{
+else if(ele.options[ele.selectedIndex].value == 1){
   msg28.innerHTML = 'Grand Challenge <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' CET )</p>';
 }
 
@@ -692,7 +692,7 @@ offsetTimeString1 = offsetTime1.substr(15,6);
 if(ele.options[ele.selectedIndex].value == -5){
   msg29.innerHTML = 'Test of Time <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' EST )</p>';
 }
-else{
+else if(ele.options[ele.selectedIndex].value == 1){
   msg29.innerHTML = 'Test of Time <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' CET )</p>';
 }
 
@@ -721,7 +721,7 @@ offsetTimeString1 = offsetTime1.substr(15,6);
 if(ele.options[ele.selectedIndex].value == -5){
   msg30.innerHTML = 'Research #3: Serverless <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' EST )</p>';
 }
-else{
+else if(ele.options[ele.selectedIndex].value == 1){
   msg30.innerHTML = 'Research #3: Serverless <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' CET )</p>';
 }
 
@@ -750,7 +750,7 @@ offsetTimeString1 = offsetTime1.substr(15,6);
 if(ele.options[ele.selectedIndex].value == -5){
   msg31.innerHTML = 'Discussion Break <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' EST )</p>';
 }
-else{
+else if(ele.options[ele.selectedIndex].value == 1){
   msg31.innerHTML = 'Discussion Break <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' CET )</p>';
 }
 
@@ -779,7 +779,7 @@ offsetTimeString1 = offsetTime1.substr(15,6);
 if(ele.options[ele.selectedIndex].value == -5){
   msg32.innerHTML = 'Research #4: Streams and IoT <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' EST )</p>';
 }
-else{
+else if(ele.options[ele.selectedIndex].value == 1){
   msg32.innerHTML = 'Research #4: Streams and IoT <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' CET )</p>';
 }
 
@@ -808,7 +808,7 @@ offsetTimeString1 = offsetTime1.substr(15,6);
 if(ele.options[ele.selectedIndex].value == -5){
   msg33.innerHTML = 'Lunch Break <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' EST )</p>';
 }
-else{
+else if(ele.options[ele.selectedIndex].value == 1){
   msg33.innerHTML = 'Lunch Break <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' CET )</p>';
 }
 
@@ -837,7 +837,7 @@ offsetTimeString1 = offsetTime1.substr(15,6);
 if(ele.options[ele.selectedIndex].value == -5){
   msg34.innerHTML = 'Business Meeting and Closing Remarks <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' EST )</p>';
 }
-else{
+else if(ele.options[ele.selectedIndex].value == 1){
   msg34.innerHTML = 'Business Meeting and Closing Remarks <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' CET )</p>';
 }
 
