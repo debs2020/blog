@@ -169,7 +169,12 @@ var offsetTime1 = new Date(targetTime1.getTime() + tzDifference1 * 60 * 1000).to
 var msg11 = document.getElementById('time11');
 offsetTimeString = offsetTime.substr(15,6);
 offsetTimeString1 = offsetTime1.substr(15,6);
-msg11.innerHTML = 'Tutorial #1a ('+ offsetTimeString+' &ndash;'+offsetTimeString1+' )';
+if(ele.options[ele.selectedIndex].value == -5){
+  msg11.innerHTML = 'Tutorial #1a <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' EST )</p>';
+}
+else{
+  msg11.innerHTML = 'Tutorial #1a <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' CET )</p>';
+}
 //////////////////////////////////////////////////////
 var date = "July 13, 2020 11:00:00";
 var targetTime = new Date(date);
@@ -192,7 +197,12 @@ var offsetTime1 = new Date(targetTime1.getTime() + tzDifference1 * 60 * 1000).to
 var msg12 = document.getElementById('time12');
 offsetTimeString = offsetTime.substr(15,6);
 offsetTimeString1 = offsetTime1.substr(15,6);
-msg12.innerHTML = 'Discussion Break ('+ offsetTimeString+' &ndash;'+offsetTimeString1+' )';
+if(ele.options[ele.selectedIndex].value == -5){
+  msg12.innerHTML = 'Discussion Break <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' EST )</p>';
+}
+else{
+  msg12.innerHTML = 'Discussion Break <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' CET )</p>';
+}
 //////////////////////////////////////////////////////
 var date = "July 13, 2020 11:30:00";
 var targetTime = new Date(date);
@@ -215,7 +225,13 @@ var offsetTime1 = new Date(targetTime1.getTime() + tzDifference1 * 60 * 1000).to
 var msg13 = document.getElementById('time13');
 offsetTimeString = offsetTime.substr(15,6);
 offsetTimeString1 = offsetTime1.substr(15,6);
-msg13.innerHTML = 'Tutorial #1b ('+ offsetTimeString+' &ndash;'+offsetTimeString1+' )';
+if(ele.options[ele.selectedIndex].value == -5){
+  msg13.innerHTML = 'Tutorial #1b <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' EST )</p>';
+}
+else{
+  msg13.innerHTML = 'Tutorial #1b <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' CET )</p>';
+}
+
 //////////////////////////////////////////////////////
 var date = "July 13, 2020 9:30:00";
 var targetTime = new Date(date);
@@ -238,7 +254,13 @@ var offsetTime1 = new Date(targetTime1.getTime() + tzDifference1 * 60 * 1000).to
 var msg14 = document.getElementById('time14');
 offsetTimeString = offsetTime.substr(15,6);
 offsetTimeString1 = offsetTime1.substr(15,6);
-msg14.innerHTML = 'Doctoral Symposium ('+ offsetTimeString+' &ndash;'+offsetTimeString1+' )';
+if(ele.options[ele.selectedIndex].value == -5){
+  msg14.innerHTML = 'Doctoral Symposium <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' EST )</p>';
+}
+else{
+  msg14.innerHTML = 'Doctoral Symposium <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' CET )</p>';
+}
+
 //////////////////////////////////////////////////////
 var date = "July 14, 2020 11:00:00";
 var targetTime = new Date(date);
@@ -261,7 +283,13 @@ var offsetTime1 = new Date(targetTime1.getTime() + tzDifference1 * 60 * 1000).to
 var msg15 = document.getElementById('time15');
 offsetTimeString = offsetTime.substr(15,6);
 offsetTimeString1 = offsetTime1.substr(15,6);
-msg15.innerHTML = 'Discussion Break ('+ offsetTimeString+' &ndash;'+offsetTimeString1+' )';
+if(ele.options[ele.selectedIndex].value == -5){
+  msg15.innerHTML = 'Discussion Break <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' EST )</p>';
+}
+else{
+  msg15.innerHTML = 'Discussion Break <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' CET )</p>';
+}
+
 //////////////////////////////////////////////////////
 var date = "July 14, 2020 11:30:00";
 var targetTime = new Date(date);
@@ -284,7 +312,13 @@ var offsetTime1 = new Date(targetTime1.getTime() + tzDifference1 * 60 * 1000).to
 var msg16 = document.getElementById('time16');
 offsetTimeString = offsetTime.substr(15,6);
 offsetTimeString1 = offsetTime1.substr(15,6);
-msg16.innerHTML = 'Tutorial #2a ('+ offsetTimeString+' &ndash;'+offsetTimeString1+' )';
+if(ele.options[ele.selectedIndex].value == -5){
+  msg16.innerHTML = 'Tutorial #2a <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' EST )</p>';
+}
+else{
+  msg16.innerHTML = 'Tutorial #2a <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' CET )</p>';
+}
+
 //////////////////////////////////////////////////////
 var date = "July 14, 2020 12:40:00";
 var targetTime = new Date(date);
@@ -307,7 +341,13 @@ var offsetTime1 = new Date(targetTime1.getTime() + tzDifference1 * 60 * 1000).to
 var msg17 = document.getElementById('time17');
 offsetTimeString = offsetTime.substr(15,6);
 offsetTimeString1 = offsetTime1.substr(15,6);
-msg17.innerHTML = 'Lunch Break ('+ offsetTimeString+' &ndash;'+offsetTimeString1+' )';
+if(ele.options[ele.selectedIndex].value == -5){
+  msg17.innerHTML = 'Lunch Break <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' EST )</p>';
+}
+else{
+  msg17.innerHTML = 'Lunch Break <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' CET )</p>';
+}
+
 //////////////////////////////////////////////////////
 var date = "July 14, 2020 14:00:00";
 var targetTime = new Date(date);
@@ -330,7 +370,13 @@ var offsetTime1 = new Date(targetTime1.getTime() + tzDifference1 * 60 * 1000).to
 var msg18 = document.getElementById('time18');
 offsetTimeString = offsetTime.substr(15,6);
 offsetTimeString1 = offsetTime1.substr(15,6);
-msg18.innerHTML = 'Tutorial #2b ('+ offsetTimeString+' &ndash;'+offsetTimeString1+' )';
+if(ele.options[ele.selectedIndex].value == -5){
+  msg18.innerHTML = 'Tutorial #2b <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' EST )</p>';
+}
+else{
+  msg18.innerHTML = 'Tutorial #2b <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' CET )</p>';
+}
+
 //////////////////////////////////////////////////////
 var date = "July 15, 2020 10:00:00";
 var targetTime = new Date(date);
@@ -353,7 +399,13 @@ var offsetTime1 = new Date(targetTime1.getTime() + tzDifference1 * 60 * 1000).to
 var msg19 = document.getElementById('time19');
 offsetTimeString = offsetTime.substr(15,6);
 offsetTimeString1 = offsetTime1.substr(15,6);
-msg19.innerHTML = 'Opening Speech and Keynote #1 ('+ offsetTimeString+' &ndash;'+offsetTimeString1+' )';
+if(ele.options[ele.selectedIndex].value == -5){
+  msg19.innerHTML = 'Opening Speech and Keynote #1 <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' EST )</p>';
+}
+else{
+  msg19.innerHTML = 'Opening Speech and Keynote #1 <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' CET )</p>';
+}
+
 //////////////////////////////////////////////////////
 var date = "July 15, 2020 11:15:00";
 var targetTime = new Date(date);
@@ -376,7 +428,13 @@ var offsetTime1 = new Date(targetTime1.getTime() + tzDifference1 * 60 * 1000).to
 var msg20 = document.getElementById('time20');
 offsetTimeString = offsetTime.substr(15,6);
 offsetTimeString1 = offsetTime1.substr(15,6);
-msg20.innerHTML = 'Discussion Break ('+ offsetTimeString+' &ndash;'+offsetTimeString1+' )';
+if(ele.options[ele.selectedIndex].value == -5){
+  msg20.innerHTML = 'Discussion Break <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' EST )</p>';
+}
+else{
+  msg20.innerHTML = 'Discussion Break <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' CET )</p>';
+}
+
 //////////////////////////////////////////////////////
 var date = "July 15, 2020 11:45:00";
 var targetTime = new Date(date);
@@ -399,7 +457,13 @@ var offsetTime1 = new Date(targetTime1.getTime() + tzDifference1 * 60 * 1000).to
 var msg21 = document.getElementById('time21');
 offsetTimeString = offsetTime.substr(15,6);
 offsetTimeString1 = offsetTime1.substr(15,6);
-msg21.innerHTML = 'Research #1: Events ('+ offsetTimeString+' &ndash;'+offsetTimeString1+' )';
+if(ele.options[ele.selectedIndex].value == -5){
+  msg21.innerHTML = 'Research #1: Events <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' EST )</p>';
+}
+else{
+  msg21.innerHTML = 'Research #1: Events <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' CET )</p>';
+}
+
 //////////////////////////////////////////////////////
 var date = "July 15, 2020 12:40:00";
 var targetTime = new Date(date);
@@ -422,7 +486,13 @@ var offsetTime1 = new Date(targetTime1.getTime() + tzDifference1 * 60 * 1000).to
 var msg22 = document.getElementById('time22');
 offsetTimeString = offsetTime.substr(15,6);
 offsetTimeString1 = offsetTime1.substr(15,6);
-msg22.innerHTML = 'Lunch Break ('+ offsetTimeString+' &ndash;'+offsetTimeString1+' )';
+if(ele.options[ele.selectedIndex].value == -5){
+  msg22.innerHTML = 'Lunch Break <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' EST )</p>';
+}
+else{
+  msg22.innerHTML = 'Lunch Break <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' CET )</p>';
+}
+
 //////////////////////////////////////////////////////
 var date = "July 15, 2020 14:00:00";
 var targetTime = new Date(date);
@@ -445,7 +515,13 @@ var offsetTime1 = new Date(targetTime1.getTime() + tzDifference1 * 60 * 1000).to
 var msg23 = document.getElementById('time23');
 offsetTimeString = offsetTime.substr(15,6);
 offsetTimeString1 = offsetTime1.substr(15,6);
-msg23.innerHTML = 'Research #2: Dependability ('+ offsetTimeString+' &ndash;'+offsetTimeString1+' )';
+if(ele.options[ele.selectedIndex].value == -5){
+  msg23.innerHTML = 'Research #2: Dependability <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' EST )</p>';
+}
+else{
+  msg23.innerHTML = 'Research #2: Dependability <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' CET )</p>';
+}
+
 //////////////////////////////////////////////////////
 var date = "July 16, 2020 10:00:00";
 var targetTime = new Date(date);
@@ -468,7 +544,13 @@ var offsetTime1 = new Date(targetTime1.getTime() + tzDifference1 * 60 * 1000).to
 var msg24 = document.getElementById('time24');
 offsetTimeString = offsetTime.substr(15,6);
 offsetTimeString1 = offsetTime1.substr(15,6);
-msg24.innerHTML = 'Keynote #2 ('+ offsetTimeString+' &ndash;'+offsetTimeString1+' )';
+if(ele.options[ele.selectedIndex].value == -5){
+  msg24.innerHTML = 'Keynote #2 <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' EST )</p>';
+}
+else{
+  msg24.innerHTML = 'Keynote #2 <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' CET )</p>';
+}
+
 //////////////////////////////////////////////////////
 var date = "July 16, 2020 11:00:00";
 var targetTime = new Date(date);
@@ -491,7 +573,13 @@ var offsetTime1 = new Date(targetTime1.getTime() + tzDifference1 * 60 * 1000).to
 var msg25 = document.getElementById('time25');
 offsetTimeString = offsetTime.substr(15,6);
 offsetTimeString1 = offsetTime1.substr(15,6);
-msg25.innerHTML = 'Discussion Break ('+ offsetTimeString+' &ndash;'+offsetTimeString1+' )';
+if(ele.options[ele.selectedIndex].value == -5){
+  msg25.innerHTML = 'Discussion Break <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' EST )</p>';
+}
+else{
+  msg25.innerHTML = 'Discussion Break <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' CET )</p>';
+}
+
 //////////////////////////////////////////////////////
 var date = "July 16, 2020 11:30:00";
 var targetTime = new Date(date);
@@ -514,7 +602,13 @@ var offsetTime1 = new Date(targetTime1.getTime() + tzDifference1 * 60 * 1000).to
 var msg26 = document.getElementById('time26');
 offsetTimeString = offsetTime.substr(15,6);
 offsetTimeString1 = offsetTime1.substr(15,6);
-msg26.innerHTML = 'Industry ('+ offsetTimeString+' &ndash;'+offsetTimeString1+' )';
+if(ele.options[ele.selectedIndex].value == -5){
+  msg26.innerHTML = 'Industry <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' EST )</p>';
+}
+else{
+  msg26.innerHTML = 'Industry <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' CET )</p>';
+}
+
 //////////////////////////////////////////////////////
 var date = "July 16, 2020 12:40:00";
 var targetTime = new Date(date);
@@ -537,7 +631,13 @@ var offsetTime1 = new Date(targetTime1.getTime() + tzDifference1 * 60 * 1000).to
 var msg27 = document.getElementById('time27');
 offsetTimeString = offsetTime.substr(15,6);
 offsetTimeString1 = offsetTime1.substr(15,6);
-msg27.innerHTML = 'Lunch Break ('+ offsetTimeString+' &ndash;'+offsetTimeString1+' )';
+if(ele.options[ele.selectedIndex].value == -5){
+  msg27.innerHTML = 'Lunch Break <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' EST )</p>';
+}
+else{
+  msg27.innerHTML = 'Lunch Break <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' CET )</p>';
+}
+
 //////////////////////////////////////////////////////
 var date = "July 16, 2020 14:00:00";
 var targetTime = new Date(date);
@@ -560,7 +660,13 @@ var offsetTime1 = new Date(targetTime1.getTime() + tzDifference1 * 60 * 1000).to
 var msg28 = document.getElementById('time28');
 offsetTimeString = offsetTime.substr(15,6);
 offsetTimeString1 = offsetTime1.substr(15,6);
-msg28.innerHTML = 'Grand Challenge ('+ offsetTimeString+' &ndash;'+offsetTimeString1+' )';
+if(ele.options[ele.selectedIndex].value == -5){
+  msg28.innerHTML = 'Grand Challenge <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' EST )</p>';
+}
+else{
+  msg28.innerHTML = 'Grand Challenge <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' CET )</p>';
+}
+
 //////////////////////////////////////////////////////
 var date = "July 17, 2020 10:00:00";
 var targetTime = new Date(date);
@@ -583,7 +689,13 @@ var offsetTime1 = new Date(targetTime1.getTime() + tzDifference1 * 60 * 1000).to
 var msg29 = document.getElementById('time29');
 offsetTimeString = offsetTime.substr(15,6);
 offsetTimeString1 = offsetTime1.substr(15,6);
-msg29.innerHTML = 'Test of Time ('+ offsetTimeString+' &ndash;'+offsetTimeString1+' )';
+if(ele.options[ele.selectedIndex].value == -5){
+  msg29.innerHTML = 'Test of Time <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' EST )</p>';
+}
+else{
+  msg29.innerHTML = 'Test of Time <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' CET )</p>';
+}
+
 //////////////////////////////////////////////////////
 var date = "July 17, 2020 10:24:00";
 var targetTime = new Date(date);
@@ -606,7 +718,13 @@ var offsetTime1 = new Date(targetTime1.getTime() + tzDifference1 * 60 * 1000).to
 var msg30 = document.getElementById('time30');
 offsetTimeString = offsetTime.substr(15,6);
 offsetTimeString1 = offsetTime1.substr(15,6);
-msg30.innerHTML = 'Research #3: Serverless ('+ offsetTimeString+' &ndash;'+offsetTimeString1+' )';
+if(ele.options[ele.selectedIndex].value == -5){
+  msg30.innerHTML = 'Research #3: Serverless <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' EST )</p>';
+}
+else{
+  msg30.innerHTML = 'Research #3: Serverless <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' CET )</p>';
+}
+
 //////////////////////////////////////////////////////
 var date = "July 17, 2020 11:00:00";
 var targetTime = new Date(date);
@@ -629,7 +747,13 @@ var offsetTime1 = new Date(targetTime1.getTime() + tzDifference1 * 60 * 1000).to
 var msg31 = document.getElementById('time31');
 offsetTimeString = offsetTime.substr(15,6);
 offsetTimeString1 = offsetTime1.substr(15,6);
-msg31.innerHTML = 'Discussion Break ('+ offsetTimeString+' &ndash;'+offsetTimeString1+' )';
+if(ele.options[ele.selectedIndex].value == -5){
+  msg31.innerHTML = 'Discussion Break <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' EST )</p>';
+}
+else{
+  msg31.innerHTML = 'Discussion Break <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' CET )</p>';
+}
+
 //////////////////////////////////////////////////////
 var date = "July 17, 2020 11:30:00";
 var targetTime = new Date(date);
@@ -652,7 +776,13 @@ var offsetTime1 = new Date(targetTime1.getTime() + tzDifference1 * 60 * 1000).to
 var msg32 = document.getElementById('time32');
 offsetTimeString = offsetTime.substr(15,6);
 offsetTimeString1 = offsetTime1.substr(15,6);
-msg32.innerHTML = 'Research #4: Streams and IoT ('+ offsetTimeString+' &ndash;'+offsetTimeString1+' )';
+if(ele.options[ele.selectedIndex].value == -5){
+  msg32.innerHTML = 'Research #4: Streams and IoT <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' EST )</p>';
+}
+else{
+  msg32.innerHTML = 'Research #4: Streams and IoT <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' CET )</p>';
+}
+
 //////////////////////////////////////////////////////
 var date = "July 17, 2020 12:40:00";
 var targetTime = new Date(date);
@@ -675,7 +805,13 @@ var offsetTime1 = new Date(targetTime1.getTime() + tzDifference1 * 60 * 1000).to
 var msg33 = document.getElementById('time33');
 offsetTimeString = offsetTime.substr(15,6);
 offsetTimeString1 = offsetTime1.substr(15,6);
-msg33.innerHTML = 'Lunch Break ('+ offsetTimeString+' &ndash;'+offsetTimeString1+' )';
+if(ele.options[ele.selectedIndex].value == -5){
+  msg33.innerHTML = 'Lunch Break <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' EST )</p>';
+}
+else{
+  msg33.innerHTML = 'Lunch Break <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' CET )</p>';
+}
+
 //////////////////////////////////////////////////////
 var date = "July 17, 2020 14:00:00";
 var targetTime = new Date(date);
@@ -698,6 +834,12 @@ var offsetTime1 = new Date(targetTime1.getTime() + tzDifference1 * 60 * 1000).to
 var msg34 = document.getElementById('time34');
 offsetTimeString = offsetTime.substr(15,6);
 offsetTimeString1 = offsetTime1.substr(15,6);
-msg34.innerHTML = 'Business Meeting and Closing Remarks ('+ offsetTimeString+' &ndash;'+offsetTimeString1+' )';
+if(ele.options[ele.selectedIndex].value == -5){
+  msg34.innerHTML = 'Business Meeting and Closing Remarks <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' EST )</p>';
+}
+else{
+  msg34.innerHTML = 'Business Meeting and Closing Remarks <p>('+ offsetTimeString+' &ndash;'+offsetTimeString1+' CET )</p>';
+}
+
 //////////////////////////////////////////////////////
 }

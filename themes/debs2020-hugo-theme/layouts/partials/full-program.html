@@ -32,26 +32,25 @@ $(document).ready(function(){
   box-sizing: border-box;
 }
 
-/* Create three unequal columns that floats next to each other */
 .column {
   float: left;
-  padding: 1px;/* Should be removed. Only for demonstration */
+  padding: 1px;
 }
 
 .left {
   width: 2%;
-  height: 70px;
+  height: 60px;
   margin-top:60px;
   margin-left: 10px;
 }
 
 .middle {
-  width: 3%;
+  width: 1%;
   margin-top:60px;
 }
 
 .right {
-  width: 85%;
+  width: 83%;
 }
 
 .row:after {
@@ -185,7 +184,7 @@ $(document).ready(function(){
                 <h3 id="time11">{{ $data.fullprogram.tutorial1a.title }}</h3>
                 <p>{{ $data.fullprogram.tutorial1a.chair | markdownify }}</p>
                 {{ range $data.fullprogram.tutorial1a.texts }}
-                <p align="justify">{{ .text | markdownify }}</p>
+                <p>{{ .text | markdownify }}</p>
                 {{ end }}
               </div>
             </div>
@@ -201,7 +200,7 @@ $(document).ready(function(){
               </div>
               <div class="column right">
                 <h3 id="time12">Discussion Break</h3>
-                <p align="justify"><li>Please use our Slack and Zoom to discuss</li></p>
+                <p>Please use our Slack and Zoom to discuss</p>
               </div>
             </div>
             <div id="tutorial1b" style="margin-bottom: 30px;">
@@ -218,7 +217,7 @@ $(document).ready(function(){
                 <h3 id="time13">{{ $data.fullprogram.tutorial1b.title }}</h3>
                 <p>{{ $data.fullprogram.tutorial1b.chair | markdownify }}</p>
                 {{ range $data.fullprogram.tutorial1b.texts }}
-                <p align="justify">{{ .text | markdownify }}</p>
+                <p>{{ .text | markdownify }}</p>
                 {{ end }}
               </div>
             </div>
@@ -240,7 +239,7 @@ $(document).ready(function(){
                 <h3 id="time14">{{ $data.fullprogram.DS.title }}</h3>
                 <p>{{ $data.fullprogram.DS.chair | markdownify }}</p>
                 {{ range $data.fullprogram.DS.texts }}
-                <p align="justify">{{ .text | markdownify }}</p>
+                <p>{{ .text | markdownify }}</p>
                 {{ end }}
               </div>
             </div>
@@ -256,7 +255,7 @@ $(document).ready(function(){
               </div>
               <div class="column right">
                 <h3 id="time15">Discussion Break</h3>
-                <p align="justify"><li>Please use our Slack and Zoom to discuss</li></p>
+                <p>Please use our Slack and Zoom to discuss</p>
               </div>
             </div>
             <div id="tutorial2a" style="margin-bottom: 30px;">
@@ -273,7 +272,7 @@ $(document).ready(function(){
                 <h3 id="time16">{{ $data.fullprogram.tutorial2a.title }}</h3>
                 <p>{{ $data.fullprogram.tutorial2a.chair | markdownify }}</p>
                 {{ range $data.fullprogram.tutorial2a.texts }}
-                <p align="justify">{{ .text | markdownify }}</p>
+                <p>{{ .text | markdownify }}</p>
                 {{ end }}
               </div>
             </div>
@@ -289,7 +288,7 @@ $(document).ready(function(){
               </div>
               <div class="column right">
                 <h3 id="time17">Lunch Break</h3>
-                <p align="justify"><li>Please use our Slack and Zoom to discuss</li></p>
+                <p>Please use our Slack and Zoom to discuss</p>
               </div>
             </div>
             <div id="tutorial2b" style="margin-bottom: 30px;">
@@ -306,7 +305,7 @@ $(document).ready(function(){
                 <h3 id="time18">{{ $data.fullprogram.tutorial2b.title }}</h3>
                 <p>{{ $data.fullprogram.tutorial2b.chair | markdownify }}</p>
                 {{ range $data.fullprogram.tutorial2b.texts }}
-                <p align="justify">{{ .text | markdownify }}</p>
+                <p>{{ .text | markdownify }}</p>
                 {{ end }}
               </div>
             </div>
@@ -328,7 +327,7 @@ $(document).ready(function(){
                 <h3 id="time19">{{ $data.fullprogram.keynote1.title | markdownify }}</h3>
                 <p>{{ $data.fullprogram.keynote1.chair | markdownify }}</p>
                 {{ range $data.fullprogram.keynote1.texts }}
-                <p align="justify">{{ .text | markdownify }}</p>
+                <p>{{ .text | markdownify }}</p>
                 {{ end }}
               </div>
             </div>
@@ -344,7 +343,7 @@ $(document).ready(function(){
               </div>
               <div class="column right">
                 <h3 id="time20">Discussion Break</h3>
-                <p align="justify"><li>Please use our Slack and Zoom to discuss</li></p>
+                <p>Please use our Slack and Zoom to discuss</p>
               </div>
             </div>
             <div id="research1" style="margin-bottom: 30px;">
@@ -360,7 +359,7 @@ $(document).ready(function(){
                 <h3 id="time21">{{ $data.fullprogram.research1.title }}</h3>
                 <p>{{ $data.fullprogram.research1.chair | markdownify }}</p>
                 {{ range $data.fullprogram.research1.texts }}
-                <p align="justify">{{ .text | markdownify }}</p>
+                <p>{{ .text | markdownify }}</p>
                 {{ end }}
               </div>
             </div>
@@ -376,7 +375,7 @@ $(document).ready(function(){
               </div>
               <div class="column right">
                 <h3 id="time22">Lunch Break</h3>
-                <p align="justify"><li>Please use our Slack and Zoom to discuss</li></p>
+                <p>Please use our Slack and Zoom to discuss</p>
               </div>
             </div>
             <div id="research2" style="margin-bottom: 30px;">
@@ -392,7 +391,7 @@ $(document).ready(function(){
                 <h3 id="time23">{{ $data.fullprogram.research2.title }}</h3>
                 <p>{{ $data.fullprogram.research2.chair | markdownify }}</p>
                 {{ range $data.fullprogram.research2.texts }}
-                <p align="justify">{{ .text | markdownify }}</p>
+                <p>{{ .text | markdownify }}</p>
                 {{ end }}
               </div>
             </div>
@@ -413,7 +412,7 @@ $(document).ready(function(){
                 <h3 id="time24">{{ $data.fullprogram.keynote2.title | markdownify }}</h3>
                 <p>{{ $data.fullprogram.keynote2.chair | markdownify }}</p>
                 {{ range $data.fullprogram.keynote2.texts }}
-                <p align="justify">{{ .text | markdownify }}</p>
+                <p>{{ .text | markdownify }}</p>
                 {{ end }}
               </div>
             </div>
@@ -429,7 +428,7 @@ $(document).ready(function(){
               </div>
               <div class="column right">
                 <h3 id="time25">Discussion Break</h3>
-                <p align="justify"><li>Please use our Slack and Zoom to discuss</li></p>
+                <p>Please use our Slack and Zoom to discuss</p>
               </div>
             </div>
             <div id="industry" style="margin-bottom: 30px;">
@@ -445,7 +444,7 @@ $(document).ready(function(){
                 <h3 id="time26">{{ $data.fullprogram.industry.title }}</h3>
                 <p>{{ $data.fullprogram.industry.chair | markdownify }}</p>
                 {{ range $data.fullprogram.industry.texts }}
-                <p align="justify">{{ .text | markdownify }}</p>
+                <p>{{ .text | markdownify }}</p>
                 {{ end }}
               </div>
             </div>
@@ -461,7 +460,7 @@ $(document).ready(function(){
               </div>
               <div class="column right">
                 <h3 id="time27">Lunch Break</h3>
-                <p align="justify"><li>Please use our Slack and Zoom to discuss</li></p>
+                <p>Please use our Slack and Zoom to discuss</p>
               </div>
             </div>
             <div id="grand-challenge-solutions" style="margin-bottom: 30px;">
@@ -477,7 +476,7 @@ $(document).ready(function(){
                 <h3 id="time28">{{ $data.fullprogram.GC.title }}</h3>
                 <p>{{ $data.fullprogram.GC.chair | markdownify }}</p>
                 {{ range $data.fullprogram.GC.texts }}
-                <p align="justify">{{ .text | markdownify }}</p>
+                <p>{{ .text | markdownify }}</p>
                 {{ end }}
               </div>
             </div>
@@ -498,7 +497,7 @@ $(document).ready(function(){
                 <h3 id="time29">{{ $data.fullprogram.test.title }}</h3>
                 <p>{{ $data.fullprogram.test.chair | markdownify }}</p>
                 {{ range $data.fullprogram.test.texts }}
-                <p align="justify">{{ .text | markdownify }}</p>
+                <p>{{ .text | markdownify }}</p>
                 {{ end }}
               </div>
             </div>
@@ -515,7 +514,7 @@ $(document).ready(function(){
                 <h3 id="time30">{{ $data.fullprogram.research3.title }}</h3>
                 <p>{{ $data.fullprogram.research3.chair | markdownify }}</p>
                 {{ range $data.fullprogram.research3.texts }}
-                <p align="justify">{{ .text | markdownify }}</p>
+                <p>{{ .text | markdownify }}</p>
                 {{ end }}
               </div>
             </div>
@@ -523,7 +522,7 @@ $(document).ready(function(){
 
             </div>
             <div class="row">
-              <div class="column left" style="background:red;">
+              <div class="column left" style="background:orange;">
 
               </div>
               <div class="column middle">
@@ -531,7 +530,7 @@ $(document).ready(function(){
               </div>
               <div class="column right">
                 <h3 id="time31">Discussion Break</h3>
-                <p align="justify"><li>Please use our Slack and Zoom to discuss</li></p>
+                <p>Please use our Slack and Zoom to discuss</p>
               </div>
             </div>
             <div id="research4" style="margin-bottom: 30px;">
@@ -547,7 +546,7 @@ $(document).ready(function(){
                 <h3 id="time32">{{ $data.fullprogram.research4.title }}</h3>
                 <p>{{ $data.fullprogram.research4.chair | markdownify }}</p>
                 {{ range $data.fullprogram.research4.texts }}
-                <p align="justify">{{ .text | markdownify }}</p>
+                <p>{{ .text | markdownify }}</p>
                 {{ end }}
               </div>
             </div>
@@ -563,7 +562,7 @@ $(document).ready(function(){
               </div>
               <div class="column right">
                 <h3 id="time33">Lunch Break</h3>
-                <p align="justify"><li>Please use our Slack and Zoom to discuss</li></p>
+                <p>Please use our Slack and Zoom to discuss</p>
               </div>
             </div>
             <div id="business" style="margin-bottom: 30px;">
@@ -578,7 +577,7 @@ $(document).ready(function(){
               </div>
               <div class="column right">
                 <h3 id="time34">Business Meeting and Closing Remarks</h3>
-                <p align="justify"><b>Chair:</b> Peter Pietzuch (Imperial College London)</p>
+                <p><b>Chair:</b> Peter Pietzuch (Imperial College London)</p>
               </div>
             </div>
             <div class="row" style="margin-bottom:150px;">
