@@ -269,3 +269,7 @@ theme = "debs2020-hugo-theme"
     #[Languages.en.params.call.button]
       #url = "#"
       #text = "tell us your story"
+  [Languages.en.params.euranova]
+    enable = true
+    imageAddr = "img/Call for paper.png"
+    imageURL = "https://workshop.euranova.eu/bigdata20.html"
