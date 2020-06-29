@@ -169,7 +169,7 @@ function show(ele) {
     msg19.innerHTML = '<a href="/keynote-speakers" target="_blank">Opening Speech and Keynote #1</a> <p>('+ '9:00'+' &ndash;'+'10:15'+' EST) <a href="#change">Change the time zone!</a></p></p>';
   }
   else if(ele.options[ele.selectedIndex].value == 1){
-    msg19.innerHTML = '<a href="/keynote-speakers" target="_blank">Opening Speech and Keynote #1</a> <p>('+ '15:00'+' &ndash;'+'16:15'+' EST) <a href="#change">Change the time zone!</a></p></p>';
+    msg19.innerHTML = '<a href="/keynote-speakers" target="_blank">Opening Speech and Keynote #1</a> <p>('+ '15:00'+' &ndash;'+'16:15'+' CET) <a href="#change">Change the time zone!</a></p></p>';
   }
 
   var msg20 = document.getElementById('time20');
@@ -206,7 +206,7 @@ function show(ele) {
 
   var msg24 = document.getElementById('time24');
   if(ele.options[ele.selectedIndex].value == 0){
-    msg24.innerHTML = '<a href="/keynote-speakers" target="_blank">Keynote #2</a> <p>('+ '9:00'+' &ndash;'+'10:00'+' CET) <a href="#change">Change the time zone!</a></p></p>';
+    msg24.innerHTML = '<a href="/keynote-speakers" target="_blank">Keynote #2</a> <p>('+ '9:00'+' &ndash;'+'10:00'+' EST) <a href="#change">Change the time zone!</a></p></p>';
   }
   else if(ele.options[ele.selectedIndex].value == 1){
     msg24.innerHTML = '<a href="/keynote-speakers" target="_blank">Keynote #2</a> <p>('+ '15:00'+' &ndash;'+'16:00'+' CET) <a href="#change">Change the time zone!</a></p></p>';
