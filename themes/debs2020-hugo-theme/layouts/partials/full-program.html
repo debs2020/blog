@@ -65,14 +65,18 @@ div.selectTimezone{
 }
 </style>
 <section id = "full-program">
-  <div id = "change" class="container">
+  <div class="container">
     <div class="row">
       <div class="col-md-9 col-sm-12">
         <div class="block">
-          <div>
-
+          <div id="change">
+            <h1>DEBS 2020 Full Program</h1>
+          </div>
             <div>
-              <h1>DEBS 2020 Full Program</h1>
+              <p>To access our <b>Slack</b> and <b>Zoom</b> links, please register for free by clicking <a href = "http://www.cvent.com/d/gnqjwq" target = _blank>here</a>.</p>
+            </div>
+            <div>
+
             </div>
             <div class="selectTimezone">
               {{ "<!-- Main Script -->" | safeHTML }}
@@ -97,8 +101,8 @@ div.selectTimezone{
                 </thead>
                 <tbody>
                   <tr>
-                    <td id="time1">08:00</td>
-                    <td style="height:100px; background-color: #655E7A"></td>
+                    <td id="time1" style="height:100px;">08:00</td>
+                    <td style="background-color: #655E7A"></td>
                     <td rowspan="2"><a href="#doctoral-symposium">Doctoral Symposium</a></td>
                     <td style="background-color: #655E7A;"></td>
                     <td style="background-color: #655E7A;"></td>
@@ -599,7 +603,6 @@ div.selectTimezone{
             </div>
           </div>
         </div>
-      </div>
       {{ partial "sidebar.html" . }}
     </div>
   </div>
