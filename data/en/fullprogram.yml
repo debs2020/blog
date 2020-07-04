@@ -4,13 +4,13 @@ tutorial1a:
   title: "Tutorial #1a"
   chair: "<b>Chair:</b> Leonardo Querzoni (Sapienza University of Rome)"
   texts:
-    - text: "<b>The Role of Event-Time Analysis Order in Data Streaming</b> <a href = /pdf/debs20-1002.pdf target = _blank><img style = width:5% src = /img/pdfIcon.png></a> <a href = https://www.youtube.com/watch?v=SW_WS6ULsdY&feature=youtu.be target = _blank><img style = width:6% src = /img/youtubeIcon.png></a> <a href = https://www.youtube.com/watch?v=bq3ECNvPwOU&feature=youtu.be target = _blank><img style = width:6% src = /img/youtubeIcon.png></a><br>Vincenzo Gulisano (Chalmers University of Technology); Bastian Havers (Chalmers University of Technology & Volvo Cars); Dimitrios Palyvos-Giannas, Marina Papatriantafilou (Chalmers University of Technology)"
+    - text: "<b>The Role of Event-Time Analysis Order in Data Streaming</b> <a href = /pdf/debs20-1002.pdf target = _blank><img style = width:5% src = /img/pdfIcon.png></a> <a href = https://www.youtube.com/watch?v=SW_WS6ULsdY&feature=youtu.be target = _blank><img style = width:6% src = /img/youtubeIcon.png></a><br>Vincenzo Gulisano (Chalmers University of Technology); Bastian Havers (Chalmers University of Technology & Volvo Cars); Dimitrios Palyvos-Giannas, Marina Papatriantafilou (Chalmers University of Technology)"
 
 tutorial1b:
   title: "Tutorial #1b"
   chair: "<b>Chair:</b> Leonardo Querzoni (Sapienza University of Rome)"
   texts:
-    - text: "<b>The Role of Event-Time Analysis Order in Data Streaming</b> <a href = /pdf/debs20-1002.pdf target = _blank><img style = width:5% src = /img/pdfIcon.png></a> <a href = https://www.youtube.com/watch?v=SW_WS6ULsdY&feature=youtu.be target = _blank><img style = width:6% src = /img/youtubeIcon.png></a> <a href = https://www.youtube.com/watch?v=bq3ECNvPwOU&feature=youtu.be target = _blank><img style = width:6% src = /img/youtubeIcon.png></a><br>Vincenzo Gulisano (Chalmers University of Technology); Bastian Havers (Chalmers University of Technology & Volvo Cars); Dimitrios Palyvos-Giannas, Marina Papatriantafilou (Chalmers University of Technology)"
+    - text: "<b>The Role of Event-Time Analysis Order in Data Streaming</b> <a href = /pdf/debs20-1002.pdf target = _blank><img style = width:5% src = /img/pdfIcon.png></a><a href = https://www.youtube.com/watch?v=bq3ECNvPwOU&feature=youtu.be target = _blank><img style = width:6% src = /img/youtubeIcon.png></a><br>Vincenzo Gulisano (Chalmers University of Technology); Bastian Havers (Chalmers University of Technology & Volvo Cars); Dimitrios Palyvos-Giannas, Marina Papatriantafilou (Chalmers University of Technology)"
 
 DS:
   title: "Doctoral Symposium"
