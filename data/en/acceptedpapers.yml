@@ -22,7 +22,7 @@ paperInfo:
         Author : "Daniel Presser, Frank Siqueira (Universidade Federal de Santa Catarina); Luis Rodrigues (INESC-ID, IST, ULisboa); Paolo Romano (IST/INESC-ID)"
 
       - Number : "5"
-        Title : "On the Tracking of Sensitive Data and Confidential Executions<br><a href = /pdf/debs20-22.pdf target = _blank><img style = width:9% src = /img/pdfIcon.png></a> <a href = https://www.youtube.com/watch?v=3sbUv35grfU target = _blank><img style = width:12% src = /img/youtubeIcon.png></a>"
+        Title : "On the Tracking of Sensitive Data and Confidential Executions<br><a href = /pdf/debs20-22.pdf target = _blank><img style = width:9% src = /img/pdfIcon.png></a> <a href = https://www.youtube.com/watch?v=rxveuAI0pXA target = _blank><img style = width:12% src = /img/youtubeIcon.png></a>"
         Author : "José Roberto Nascimento Júnior, José B. S. Nunes, Eduardo Lucena Falcão, Lilia Sampaio, Andrey Brito (Federal University of Campina Grande (UFCG))"
 
       - Number : "6"
@@ -73,7 +73,7 @@ paperInfo:
         Author : "Ioannis Kontopoulos (Harokopio University of Athens); Konstantinos Chatzikokolakis (MarineTraffic); Konstantinos Tserpes (Harokopio University of Athens); Dimitris Zissis (MarineTraffic)"
 
       - Number : "4"
-        Title : "Managing Geo-Distributed Stream Processing Pipelines for the IIoT with StreamPipes Edge Extensions<br><a href = /pdf/debs20-97.pdf target = _blank><img style = width:9% src = /img/pdfIcon.png></a>"
+        Title : "Managing Geo-Distributed Stream Processing Pipelines for the IIoT with StreamPipes Edge Extensions<br><a href = /pdf/debs20-97.pdf target = _blank><img style = width:9% src = /img/pdfIcon.png></a> <a href = https://www.youtube.com/watch?v=h8_c65Ps3-8&feature=youtu.be target = _blank><img style = width:12% src = /img/youtubeIcon.png></a>"
         Author : "Patrick Wiener, Philipp Zehnder, Dominik Riemer (FZI Research Center for Information Technology)"
 
   gc:
