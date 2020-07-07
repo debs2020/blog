@@ -89,7 +89,7 @@ test:
 
 research3:
   title: "Research #3: Serverless"
-  chair: "<b>Chair:</b> TBA"
+  chair: "<b>Chair:</b> Valeria Cardellini (University of Rome Tor Vergata)"
   texts:
     - text: "<b>Triggerflow: Trigger-based Orchestration of Serverless Workflows</b> <a href = /pdf/debs20-5.pdf target = _blank><img style = width:5% src = /img/pdfIcon.png></a> <a href = https://www.youtube.com/watch?v=tAVUENRu7Zw&feature=youtu.be target = _blank><img style = width:6% src = /img/youtubeIcon.png></a><br>Pedro Garcia Lopez (IBM Watson Research); Aitor Arjona, Josep Sampe (Universitat Rovira i Virgili); Aleksander Slominski, Lionel Villard (IBM Watson Research)"
     - text: "<b>FaasDom: A Benchmark Suite for Serverless Computing</b> <a href = /pdf/debs20-38.pdf target = _blank><img style = width:5% src = /img/pdfIcon.png></a><br>Pascal Maissen (University of Fribourg, Switzerland); Pascal Felber, Peter Kropf, Valerio Schiavoni (University of Neuchatel, Switzerland)"
