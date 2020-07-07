@@ -271,5 +271,6 @@ theme = "debs2020-hugo-theme"
       #text = "tell us your story"
   [Languages.en.params.euranova]
     enable = true
+    pdfLink = "<a href = /pdf/tomacs-cfp.pdf target = _blank>Call for Papers: ACM Transactions on Modeling and Computer Simulation</a>"
     imageAddr = "img/Call for paper.png"
     imageURL = "https://workshop.euranova.eu/bigdata20.html"
