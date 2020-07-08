@@ -34,7 +34,7 @@ paperInfo:
         Author : "Scott Eisele (Vanderbilt University); Taha Eghtesad, Nicholas Troutman, Aron Laszka (University of Houston); Abhishek Dubey (Vanderbilt University)"
 
       - Number : "8"
-        Title : "FaasDom: A Benchmark Suite for Serverless Computing<br><a href = /pdf/debs20-38.pdf target = _blank><img style = width:9% src = /img/pdfIcon.png></a>"
+        Title : "FaasDom: A Benchmark Suite for Serverless Computing<br><a href = /pdf/debs20-38.pdf target = _blank><img style = width:9% src = /img/pdfIcon.png></a> <a href = https://www.youtube.com/watch?v=SwNwRtJW8ok target = _blank><img style = width:12% src = /img/youtubeIcon.png></a>"
         Author : "Pascal Maissen (University of Fribourg, Switzerland); Pascal Felber, Peter Kropf, Valerio Schiavoni (University of Neuchatel, Switzerland)"
 
       - Number : "9"
