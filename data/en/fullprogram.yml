@@ -40,7 +40,7 @@ keynote1:
 
 research1:
   title: "Research #1: Events"
-  chair: "<b>Chair:</b> TBA"
+  chair: "<b>Chair:</b> Marina Papatriantafilou (Chalmers University of Technology)"
   texts:
     - text: "<b>DeepMatch: Deep Matching for In-Vehicle Presence Detection in Transportation</b> <a href = /pdf/debs20-51.pdf target = _blank><img style = width:5% src = /img/pdfIcon.png></a> <a href = https://www.youtube.com/watch?v=VX84V9Hdavo&feature=youtu.be target = _blank><img style = width:6% src = /img/youtubeIcon.png></a><br>Magnus Oplenskedal (Norwegian University of Science and Technology); Amir Taherkordi (University of Oslo); Peter Herrmann (Norwegian University of Science and Technology)"
     - text: "<b>hSPICE: State--Aware Event Shedding in Complex Event Processing</b> <a href = /pdf/debs20-52.pdf target = _blank><img style = width:5% src = /img/pdfIcon.png></a> <a href = https://www.youtube.com/watch?v=FYq-9IaNOPU&feature=youtu.be target = _blank><img style = width:6% src = /img/youtubeIcon.png></a><br>Ahmad Slo, Sukanya Bhowmik, Kurt Rothermel (University of Stuttgart)"
