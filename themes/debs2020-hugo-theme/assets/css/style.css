@@ -518,12 +518,12 @@ font header .navbar-default .navbar-nav li a:hover {
 	features Start
 --*/
 #clients-logo-section {
-  padding-top: 320px;
+  padding-top: 120px;
   padding-bottom: 120px;
 }
 
 #clients-logo-section .clients-logo-img {
-  padding:0px 100px;
+  padding:0px 95px;
 }
 
 /*---------------------------------------------
