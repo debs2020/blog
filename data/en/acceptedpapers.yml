@@ -106,7 +106,7 @@ paperInfo:
     title: Tutorial Track
     fields:
       - Number : "1"
-        Title : "The Role of Event-Time Analysis Order in Data Streaming<br><a href = /pdf/debs20-1002.pdf target = _blank><img style = width:9% src = /img/pdfIcon.png></a> <a href = https://www.youtube.com/watch?v=SW_WS6ULsdY&feature=youtu.be target = _blank><img style = width:12% src = /img/youtubeIcon.png></a> <a href = https://www.youtube.com/watch?v=bq3ECNvPwOU&feature=youtu.be target = _blank><img style = width:12% src = /img/youtubeIcon.png></a>"
+        Title : "The Role of Event-Time Analysis Order in Data Streaming<br><a href = /pdf/debs20-1002.pdf target = _blank><img style = width:9% src = /img/pdfIcon.png></a> <a href = https://www.youtube.com/watch?v=SW_WS6ULsdY&feature=youtu.be target = _blank><img style = width:12% src = /img/youtubeIcon.png></a> <a href = https://www.youtube.com/watch?v=bq3ECNvPwOU&feature=youtu.be target = _blank><img style = width:12% src = /img/youtubeIcon.png></a> <a href = https://github.com/vincenzo-gulisano/debs2020_tutorial_event_time target = _blank><img style = width:9% src = /img/githubIcon.png></a>"
         Author : "Vincenzo Gulisano (Chalmers University of Technology); Bastian Havers (Chalmers University of Technology & Volvo Cars); Dimitrios Palyvos-Giannas, Marina Papatriantafilou (Chalmers University of Technology)"
 
       - Number : "2"
