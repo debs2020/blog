@@ -110,7 +110,7 @@ paperInfo:
         Author : "Vincenzo Gulisano (Chalmers University of Technology); Bastian Havers (Chalmers University of Technology & Volvo Cars); Dimitrios Palyvos-Giannas, Marina Papatriantafilou (Chalmers University of Technology)"
 
       - Number : "2"
-        Title : "Blockchain Consensus Unraveled: Virtues and Limitations<br><a href = /pdf/debs20-2.pdf target = _blank><img style = width:9% src = /img/pdfIcon.png></a>"
+        Title : "Blockchain Consensus Unraveled: Virtues and Limitations<br><a href = /pdf/debs20-2.pdf target = _blank><img style = width:9% src = /img/pdfIcon.png></a> <a href = https://github.com/resilientdb/resilientdb target = _blank><img style = width:9% src = /img/githubIcon.png></a>"
         Author : "Suyash Gupta, Jelle Hellings, Sajjad Rahnama, Mohammad Sadoghi (University of California, Davis)"
 
   DS:
