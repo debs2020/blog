@@ -36,6 +36,7 @@ keynote1:
   title: "<a href=/keynote-speakers target=_blank>Opening Speech and Keynote #1</a>"
   chair: "<b>Chair:</b> Khuzaima Daudjee (University of Waterloo)"
   texts:
+    - text: "<b>Opening Speech (15 minutes)</b>"
     - text: "<b>Streaming Graph Processing and Analytics</b><br>Tamer Özsu (University of Waterloo)"
 
 research1:
