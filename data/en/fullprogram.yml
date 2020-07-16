@@ -60,7 +60,7 @@ keynote2:
   title: "<a href=/keynote-speakers target=_blank>Keynote #2</a>"
   chair: "<b>Chair:</b> Bettina Kemme (McGill University)"
   texts:
-    - text: "<b>Building Reproducible, Reusable, and Robust Machine Learning Software</b> <a href = https://dl.acm.org/doi/abs/10.1145/3401025.3407941 target = _blank><img style = width:5% src = /img/pdfIcon.png></a><br>Joelle Pineau (Facebook AI Research, MILA, McGill University)"
+    - text: "<b>Building Reproducible, Reusable, and Robust Machine Learning Software</b> <a href = https://dl.acm.org/doi/abs/10.1145/3401025.3407941 target = _blank><img style = width:5% src = /img/pdfIcon.png></a> <a href = https://acm-org.zoom.us/rec/share/y9JwN_bi8E1LbYGU6UbdAa0hL7XBaaa8hHAfrPQFnkhfNjZFNe1VT8IhWcYjgyBI?startTime=1594904420000 target = _blank><img style = width:5% src = /img/zoomIcon.png></a><br>Joelle Pineau (Facebook AI Research, MILA, McGill University)"
 
 industry:
   title: "Industry"
