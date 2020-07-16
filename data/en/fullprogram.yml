@@ -37,7 +37,7 @@ keynote1:
   chair: "<b>Chair:</b> Khuzaima Daudjee (University of Waterloo)"
   texts:
     - text: "<b>Opening Speech (15 minutes)</b>"
-    - text: "<b>Streaming Graph Processing and Analytics</b> <a href = https://dl.acm.org/doi/abs/10.1145/3401025.3406999 target = _blank><img style = width:5% src = /img/pdfIcon.png></a><br>Tamer Özsu (University of Waterloo)"
+    - text: "<b>Streaming Graph Processing and Analytics</b> <a href = https://dl.acm.org/doi/abs/10.1145/3401025.3406999 target = _blank><img style = width:5% src = /img/pdfIcon.png></a> <a href = https://acm-org.zoom.us/rec/play/vscpde2r-Gk3TNWVtASDBPN7W461LqysgSgf__ZfyxywBSJQM1GhYrITa-O09rqfGKnBoXqR08hHShef target = _blank><img style = width:5% src = /img/zoomIcon.png></a><br>Tamer Özsu (University of Waterloo)"
 
 research1:
   title: "Research #1: Events"
