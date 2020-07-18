@@ -1,0 +1,43 @@
+title: DEBS 2020 Awards
+
+awards:
+  fields:
+    - Award : "<b>Best Paper Award</b>"
+      Title : "hSPICE: State--Aware Event Shedding in Complex Event Processing"
+      Info : "<a href=#bestPaper><img src=/img/infoImg.png width=50% margin-top=30px></a>"
+
+    - Award : "<b>Test of Time Award</b>"
+      Title : "TESLA - A formally defined event specification language"
+      Info : "<a href=#testOfTime><img src=/img/infoImg.png width=50% margin-top=30px></a>"
+
+    - Award : "<b>Grand Challenge Audience Award</b>"
+      Title : "Incremental Stream Query Analytics"
+      Info : "<a href=#GC-audience><img src=/img/infoImg.png width=50% margin-top=30px></a>"
+
+    - Award : "<b>Grand Challenge Performance Award</b>"
+      Title : "Incremental Stream Query Analytics"
+      Info : "<a href=#GC-performance><img src=/img/infoImg.png width=50% margin-top=30px></a>"
+
+award1:
+  title: "Best Paper Award"
+  img: '<img border=5px solid #555 src=/img/awards/bestPaperAward.png width=100% height=auto">'
+  paperTitle: "<b>hSPICE: State--Aware Event Shedding in Complex Event Processing</b>"
+  authors: "Ahmad Slo, Sukanya Bhowmik, Kurt Rothermel"
+
+award2:
+  title: "Test of Time Award"
+  img: '<img src=/img/awards/Test-of-timeAward.png width=100% height=auto">'
+  paperTitle: "<b>TESLA - A formally defined event specification language</b>"
+  authors: "Gianpaolo Cugola, Alessandro Margara"
+
+award3:
+  title: "Grand Challenge Audience Award"
+  img: '<img src=/img/awards/GC-AudienceAward.png width=100% height=auto">'
+  paperTitle: "<b>Incremental Stream Query Analytics</b>"
+  authors: "Pedro Silva, Wang Yue, Tilmann Rabl"
+
+award4:
+  title: "Grand Challenge Performance Award"
+  img: '<img src=/img/awards/GC-PerformanceAward.png width=100% height=auto">'
+  paperTitle: "<b>Incremental Stream Query Analytics</b>"
+  authors: "Pedro Silva, Wang Yue, Tilmann Rabl"

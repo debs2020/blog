@@ -1439,3 +1439,18 @@ px      68    160    252    344    436    */
 .bg-gray{
   background: #f5f5f5;
 }
+
+.gallery{
+  margin: 0px 5px;
+}
+
+.gallery img{
+  transition: 1s;
+  padding: 15px;
+  width:250px;
+}
+
+.gallery img:hover{
+  filter: grayscale(100%);
+  transform: scale(1.1);
+}

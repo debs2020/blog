@@ -1,0 +1,28 @@
+{{ partial "global-header.html" . }}
+
+{{ $data := index .Site.Data .Site.Language.Lang }}
+<section id = "accepted-papers">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-9 col-sm-12">
+        <div class="block">
+          <div class="gallery">
+            <div>
+              <h1>DEBS 2020 Main Conference</h1>
+              {{ range $data.gallery.conferenceImages }}
+              <a href="{{ .imgLink }}" target = _blank><img src="{{ .imgSrc }}" alt=""></a>
+              {{ end }}
+            </div>
+            <div>
+              <h1>See You In Milan For DEBS 2021</h1>
+              {{ range $data.gallery.venueImages }}
+              <a href="{{ .imgLink }}" target = _blank><img src="{{ .imgSrc }}" alt=""></a>
+              {{ end }}
+            </div>
+          </div>
+        </div>
+      </div>
+      {{ partial "sidebar.html" . }}
+    </div>
+  </div>
+</section>

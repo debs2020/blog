@@ -31,7 +31,8 @@ $(document).ready(function(){
       <div class="col-md-9 col-sm-12">
         <div class="block">
           <div class="section-title">
-            <div style="margin-top:25px;">
+            <div style="margin-top:35px;">
+              <h3>{{ .Site.Params.statement.text | markdownify }}</h3>
               <h2>{{ .Site.Params.statement.link | markdownify }}</h2>
             </div>
             <h2>{{ .Site.Params.wrapper.title }}</h2>

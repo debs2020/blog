@@ -132,6 +132,12 @@ theme = "debs2020-hugo-theme"
       parent = "CONFERENCE INFO"
       url = "/past-debs-events"
 
+      [[Languages.en.menu.header]]
+      weight = 3
+      name = "Photo Gallery"
+      parent = "CONFERENCE INFO"
+      url = "/gallery"
+
 
     [[Languages.en.menu.header]]
     weight = 5
@@ -155,6 +161,12 @@ theme = "debs2020-hugo-theme"
       name = "Accepted Papers"
       parent = "PROGRAM"
       url = "/accepted-papers"
+
+      [[Languages.en.menu.header]]
+      weight = 4
+      name = "DEBS 2020 Awards"
+      parent = "PROGRAM"
+      url = "/awards"
 
     [[Languages.en.menu.header]]
     weight = 6
@@ -226,6 +238,7 @@ theme = "debs2020-hugo-theme"
 
   [Languages.en.params.statement]
     enable = true
+    text = "Thank you all for participating and attending DEBS 2020. See you all next year in Milan for <a href = https://debs.org/debs-conferences/ target = _blank>DEBS 2021</a>."
     link = "<a href = /full-program>Click here to see the online program</a>"
     # text = "As of April 13, given the current situation of COVID19 and the likelihood of longer-term travel advisory, the decision has been made to hold DEBS online. The organizing committee is aiming in providing an exciting virtual conference, and is currently considering various options of online delivery. Note that the conference proceedings of all tracks for DEBS 2020 will proceed as planned. All accepted papers for all tracks will be available on the ACM Digital Library in early July 2020. We will monitor closely other conferences, as well as the situation on COVID-19 (coronavirus) and provide updates as they become available through our various channels (Website, Twitter, Facebook, LinkedIn)."
 
