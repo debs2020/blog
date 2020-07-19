@@ -7,13 +7,56 @@
       <div class="col-md-9 col-sm-12">
         <div class="block">
           <div class="gallery">
-            <div>
               <h1>DEBS 2020 Main Conference</h1>
-              {{ range $data.gallery.conferenceImages }}
+            <div class="col-md-4">
+              <h4>Day 1: Tutorial 1</h4>
+              {{ range $data.gallery.conferenceImages.tutorial1 }}
               <a href="{{ .imgLink }}" target = _blank><img src="{{ .imgSrc }}" alt=""></a>
               {{ end }}
             </div>
-            <div>
+            <div class="col-md-4">
+              <h4>Day 2: Tutorial 2</h4>
+              {{ range $data.gallery.conferenceImages.tutorial2 }}
+              <a href="{{ .imgLink }}" target = _blank><img src="{{ .imgSrc }}" alt=""></a>
+              {{ end }}
+            </div>
+            <div class="col-md-4">
+              <h4>Day 3: Keynote 1</h4>
+              {{ range $data.gallery.conferenceImages.keynote1 }}
+              <a href="{{ .imgLink }}" target = _blank><img src="{{ .imgSrc }}" alt=""></a>
+              {{ end }}
+            </div>
+            <div class="col-md-12" style="margin-bottom: 50px;">
+
+            </div>
+            <div class="col-md-4">
+              <h4>Day 4: Keynote 2</h4>
+              {{ range $data.gallery.conferenceImages.keynote2 }}
+              <a href="{{ .imgLink }}" target = _blank><img src="{{ .imgSrc }}" alt=""></a>
+              {{ end }}
+            </div>
+            <div class="col-md-4">
+              <h4>Day 5: Presentation On TESLA</h4>
+              {{ range $data.gallery.conferenceImages.tesla }}
+              <a href="{{ .imgLink }}" target = _blank><img src="{{ .imgSrc }}" alt=""></a>
+              {{ end }}
+            </div>
+            <div class="col-md-4">
+              <h4>Day 5: Test-Of-Time</h4>
+              {{ range $data.gallery.conferenceImages.tot }}
+              <a href="{{ .imgLink }}" target = _blank><img src="{{ .imgSrc }}" alt=""></a>
+              {{ end }}
+            </div>
+            <div class="col-md-12" style="margin-bottom: 50px;">
+
+            </div>
+            <div class="col-md-12">
+              <h4>Day 5: AWARDS</h4>
+              {{ range $data.gallery.conferenceImages.awards }}
+              <a href="{{ .imgLink }}" target = _blank><img src="{{ .imgSrc }}" alt=""></a>
+              {{ end }}
+            </div>
+            <div class="col-md-12" style="margin-bottom: 150px;">
               <h1>See You In Milan For DEBS 2021</h1>
               {{ range $data.gallery.venueImages }}
               <a href="{{ .imgLink }}" target = _blank><img src="{{ .imgSrc }}" alt=""></a>

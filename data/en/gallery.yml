@@ -1,33 +1,40 @@
 conferenceImages:
-  - imgSrc: "/img/conference/Tamer-Ozu-presentation-small.jpg"
-    imgLink: "/img/conference/Tamer-Ozu-presentation.jpg"
+  tutorial1:
+    - imgSrc: "/img/conference/presentation-on-the-role-of-event-time-order-small.jpg"
+      imgLink: "/img/conference/presentation-on-the-role-of-event-time-order.jpg"
 
-  - imgSrc: "/img/conference/Joelle-Pineau-presentation-small.jpg"
-    imgLink: "/img/conference/Joelle-Pineau-presentation.jpg"
+  tutorial2:
+    - imgSrc: "/img/conference/presentation-on-blockchain-small.jpg"
+      imgLink: "/img/conference/presentation-on-blockchain.jpg"
 
-  - imgSrc: "/img/conference/presentation-on-the-role-of-event-time-order-small.jpg"
-    imgLink: "/img/conference/presentation-on-the-role-of-event-time-order.jpg"
+  keynote1:
+    - imgSrc: "/img/conference/Tamer-Ozu-presentation-small.jpg"
+      imgLink: "/img/conference/Tamer-Ozu-presentation.jpg"
 
-  - imgSrc: "/img/conference/presentation-on-blockchain-small.jpg"
-    imgLink: "/img/conference/presentation-on-blockchain.jpg"
+  keynote2:
+    - imgSrc: "/img/conference/Joelle-Pineau-presentation-small.jpg"
+      imgLink: "/img/conference/Joelle-Pineau-presentation.jpg"
 
-  - imgSrc: "/img/conference/presentation-on-TESLA-small.jpg"
-    imgLink: "/img/conference/presentation-on-TESLA.jpg"
+  tesla:
+    - imgSrc: "/img/conference/presentation-on-TESLA-small.jpg"
+      imgLink: "/img/conference/presentation-on-TESLA.jpg"
 
-  - imgSrc: "/img/conference/tot-announcement.png"
-    imgLink: "/img/conference/tot-announcement.png"
+  tot:
+    - imgSrc: "/img/conference/tot-announcement.png"
+      imgLink: "/img/conference/tot-announcement.png"
 
-  - imgSrc: "/img/conference/tot-award-small.png"
-    imgLink: "/img/conference/tot-award.png"
+  awards:
+    - imgSrc: "/img/conference/tot-award-small.png"
+      imgLink: "/img/conference/tot-award.png"
 
-  - imgSrc: "/img/conference/GC-award1-small.png"
-    imgLink: "/img/conference/GC-award1.png"
+    - imgSrc: "/img/conference/GC-award1-small.png"
+      imgLink: "/img/conference/GC-award1.png"
 
-  - imgSrc: "/img/conference/GC-award2-small.png"
-    imgLink: "/img/conference/GC-award2.png"
+    - imgSrc: "/img/conference/GC-award2-small.png"
+      imgLink: "/img/conference/GC-award2.png"
 
-  - imgSrc: "/img/conference/best-paper-award-small.png"
-    imgLink: "/img/conference/best-paper-award.png"
+    - imgSrc: "/img/conference/best-paper-award-small.png"
+      imgLink: "/img/conference/best-paper-award.png"
 
 
 venueImages:
