@@ -1,5 +1,5 @@
 +++
-title = "DEBS 2020 Awards"
+title = "DEBS 2020 AWARDS"
 id = "awards"
 description = "DEBS2020 Awards"
 bgImage = "img/Montreal.jpg"
